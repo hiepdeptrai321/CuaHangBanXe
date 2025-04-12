@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ChiTietSanPham</title>
+        <link rel="icon" type="image/png" href="../img/logo.png">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/Jquery.js"></script>
+        <script src="../jscode/FormChung.js"></script>
+        <link rel="stylesheet" href="../css/TrangChu.css">
+        <link rel="stylesheet" href="../css/ChiTietSanPham.css">
+        <link rel="stylesheet"
+            href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    </head>
+
+    <body>
+
+        <div>
+            <header class="pageheader"><!-- phần Header cho mọi trang-->
+                <div class="container-fluid px-0">
+
+                    <div class="fullscreen">
+                        <div
+                            class="container d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <nav class="navtop d-flex align-items-center">
+                                    <img src="../img/5star.png" alt
+                                        style="width: 100px;">
+                                    <span class="ps-2 pe-2"><b>9.3</b> based on
+                                        <b>675 reviews.</b></span>
+                                    <a href class="link">See all reviews</a>
+                                </nav>
+                            </div>
+                            <div class>
+                                <ul
+                                    class="navsignin d-flex gap-3 list-unstyled mb-0">
+                                    <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                                    <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                                    <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div
+                        class="container d-flex align-items-center justify-content-between py-2">
+                        <div class="d-flex align-items-center ms-0">
+                            <a href="../html/TrangChu.html">
+                                <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
+                             </a>
+                        </div>
+
+                        <div class="flex-grow-1 px-4">
+                            <div class="search-box position-relative">
+                                <input type="text"
+                                    class="form-control rounded-pill ps-4 pe-5"
+                                    placeholder="Search"
+                                    style="background-color: #f5f7fa; height: 50px;">
+                                <i
+                                    class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
+                            </div>
+                        </div>
+
+                        <div class="position-relative">
+                            <a href
+                                class="position-relative text-dark text-decoration-none">
+                                <i class="bi bi-bag"
+                                    style="font-size: 24px;"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                                    style="font-size: 0.7rem;">
+                                    0
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div style="background-color: #0351b6;">
+                        <div class="main-nav text-white">
+                            <div
+                                class="container d-flex justify-content-start flex-wrap"
+                                style="gap: 40px;">
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Air Condition / Heating</a>
+                                        <div class="dropdown-content">
+                                            <a href="" data-value="Air Conditioning Compressor">Air Conditioning Compressor</a>
+                                            <a href="">Climate Control</a>
+                                            <a href="">Air Filter</a>
+                                            <a href="">Heater</a>
+                                            <a href="">Condenser</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Brake System</a>
+                                        <div class="dropdown-content" style="left: -220px;">
+                                            <a href="" data-value="Vacuumpump">Vacuumpump</a>
+                                            <a href="">Brake Shoe</a>
+                                            <a href="">Brake Drum</a>
+                                            <a href="">Brake Wheel Cylinder</a>
+                                            <a href="">Brake Disc</a>
+                                            <a href="">Brake Hoses</a>
+                                            <a href="">Brake Master Cylinder</a>
+                                            <a href="">Brake Caliper</a>
+                                            <a href="">Hand Brake Handle</a>
+                                            <a href="">Parking Brake Cables</a>
+                                            <a href="">Brake Pad</a>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Body Parts</a>
+                                        <div class="dropdown-content" style="left: -380px;">
+                                            <a href="" data-value="Door Handle">Door Handle</a>
+                                            <a href="">Mirror</a>
+                                            <a href="">Plastic Body Parts</a>
+                                            <a href="">Wheelhouse Inner Fender</a>
+                                            <a href="">Wipers</a>
+                                            <a href="">Bumper</a>
+                                            <a href="">Windows</a>
+                                            <a href="">Door</a>
+                                            <a href="">Fender Flasher</a>
+                                            <a href="">Wheel</a>
+                                            <a href="">Lighting</a>
+                                            <a href="">Washer Pump</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Cooling
+                                            System</a>
+                                        <div class="dropdown-content"
+                                            style="left: -518px;">
+                                            <a href>Radiator</a>
+                                            <a href>Expansion Tanks</a>
+                                            <a href>Cooling Fan Housing</a>
+                                            <a href>Cooling Fan Blades</a>
+                                            <a href>Cooling Fan And Motor
+                                                Assy</a>
+                                            <a href>Antifreeze Coolant</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Drive
+                                            Line</a>
+                                        <div class="dropdown-content"
+                                            style="left: -690px;">
+                                            <a href>Drive line</a>
+                                            <a href>Driveshaft</a>
+                                            <a href>Differential</a>
+                                            <a href>Hub</a>
+                                            <a href>Gearbox</a>
+                                            <a href>Flywheel & Clutch </a>
+                                            <a href>Shock</a>
+                                            <a href>Universal Joint</a>
+                                            <a href>Axle</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Engine</a>
+                                        <div class="dropdown-content"
+                                            style="left: -822px;">
+                                            <a href>Turbo's / Superchanrgers</a>
+                                            <a href>Cylinder Head</a>
+                                            <a href>Oil Seperator</a>
+                                            <a href>Connectiong Rod</a>
+                                            <a href>Crank And Crankshaft
+                                                Gears</a>
+                                            <a href>Camshaft</a>
+                                            <a href>Thermostat</a>
+                                            <a href>Engine Oil Indicator</a>
+                                            <a href>Hoses And Pipes </a>
+                                            <a href>Water Pump</a>
+                                            <a href>Oil Pump</a>
+                                            <a href>Thermostat Housing</a>
+                                            <a href>TenSioner Pully</a>
+                                            <a href>Oil Filter</a>
+                                            <a href>Oil Pan</a>
+                                            <a href>Oil Cooler Housing</a>
+                                            <a href>Timing Chain Gasket</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Fuel
+                                            Parts</a>
+                                        <div class="dropdown-content"
+                                            style="left: -931px;">
+                                            <a href>Sensor Air Mass</a>
+                                            <a href>Glowplugs</a>
+                                            <a href>Fuel Pump</a>
+                                            <a href>Heater Valves</a>
+                                            <a href>Air Hoses - Couplings</a>
+                                            <a href>Timing Chain Guides</a>
+                                            <a href>Crankshaft Pilley</a>
+                                            <a href>IAC Valves</a>
+                                            <a href>EGR Valve</a>
+                                            <a href>Oilfilterhousings</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Steering</a>
+                                        <div class="dropdown-content"
+                                            style="left: -1064px;">
+                                            <a href>Steering - SuspenSion
+                                                Parts</a>
+                                            <a href>Steering Rack Repair Set</a>
+                                            <a href>Steering Racks</a>
+                                            <a href>Steering Joints</a>
+                                            <a href>Steering Knuckles</a>
+                                            <a href>Steeringpump</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Other</a>
+                                        <div class="dropdown-content"
+                                            style="left: -1184px;">
+                                            <a href>Accessories</a>
+                                            <a href>Boot Kits</a>
+                                            <a href>Clips</a>
+                                            <a href>Fuel -Oil Caps</a>
+                                            <a href>Clamps</a>
+                                            <a href>Acceleration Cables</a>
+                                            <a href>Car Computer Box Cover</a>
+                                            <a href>Floor Mats</a>
+                                            <a href>Oil Seat Furnishing</a>
+                                            <a href>Hood Opening Cables</a>
+                                            <a href>Signal Switch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="benefits-bar py-3">
+                        <div
+                            class="container d-flex justify-content-start flex-wrap text-secondary">
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Worldwide</strong>,
+                                    delivery</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Lowest</strong> prices</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Fast</strong> shipping</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Original</strong>
+                                    <strong>Parts</strong></span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span>Safe and <strong>easy</strong></span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Large stock</strong>,
+                                    available</span>
+                            </div>
+                        </div>
+                    </div>
+            </header>
+
+            <div class="container my-5">
+                <div class="row">
+                    <!-- Slider ảnh -->
+                    <div class="col-md-6">
+                        <!-- Container carousel -->
+                        <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                            <!-- Nội dung carousel sẽ được JS ghi đè -->
+                            <div class="carousel-item active">
+                                <img src="../img/placeholder.jpg" class="d-block w-100" alt="Placeholder">
+                            </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                        <!-- Container thumbnails -->
+                        <div id="thumbnails" class="d-flex overflow-auto gap-2 mt-2">
+                            <!-- Thumbnail hình ảnh sẽ được chèn động -->
+                            <!-- Nếu không có dữ liệu, có thể để trống -->
+                        </div>
+                    </div>
+                    <!-- Thông tin sản phẩm -->
+                    <div class="col-md-6">
+                        <h3 id="itemtitle" class="itemtitle">Coolant Inlet Connection A2562001600 Mercedes</h3>
+                        <p><div><strong>Manufacturer:&nbsp</strong><span id="manufacturer"></span></div>
+                        <div><strong>Brand:&nbsp</strong><span id="brand"></span></div></p>
+                        <div id="price" class="h4 text-success" >€199.99 <br> <small class="text-muted">(Excl. Tax: <b>€165.28</b>)</small></div>
+                        
+                        <p class="text-success">✅ In stock - Shipped in 1 day</p>
+                        
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="input-group mb-3 w-100" style="height: 41px;">
+                                    <button class="btn btn-outline-secondary" type="button" id="minus-btn">-</button>
+                                    <input type="text" class="form-control text-center" id="quantity" value="1">
+                                    <button class="btn btn-outline-secondary" type="button" id="plus-btn">+</button>
+                                </div>
+                            </div>
+                            <div class="col-8">
+                                <button class="btn btn-success btn-lg mb-3 h-80 w-100" style="font-weight: bold; font-size: medium;">
+                                    🛒 ADD TO CART
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p-3 rounded bg-light border">
+                            <h5 class="mb-3" style="font-family: 'Patrick Hand', cursive;">
+                                Benefits of Carparts Onlineshop
+                            </h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-1">
+                                ✅ <strong>Worldwide</strong> delivery by DHL express
+                                </li>
+                                <li class="mb-1">
+                                ✅ <strong>Lowest</strong> prices
+                                </li>
+                                <li class="mb-1">
+                                ✅ New, used and New take off <strong>parts</strong>
+                                </li>
+                                <li class="mb-1">
+                                ✅ <strong>Large stock</strong> available
+                                </li>
+                                <li class="mb-1">
+                                ✅ Located in <strong>The Netherlands</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs pt-5" id="productTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" type="button" role="tab" aria-controls="info" aria-selected="true">
+                            More Information
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail" type="button" role="tab" aria-controls="detail" aria-selected="false">
+                            Detail
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="replacing-tab" data-bs-toggle="tab" data-bs-target="#replacing" type="button" role="tab" aria-controls="replacing" aria-selected="false">
+                              Replacing Information
+                            </button>
+                        </li>
+                      </ul>
+                      
+                      <div class="tab-content border border-top-0 p-3" id="productTabContent">
+                        <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
+                           <div class="row mb-3">
+                             <div class="col-md-3 fw-bold">Product Condition</div>
+                             <div id="productCondition" class="col-md-9 product-condition"><!-- Sẽ được cập nhật từ dữ liệu --></div>
+                           </div>
+                           <div class="row mb-3">
+                             <div class="col-md-3 fw-bold">Warranty</div>
+                             <div id="productWarranty" class="col-md-9 product-warranty"><!-- Sẽ được cập nhật từ dữ liệu --></div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="detail" role="tabpanel" aria-labelledby="detail-tab">
+                            <table class="table table-bordered">
+                              <tbody id="detailTable">
+                                <!-- Dữ liệu sẽ được append vào đây -->
+                              </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane fade" id="replacing" role="tabpanel" aria-labelledby="replacing-tab">
+                            <h5>Replacing Information</h5>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Brand</th>
+                                        <th>Number</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="replacingTable">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer> <!-- phần footerfooter cho mọi trang-->
+                <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
+                    <div
+                        class="row container m-auto align-items-center justify-content-between"
+                        style="padding: 30px;">
+
+                        <div class="col-3"> <!-- logo trái -->
+                            <img src="../img/logo.png" alt
+                                style="width: 200px;">
+                        </div>
+
+                        <div class="col-5" style="max-width: 400px;">
+                            <!-- giữa -->
+                            <h1 style="font-weight: bold;">Call or email
+                                us</h1>
+                            <p style="font-size: 14px;">
+                                We're available to help by e-mail phone or
+                                live chat Mon - Fri between: 8:30 and 15:30
+                                (CET)
+                                Sat - Sun: closed
+                            </p>
+                        </div>
+
+                        <div class="col-4"> <!-- card phải -->
+                            <div class="card border-radius"
+                                style="border-radius: 10px; overflow: hidden;">
+                                <img src="../img/Kiyoh.png" alt
+                                    class="position-absolute"
+                                    style="width: 80px; top: 45px; left:30px;">
+                                <!-- Hình trái -->
+
+                                <div class="card-header"
+                                    style="background-color: rgb(67, 68, 68);">
+                                    <!-- header -->
+                                    <h1
+                                        class="text-end text-light fs-3">KiyOh</h1>
+                                </div>
+
+                                <div class="card-body"> <!-- body -->
+                                    <div class="row cardFooter">
+                                        <div class="col-9 ">
+                                            <h3 class="fw-bold">MPR Parts
+                                                BV</h3>
+                                        </div>
+                                        <div class="col-3">
+                                            <img src="../img/5star.png" alt
+                                                style="width: 60px;">
+                                        </div>
+                                        <p class="text-end">
+                                            Reviewed with a score of
+                                            <span>9.3 / 10</span> based <br>
+                                            on <span>675 reviews</span>
+                                        </p>
+                                        <a href
+                                            class="text-end text-decoration-none"
+                                            style="color: rgb(112, 114, 114);">See
+                                            all reviews</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row container p-sm-3 m-auto FooterRow2">
+                    <!-- các link và contact -->
+                    <div class="col-3">
+                        <h3>Customer service</h3>
+                        <a href>About us</a><br>
+                        <a href>General terms & conditions</a><br>
+                        <a href>Disclaimer</a><br>
+                        <a href>Privacy Policy</a><br>
+                        <a href>Customer service</a><br>
+                        <a href>Sitemap</a><br>
+                    </div>
+                    <div class="col-3">
+                        <h3>Account</h3>
+                        <a href>My Account</a><br>
+                        <a href>Payment Methods</a><br>
+                        <a href>Shipping Guide</a><br>
+                        <a href>FAQs</a><br>
+                        <a href>Product Support</a><br>
+                    </div>
+                    <div class="col-3">
+                        <h3>Categories</h3>
+                        <a href>Alternator</a><br>
+                        <a href>Starters</a><br>
+                        <a href>Air conditioning compressor</a><br>
+                        <a href>Clutch assembly parts</a><br>
+                        <a href>Engine</a><br>
+                        <a href>EGR Valve</a><br>
+                        <a href>All categories</a><br>
+                    </div>
+                    <div class="col-3">
+                        <h3>Contact</h3>
+                        <div class="contact-info">
+                            <p><span>MPR Parts B.V.</span></p>
+                            <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The
+                                Netherlands</p>
+                            <p>Tel: +31 77-3071580</p>
+                            <p>Email: info@carparts-onlineshop.com</p>
+                            <p><span>BTW-nummer:</span>
+                                NL8555.58.180.B.01</p>
+                            <p><span>KVK-nummer:</span> 64186369</p>
+                            <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+                        </div>
+                    </div>
+                </div>
+                <div style="border-top: 1px solid #dadada;">
+                    <div class="container" style="color: #8c8c8d;">
+                        <p>
+                            © Carparts-onlineshop. 2020. All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+    <script>
+        $(document).ready(function() {
+            $('#plus-btn').click(function() {
+                let val = parseInt($('#quantity').val()) || 1;
+                $('#quantity').val(val + 1);
+            });
+
+            $('#minus-btn').click(function() {
+                let val = parseInt($('#quantity').val()) || 1;
+                if (val > 1) {
+                $('#quantity').val(val - 1);
+                }
+            });
+            // Khi carousel slide, update highlight thumbnail
+            $('#productCarousel').on('slide.bs.carousel', function (e) {
+                const index = $(e.relatedTarget).index();
+                $('.thumbnail-img').removeClass('border border-dark active');
+                $('.thumbnail-img').eq(index).addClass('border border-dark active');
+            });
+
+            // Khi click vào thumbnail, active highlight
+            $('.thumbnail-img').on('click', function () {
+                $('.thumbnail-img').removeClass('border border-dark active');
+                $(this).addClass('border border-dark active');
+            });
+
+            // Lấy id sản phẩm và mảng sản phẩm từ localStorage
+            const selectedProductId = localStorage.getItem("selectedProductId");
+            const storedProducts = localStorage.getItem("products");
+            let selectedProduct;
+            if (storedProducts) {
+                const products = JSON.parse(storedProducts);
+                selectedProduct = products.find(p => p.id == selectedProductId);
+            }
+
+            if (selectedProduct) {
+                // Cập nhật thông tin sản phẩm
+                $(".itemtitle").text(selectedProduct.name);
+                $("#manufacturer").text(selectedProduct.manufacturer);
+                $("#brand").text(selectedProduct.brand);
+                $("div.h5.text-success").html(
+                    "€" + selectedProduct.price.toFixed(2) +
+                    "<br> <small class='text-muted'>(Excl. Tax: <b>€" +
+                    selectedProduct.tax.toFixed(2) +
+                    "</b>)</small>"
+                );
+                $(".product-condition").text(selectedProduct.condition);
+                $(".product-warranty").text(selectedProduct.warranty);
+                $(".product-detail-type").text(selectedProduct.details.type);
+                $(".product-detail-description").text(selectedProduct.details.description);
+                $(".product-detail-model").text(selectedProduct.details.model);
+                $(".product-detail-engine").text(selectedProduct.details.engine);
+                $(".product-detail-year").text(selectedProduct.details.year);
+                
+                // Cập nhật thông tin detail
+                if (selectedProduct.details) {
+                    const details = selectedProduct.details;
+                    const detailTable = $("#detailTable");
+                    detailTable.empty(); // Xóa nội dung cũ nếu có
+
+                    // Duyệt qua các key-value trong details và thêm vào bảng
+                
+                    Object.keys(details).forEach(key => {
+                        const formattedKey = key.charAt(0).toUpperCase() + key.slice(1); // Viết hoa chữ cái đầu
+                        detailTable.append(`
+                            <tr>
+                                <th class="fw-bold">${formattedKey}</th>
+                                <td>${details[key]}</td>
+                            </tr>
+                        `);
+                    });
+                }
+                // Cập nhật thông tin thay thế (replacing)
+                if (Array.isArray(selectedProduct.replacing) && selectedProduct.replacing.length > 0) {
+                    const replacingData = selectedProduct.replacing;
+                    const replacingTable = $("#replacingTable");
+                    replacingTable.empty(); // Xóa nội dung cũ nếu có
+
+                    // Duyệt qua các phần tử trong mảng replacing và thêm vào bảng
+                    replacingData.forEach(item => {
+                        replacingTable.append(`
+                            <tr>
+                                <td>${item.brand}</td>
+                                <td>${item.number}</td>
+                            </tr>
+                        `);
+                    });
+                } 
+                else {
+                    // Nếu không có dữ liệu replacing, ẩn bảng
+                    $("#replacing").hide();
+                }
+                // Cập nhật phần hình ảnh
+                // Giả sử selectedProduct.image là mảng chứa các URL ảnh
+                const imageArray = selectedProduct.image;
+                if (Array.isArray(imageArray) && imageArray.length > 1) {
+                    // Nếu có nhiều ảnh thì cập nhật carousel slide và thumbnails
+                    let carouselInner = "";
+                    let thumbnails = "";
+                    imageArray.forEach((img, index) => {
+                        carouselInner += `
+                            <div class="carousel-item ${index === 0 ? "active" : ""}">
+                                <img src="${img}" class="d-block w-100" alt="Image ${index + 1}">
+                            </div>
+                        `;
+                        thumbnails += `
+                            <img src="${img}" class="thumbnail-img ${index === 0 ? "border border-dark active" : ""}" 
+                                style="width: 80px; cursor: pointer;" data-bs-target="#productCarousel" data-bs-slide-to="${index}">
+                        `;
+                    });
+                    $("div.carousel-inner").html(carouselInner);
+                    $("#thumbnails").html(thumbnails);
+                } else if (Array.isArray(imageArray) && imageArray.length === 1) {
+                    // Nếu chỉ có 1 ảnh thì hiển thị ảnh cố định, có thể ẩn phần thumbnails nếu cần
+                    const img = imageArray[0];
+                    const carouselInner = `
+                        <div class="carousel-item active">
+                            <img src="${img}" class="d-block w-100" alt="Image">
+                        </div>
+                    `;
+                    $("div.carousel-inner").html(carouselInner);
+                    $("#thumbnails").html("");
+                } else {
+                    // Trường hợp còn lại, để ảnh mặc định
+                    $("div.carousel-inner .carousel-item.active img").attr("src", "../img/placeholder.jpg");
+                }
+            }
+        });
+    </script>
+</html>
