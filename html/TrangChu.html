@@ -8,8 +8,13 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
-    <link rel="stylesheet" href="../css/TrangChu.css">
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
 </head>
 
 <body>
@@ -65,11 +70,12 @@
                 <div style="background-color: #0351b6;">
                     <div class="main-nav text-white">
                         <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Air Condition / Heating</a>
                                     <div class="dropdown-content">
+                                        <a href="">Air Conditioning Compressor</a>
                                         <a href="">Climate Control</a>
                                         <a href="">Air Filter</a>
                                         <a href="">Heater</a>
@@ -77,26 +83,26 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Brake System</a>
                                     <div class="dropdown-content" style="left: -220px;">
-                                        <a href="">Accessories</a>
-                                        <a href="">Boot Kits</a>
-                                        <a href="">Clips</a>
-                                        <a href="">Fuel -Oil Caps</a>
-                                        <a href="">Clamps</a>
-                                        <a href="">Acceleration Cables</a>
-                                        <a href="">Car Computer Box Cover</a>
-                                        <a href="">Floor Mats</a>
-                                        <a href="">Oil Seat Furnishing</a>
-                                        <a href="">Hood Opening Cables</a>
-                                        <a href="">Signal Switch</a>
+                                        <a href="">Vacuumpump</a>
+                                        <a href="">Brake Shoe</a>
+                                        <a href="">Brake Drum</a>
+                                        <a href="">Brake Wheel Cylinder</a>
+                                        <a href="">Brake Disc</a>
+                                        <a href="">Brake Hoses</a>
+                                        <a href="">Brake Master Cylinder</a>
+                                        <a href="">Brake Caliper</a>
+                                        <a href="">Hand Brake Handle</a>
+                                        <a href="">Parking Brake Cables</a>
+                                        <a href="">Brake Pad</a>
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Body Parts</a>
@@ -116,7 +122,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Cooling System</a>
@@ -130,7 +136,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Drive Line</a>
@@ -147,7 +153,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Engine</a>
@@ -172,8 +178,8 @@
                                     </div>
                                 </div>
                             </div>
-    
-                            <div class="dropdown" >
+
+                            <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Fuel Parts</a>
                                     <div class="dropdown-content" style="left: -931px;">
@@ -190,7 +196,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Steering</a>
@@ -204,7 +210,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Other</a>
@@ -225,132 +231,378 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+
                 <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Worldwide</strong>, delivery</span>
+                    <div
+                        class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Worldwide</strong>delivery</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Lowest</strong> prices</span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Lowest</strong>prices</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Fast</strong> shipping</span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Fast</strong>shipping</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Original</strong> <strong>Parts</strong></span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Original</strong><strong>Parts</strong></span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
                             <span>Safe and <strong>easy</strong></span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
                             <span><strong>Large stock</strong>, available</span>
                         </div>
                     </div>
                 </div>
         </header>
-        <footer> <!-- phần footerfooter cho mọi trang-->
-            <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
-                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
-
-                    <div class="col-3"> <!-- logo trái -->
-                        <img src="../img/logo.png" alt="" style="width: 200px;">
+        <!-- Body -->
+        <div>
+            <div class="container"> <!-- dòng 1 -->
+                <div class="row">
+                    <div class="col-8 homeMainRow1L"> <!-- hình lớn bên trái -->
+                        <div>
+                            <h1>WORLD WIDE SHIPPING</h1>
+                            <P>of our car parts</P>
+                            <button type="button" class="ms-5">VIEW PRODUCTS</button>
+                        </div>
                     </div>
-
-                    <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
-                        <h1 style="font-weight: bold;">Call or email us</h1>
-                        <p style="font-size: 14px;">
-                            We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
-                            Sat - Sun: closed
-                        </p>
+                    <div class="col-4 homeMainRow1R"> <!-- 2 hình nhỏ bên phải -->
+                        <div class="homeMainRow1R1">
+                            <h3>ALTERNATORS</h3>
+                            <button>GO></button>
+                        </div>
+                        <div class="homeMainRow1R2">
+                            <h3>STATERS</h3>
+                            <button>GO></button>
+                        </div>
                     </div>
-
-                    <div class="col-4"> <!-- card phải -->
-                        <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
-                            <img src="../img/Kiyoh.png" alt="" class="position-absolute"
-                                style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
-
-                            <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
-                                <h1 class="text-end text-light fs-3">KiyOh</h1>
+                </div>
+            </div>
+            <div class="homeMainRow2"> <!-- dòng 2 -->
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"> <!-- icon dòng 1 -->
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/airCondition.jpg" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Air Condition</a></p>
                             </div>
-
-                            <div class="card-body"> <!-- body -->
-                                <div class="row cardFooter">
-                                    <div class="col-9 ">
-                                        <h3 class="fw-bold">MPR Parts BV</h3>
-                                    </div>
-                                    <div class="col-3">
-                                        <img src="../img/5star.png" alt="" style="width: 60px;">
-                                    </div>
-                                    <p class="text-end">
-                                        Reviewed with a score of <span>9.3 / 10</span> based <br>
-                                        on <span>675 reviews</span>
-                                    </p>
-                                    <a href="" class="text-end text-decoration-none"
-                                        style="color: rgb(112, 114, 114);">See all reviews</a>
-                                </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/breaking-icon.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Braking System</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/BodyParts.jpg" class="img-fluid mb-2">
+                                <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Body Parts</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/Consumabels.jpg" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Consumables</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1"> <!-- icon dòng 2 -->
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/coolingSystem.jpg" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Cooling system</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/driveLine.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Drive line</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/engines.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Engine</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/electricComponents.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Electronic components</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1"> <!-- icon dòng 3 -->
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/fuel.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Fuel parts</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/steering.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Steering</a></p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                                <img src="../img/other.png" class="img-fluid mb-2">
+                                <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                        style="color: #0351b6;">Other</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
-                <div class="col-3">
-                    <h3>Customer service</h3>
-                    <a href="">About us</a><br>
-                    <a href="">General terms & conditions</a><br>
-                    <a href="">Disclaimer</a><br>
-                    <a href="">Privacy Policy</a><br>
-                    <a href="">Customer service</a><br>
-                    <a href="">Sitemap</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Account</h3>
-                    <a href="">My Account</a><br>
-                    <a href="">Payment Methods</a><br>
-                    <a href="">Shipping Guide</a><br>
-                    <a href="">FAQs</a><br>
-                    <a href="">Product Support</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Categories</h3>
-                    <a href="">Alternator</a><br>
-                    <a href="">Starters</a><br>
-                    <a href="">Air conditioning compressor</a><br>
-                    <a href="">Clutch assembly parts</a><br>
-                    <a href="">Engine</a><br>
-                    <a href="">EGR Valve</a><br>
-                    <a href="">All categories</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Contact</h3>
-                    <div class="contact-info">
-                        <p><span>MPR Parts B.V.</span></p>
-                        <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The Netherlands</p>
-                        <p>Tel: +31 77-3071580</p>
-                        <p>Email: info@carparts-onlineshop.com</p>
-                        <p><span>BTW-nummer:</span> NL8555.58.180.B.01</p>
-                        <p><span>KVK-nummer:</span> 64186369</p>
-                        <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+            <div class="homeMainRow3">
+                <div class="container">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><img src="../img/logo1.jpg"></div>
+                        <div class="item"><img src="../img/logo2.jpg"></div>
+                        <div class="item"><img src="../img/logo3.jpg"></div>
+                        <div class="item"><img src="../img/logo4.jpg"></div>
+                        <div class="item"><img src="../img/logo5.jpg"></div>
+                        <div class="item"><img src="../img/logo6.jpg"></div>
                     </div>
                 </div>
             </div>
-            <div style="border-top: 1px solid #dadada;">
-                <div class="container" style="color: #8c8c8d;">
-                    <p>
-                        © Carparts-onlineshop. 2020. All Rights Reserved
-                    </p>
+            <div class="homeMainRow4">
+                <div class="container">
+                    <h3>
+                        POPULAR ITEMS
+                    </h3>
+                    <div class="product-grid ">
+                        <ul class="product-list">
+                            <li class="product-item">
+                                <div class="product-card">
+                                    <a href=""><img src="../img/item1.jpg"></a>
+                                    <p>
+                                        Control Unit <br>
+                                        A123123123 <br>
+                                        <span>192$</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="product-item">
+                                <div class="product-card">
+                                    <a href=""><img src="../img/item1.jpg"></a>
+                                    <p>
+                                        Control Unit <br>
+                                        A123123123 <br>
+                                        <span>192$</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="product-item">
+                                <div class="product-card">
+                                    <a href=""><img src="../img/item1.jpg"></a>
+                                    <p>
+                                        Control Unit <br>
+                                        A123123123 <br>
+                                        <span>192$</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="product-item">
+                                <div class="product-card">
+                                    <a href=""><img src="../img/item1.jpg"></a>
+                                    <p>
+                                        Control Unit <br>
+                                        A123123123 <br>
+                                        <span>192$</span>
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="product-item">
+                                <div class="product-card">
+                                    <a href=""><img src="../img/item1.jpg"></a>
+                                    <p>
+                                        Control Unit <br>
+                                        A123123123 <br>
+                                        <span>192$</span>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </footer>
+            <div class="homeMainRow5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-7 homeMainRow5L">
+                            <h1>Auto parts webshop</h1>
+                            <p>
+                                Welcome to Autopartsonlineshop.com, the low-priced and reliable <span>auto parts
+                                    webshop</span>.
+                                We deliver worldwide. Our large selection of online car parts consists of alternators
+                                , starter motors and engine parts for all types and makes of cars.We guarantee an
+                                excellent service, the best prices and high quality new and used car parts.
+                                All our products are available directly from our stock. Is the part you’re looking
+                                for not listed in our <span>auto parts webshop</span>? Contact us to see how we can
+                                help.
+                            </p>
+                        </div>
+                        <div class="col-5 homeMainRow5R">
+                            <img src="../img/warehouse-home.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="homeMainRow6">
+                <div class="container">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><img src="../img/cb_1.png"></div>
+                        <div class="item"><img src="../img/cb_2.png"></div>
+                        <div class="item"><img src="../img/cb_3.png"></div>
+                        <div class="item"><img src="../img/cb_4.png"></div>
+                        <div class="item"><img src="../img/cb_5.png"></div>
+                        <div class="item"><img src="../img/cb_6.png"></div>
+                        <div class="item"><img src="../img/cb_7.png"></div>
+                        <div class="item"><img src="../img/cb_8.png"></div>
+                        <div class="item"><img src="../img/cb_9.png"></div>
+                        <div class="item"><img src="../img/cb_10.png"></div>
+                        <div class="item"><img src="../img/cb_11.png"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <footer> <!-- phần footerfooter cho mọi trang-->
+        <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
+            <div class="row container m-auto align-items-center justify-content-between"
+                style="padding: 30px;">
+
+                <div class="col-3"> <!-- logo trái -->
+                    <img src="../img/logo.png" alt="" style="width: 200px;">
+                </div>
+
+                <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
+                    <h1 style="font-weight: bold;">Call or email us</h1>
+                    <p style="font-size: 14px;">
+                        We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
+                        Sat - Sun: closed
+                    </p>
+                </div>
+
+                <div class="col-4"> <!-- card phải -->
+                    <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
+                        <img src="../img/Kiyoh.png" alt="" class="position-absolute"
+                            style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
+
+                        <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
+                            <h1 class="text-end text-light fs-3">KiyOh</h1>
+                        </div>
+
+                        <div class="card-body"> <!-- body -->
+                            <div class="row cardFooter">
+                                <div class="col-9 ">
+                                    <h3 class="fw-bold">MPR Parts BV</h3>
+                                </div>
+                                <div class="col-3">
+                                    <img src="../img/5star.png" alt="" style="width: 60px;">
+                                </div>
+                                <p class="text-end">
+                                    Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                        reviews</span>
+                                </p>
+                                <a href="" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                    all reviews</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
+            <div class="col-3">
+                <h3>Customer service</h3>
+                <a href="">About us</a><br>
+                <a href="">General terms & conditions</a><br>
+                <a href="">Disclaimer</a><br>
+                <a href="">Privacy Policy</a><br>
+                <a href="">Customer service</a><br>
+                <a href="">Sitemap</a><br>
+            </div>
+            <div class="col-3">
+                <h3>Account</h3>
+                <a href="">My Account</a><br>
+                <a href="">Payment Methods</a><br>
+                <a href="">Shipping Guide</a><br>
+                <a href="">FAQs</a><br>
+                <a href="">Product Support</a><br>
+            </div>
+            <div class="col-3">
+                <h3>Categories</h3>
+                <a href="">Alternator</a><br>
+                <a href="">Starters</a><br>
+                <a href="">Air conditioning compressor</a><br>
+                <a href="">Clutch assembly parts</a><br>
+                <a href="">Engine</a><br>
+                <a href="">EGR Valve</a><br>
+                <a href="">All categories</a><br>
+            </div>
+            <div class="col-3">
+                <h3>Contact</h3>
+                <div class="contact-info">
+                    <p><span>MPR Parts B.V.</span></p>
+                    <p>24B, NguyenThiDang street<br>
+                        CuChi district<br>HCM CityCity
+                    </p>
+                    <p>Tel: +84 9-7626-4910</p>
+                    <p>Email: info@autoparts-onlineshop.com</p>
+                    <p><span>Bank:</span> MB 05350.41.261</p>
+                </div>
+            </div>
+        </div>
+        <div style="border-top: 1px solid #dadada;">
+            <div class="container" style="color: #8c8c8d;">
+                <p>
+                    © Autoparts-onlineshop. 2020. All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
     </div>
 </body>
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 4500,
+            dots: false,
+            autoplayHoverPause: true,
+            responsive: {
+                0: { items: 2 },
+                768: { items: 4 },
+                1200: { items: 6 }
+            }
+        });
+    });
+</script>
 
 </html>
