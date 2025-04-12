@@ -74,6 +74,225 @@
     color: #f5f7fa;
 }
 
+/* ========================================== bodyHome */
+/* dòng 1 */
+.homeMainRow1L {
+    background-image: url(../img/Factory.png);
+    background-size: cover;
+    height: 530px;
+    width: 820px;
+    border-radius: 10px;
+
+}
+
+.homeMainRow1L div {
+    background-image: url(../img/world-map.png);
+    background-color: #f5f7fa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30px 150px;
+    height: 300px;
+    width: 400px;
+    margin-top: 90px;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+
+.homeMainRow1L div h1 {
+    font-size: 23px;
+    padding: 70px 10px 0 50px;
+}
+
+.homeMainRow1L div p {
+    padding: 0 20px 0 50px;
+}
+
+.homeMainRow1L div button {
+    padding: 15px 30px 15px 30px;
+    background-color: #0351b6;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px solid #0351b6;
+}
+
+.homeMainRow1R {
+    padding-left: 30px;
+}
+
+.homeMainRow1R1 {
+    background-image: url(../img/banner-alternator.jpg);
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 465px;
+    border-radius: 10px;
+    background-size: cover;
+    text-align: end;
+    padding-top: 50px;
+    padding-right: 15px;
+}
+
+.homeMainRow1R1 h3 {
+    font-weight: bold;
+}
+
+.homeMainRow1R1 button {
+    font-weight: bold;
+    background-color: rgb(39, 39, 39);
+    color: #f5f7fa;
+    padding: 15px 40px 15px 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.homeMainRow1R2 {
+    background-image: url(../img/banner-starter.jpg);
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 465px;
+    border-radius: 10px;
+    background-size: cover;
+    text-align: end;
+    padding-top: 50px;
+    padding-right: 15px;
+}
+
+.homeMainRow1R2 h3 {
+    font-weight: bold;
+}
+
+.homeMainRow1R2 button {
+    font-weight: bold;
+    background-color: rgb(39, 39, 39);
+    color: #f5f7fa;
+    padding: 15px 40px 15px 40px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+/* dòng 2 */
+.homeMainRow2 {
+    background-color: #f5f7fa;
+    ;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.homeMainRow2 div h1 {
+    text-align: center;
+    font-size: 35px;
+    color: #5e5e5e;
+}
+
+.homeMainRow2 div div img {
+    width: 100px;
+}
+
+.hovericon:hover {
+    text-decoration: underline;
+    color: #0351b6;
+}
+
+/* dòng 3 */
+.homeMainRow3 {
+    background-color: #0351b6;
+
+}
+
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+.owl-carousel .item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+/* dòng 4 */
+.homeMainRow4 {
+    margin-top: 30px;
+}
+
+/* dòng 5 */
+.homeMainRow5 {
+    background-color: #f5f7fa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.homeMainRow5L h1 {
+    color: #666666;
+    font-size: 60px;
+    margin-bottom: 100px;
+}
+
+.homeMainRow5L p {
+    color: #666666;
+    font-size: 15px;
+}
+
+.homeMainRow5L p span {
+    color: #000000;
+}
+
+.homeMainRow5R img {
+    width: 400px;
+    margin-left: 100px;
+}
+
+/* dòng 6 */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid #cecece;
+    justify-content: space-between;
+}
+
+.product-item {
+    border-right: 1px solid #cecece;
+    padding: 10px;
+}
+
+.product-item:last-child{
+    border-right: none;
+}
+
+.product-card img {
+    max-width: 198px;
+    transition: transform 0.3s;
+}
+.product-card p{
+    margin-top: 60px;
+    font-size: 20px;
+}
+.product-card p span{
+    color: #000000;
+}
+.product-card {
+    background-color: white;
+    padding: 20px;
+    color: #636363;
+}
+
+.product-card:hover {
+    box-shadow: 0 5px 5px #c5c5c5;
+}
+
+.btn-add {
+    margin: 10px 0;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
 
 /* ========================================== footer */
 .cardFooter div h3 {
