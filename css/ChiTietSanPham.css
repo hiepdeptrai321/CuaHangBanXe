@@ -1,0 +1,19 @@
+.carousel-item img {
+    height: 500px;
+    object-fit: contain;
+}
+.itemtitle{
+    color: #0351b6;
+    font-size: 26px;
+    font-weight: bold;
+}
+.thumbnail-img {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 4px;
+}
+
+.thumbnail-img.active {
+    border-color: 2px #525151 ;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
