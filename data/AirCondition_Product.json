@@ -1,0 +1,772 @@
+[
+    {
+        "id": 1,
+        "name": "Heater resistance VLCL-29PWM11N PSA T1000034Z-G Valeo",
+        "price": 33.88,
+        "tax": 28.00,
+        "image": [
+            "../img/img_Product_Aircondition/Heater_resistance/p1.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p2.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p3.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p4.jpg"
+        ],
+        "brand": "Valeo",
+        "manufacturer": "PSA",
+        "details": {
+            "type": "Heater resistance",
+            "description": "VLCL-29PWM11N T1000034Z",
+            "info": "This is a high-performance heater resistance for automotive use, known for its durability and efficiency. The product is designed for various vehicle models and is manufactured to meet strict quality standards.",
+            "material": "Copper",
+            "voltage": "24V",
+            "power": "300W",
+            "compatibility": "Compatible with several vehicle models from PSA and other European car manufacturers."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A6285000986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A628 500 0986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "6285000986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "628 500 0986"
+            },
+            {
+                "brand": "EMP",
+                "number": "1030002228"
+            },
+            {
+                "brand": "number",
+                "number": "WP29"
+            },
+            {
+                "brand": "Voltage",
+                "number": "24V"
+            },
+            {
+                "brand": "number",
+                "number": "10R-04"
+            },
+            {
+                "brand": "number",
+                "number": "WP29E"
+            },
+            {
+                "brand": "number",
+                "number": "190624"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Coolant Pump A6285000986 Mercedes 1030002228 EMP",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p7.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "EMP",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A6285000986 1030002228",
+            "info": "This is a used coolant pump with no visible damage. Despite minor signs of wear, it is guaranteed to function as new. It is an original replacement part compatible with a variety of Mercedes and EMP vehicles.",
+            "material": "Aluminum",
+            "flow_rate": "300 liters/hour",
+            "pressure": "2.5 bar",
+            "compatibility": "Compatible with specific Mercedes and EMP car models. Please verify part number compatibility before purchasing."
+        },
+        "condition": "Used",
+        "warranty": "No info"
+    },
+    {
+        "id": 3,
+        "name": "Coolant Inlet Connection A2562001600 Mercedes",
+        "price": 9.99,
+        "tax": 8.26,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Coolant Inlet Connection",
+            "description": "A2562001600",
+            "info": "This is a new product that might show minor scratches from storage. The part is fully functional and made of high-quality materials, ensuring a long lifespan.",
+            "material": "Plastic",
+            "dimensions": "10 x 5 x 3 cm",
+            "compatibility": "Designed specifically for Mercedes vehicles. Ensure that the part number matches before purchasing."
+        },
+        "condition": "Used",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2562001600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 256 200 16 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A256 200 1600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2562001600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "256 200 1600"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Coolant Inlet Connection A2762000356 Mercedes",
+        "price": 49.99,
+        "tax": 41.31,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Coolant Inlet Connection",
+            "description": "A2762000356",
+            "info": "This is a new product with minor cosmetic imperfections from storage. The part is fully operational, 100% original, and ready for installation.",
+            "material": "Steel",
+            "dimensions": "12 x 7 x 4 cm",
+            "compatibility": "Direct replacement for various Mercedes models. Always verify part compatibility before installation."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2762000356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 276 200 03 56"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A276 200 0356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2762000356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "276 200 0356"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Water Coolant Pipe A6542037100 Mercedes",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_Aircondition/Water_Coolant/p1.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p2.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p3.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p4.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p5.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Water Coolant Pipe",
+            "description": "A6542037100",
+            "info": "This product is new, but it may have minor scratches from handling. It's made of durable plastic and is designed to withstand high-pressure systems. Fully functional and original.",
+            "material": "Plastic",
+            "pressure_rating": "High-pressure rated",
+            "dimensions": "15 x 5 x 6 cm",
+            "compatibility": "Fits Mercedes vehicles. Please ensure part number compatibility before purchase."
+        },
+        "condition": "New",
+        "warranty": "No info"
+    },
+    {
+        "id": 6,
+        "name": "A/C Condensor 64509367096 BMW 1161116 12 Mahle",
+        "price": 249.99,
+        "tax": 206.60,
+        "image": [
+            "../img/img_Product_Aircondition/AC_Condensor/p1.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p2.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p3.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p4.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p5.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p6.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p7.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p8.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Mahle",
+        "details": {
+            "type": "A/C Condensor",
+            "description": "64509367096 1161116 12",
+            "info": "A brand new A/C condenser designed for BMW vehicles. Despite possible minor storage marks, it’s a high-quality part that meets OEM standards for optimal cooling performance.",
+            "material": "Aluminum",
+            "dimensions": "70 x 40 x 5 cm",
+            "compatibility": "Compatible with specific BMW models. Ensure part number compatibility before purchasing."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "BMW",
+                "number": "1161116 12"
+            },
+            {
+                "brand": "BMW",
+                "number": "64507950339"
+            },
+            {
+                "brand": "BMW",
+                "number": "64509367096"
+            },
+            {
+                "brand": "BMW",
+                "number": "9367096"
+            },
+            {
+                "brand": "Mahle",
+                "number": "1161116 12"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Airfilter A2540940200 Mercedes FO26400769 Bosch A2540902500",
+        "price": 29.98,
+        "tax": 24.78,
+        "image": [
+            "../img/img_Product_Aircondition/Airfilter/p1.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p2.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p3.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p4.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p5.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p6.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p7.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Airfilter",
+            "description": "A2540940200 FO26400769 A2540902500",
+            "info": "This is a new product but can have some scratches. The product is fully functional and 100% original.",
+            "material": "High-efficiency particulate air (HEPA) filter",
+            "dimensions": "Length: 30 cm, Width: 10 cm, Height: 4 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Bosch",
+                "number": "F 026 400 769"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A2540940200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 254 094 02 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 094 0200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2540940200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 094 0200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A2540902500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 254 090 25 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 090 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2540902500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 090 2500"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A0081534428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A 008 153 44 28"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A008 153 4428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "0081534428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "008 153 4428"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "KIT Air Filter Cartridge 6.6323P2 Kaeser in Orginal Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "6.6323P2",
+            "info": "This is a new product but can have some scratches. The product is fully functional and 100% original.",
+            "material": "Durable synthetic fiber",
+            "dimensions": "Diameter: 15 cm, Height: 30 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "6.6323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "66323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.6323.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "663232"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323 2"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Coolant Pump A2542001300 Mercedes 518002404KT Nidec",
+        "price": 350.90,
+        "tax": 290.00,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump1/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542001300 / 518002404KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542001300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 1300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542001300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 1300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS003"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "KP0010"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Coolant Pump A2542002500 Mercedes 518002406KT Nidec",
+        "price": 350.90,
+        "tax": 290.00,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump2/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542002500 / 518002406KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542002500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542002500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS001"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "KP0010"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "20282"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Coolant Pump A2542002600 Mercedes 518002807KT Nidec",
+        "price": 349.99,
+        "tax": 289.25,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump3/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542002600 / 518002807KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542002600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 2600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542002600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 2600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "KP0010"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS001"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "2104700014"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "KIT Air Filter Cartridge 4E0305.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0305.0",
+            "info": "Original Kaeser air filter cartridge. Ensures clean and efficient air intake for your compressor.",
+            "material": "High-performance filter paper and plastic",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0305.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03050"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0305 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4198.20010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6419820010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4198 20010"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "KIT Air Filter Cartridge 4E0304.0 Kaeser in Original Box",
+        "price": 99.99,
+        "tax": 82.64,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0304.0",
+            "info": "Genuine Kaeser filter cartridge. Reliable performance and long lifespan.",
+            "material": "High-efficiency filtering materials",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0304.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03040"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0304 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.6323.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "663232"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323 2"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "KIT Air Filter Cartridge 4E0301.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0301.0",
+            "info": "Kaeser original replacement cartridge for optimal filtration performance.",
+            "material": "Durable filter media with plastic support",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0301.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0301 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4149.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "641492"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4149 2"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "KIT Air Filter Cartridge 4E0302.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0302.0",
+            "info": "High-quality Kaeser filter kit for air system maintenance.",
+            "material": "Composite filtering materials",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0302.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03020"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0302 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4148.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "641482"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4148 2"
+            }
+        ]
+    }
+]

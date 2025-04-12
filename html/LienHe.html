@@ -4,13 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DanhSachSanPham</title>
+    <title>LienHe</title>
     <link rel="icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
     <script src="../jscode/FormChung.js"></script>
-    <script src="../jscode/DanhSachSanPham.js"></script>
     <link rel="stylesheet" href="../css/TrangChu.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
 </head>
@@ -32,9 +31,9 @@
                         </div>
                         <div class="">
                             <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
-                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
-                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
-                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+                              <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                              <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                              <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -42,9 +41,9 @@
 
                 <div class="container d-flex align-items-center justify-content-between py-2">
                     <div class="d-flex align-items-center ms-0">
-                        <a href="../html/TrangChu.html">
-                            <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
-                         </a>
+                       <a href="../html/TrangChu.html">
+                          <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
+                       </a>
                     </div>
 
                     <div class="flex-grow-1 px-4">
@@ -88,17 +87,17 @@
                                 <div>
                                     <a href="#" class="dropbtn">Brake System</a>
                                     <div class="dropdown-content" style="left: -220px;">
-                                        <a href="" data-value="Vacuumpump">Vacuumpump</a>
-                                        <a href="">Brake Shoe</a>
-                                        <a href="">Brake Drum</a>
-                                        <a href="">Brake Wheel Cylinder</a>
-                                        <a href="">Brake Disc</a>
-                                        <a href="">Brake Hoses</a>
-                                        <a href="">Brake Master Cylinder</a>
-                                        <a href="">Brake Caliper</a>
-                                        <a href="">Hand Brake Handle</a>
-                                        <a href="">Parking Brake Cables</a>
-                                        <a href="">Brake Pad</a>
+                                      <a href="" data-value="Vacuumpump">Vacuumpump</a>
+                                      <a href="">Brake Shoe</a>
+                                      <a href="">Brake Drum</a>
+                                      <a href="">Brake Wheel Cylinder</a>
+                                      <a href="">Brake Disc</a>
+                                      <a href="">Brake Hoses</a>
+                                      <a href="">Brake Master Cylinder</a>
+                                      <a href="">Brake Caliper</a>
+                                      <a href="">Hand Brake Handle</a>
+                                      <a href="">Parking Brake Cables</a>
+                                      <a href="">Brake Pad</a>
                                     </div>
                                 </div>
                             </div>
@@ -261,158 +260,289 @@
                     </div>
                 </div>
         </header>
-        <div class="container mt-4">
+        <div class="container" style="margin-top: 150px;">
             <div class="row">
-              <!-- Sidebar Filters -->
-              <div class="col-md-3">
-                <h5>Manufacturer</h5>
-                <div class="form-check">
-                  <input class="form-check-input manufacturer-filter" type="checkbox" value="Bosch" id="bosch">
-                  <label class="form-check-label" for="bosch">Bosch</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input manufacturer-filter" type="checkbox" value="Ate" id="ate">
-                  <label class="form-check-label" for="ate">Ate</label>
-                </div>
-                <!-- Add more manufacturers as needed -->
-          
-                <hr>
-          
-                <h5>Car Brand</h5>
-                <div class="form-check">
-                  <input class="form-check-input carbrand-filter" type="checkbox" value="Toyota" id="toyota">
-                  <label class="form-check-label" for="toyota">Toyota</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input carbrand-filter" type="checkbox" value="Mercedes" id="mercedes">
-                  <label class="form-check-label" for="mercedes">Mercedes</label>
-                </div>
-                <!-- Add more car brands -->
-              </div>
-          
-              <!-- Product Grid -->
-              <div class="col-md-9">
-                <div class="d-flex justify-content-between mb-3">
-                  <div>
-                    <label for="sortSelect" class="form-label me-2">Sort by:</label>
-                    <select class="form-select d-inline w-auto" id="sortSelect">
-                      <option>Product Name</option>
-                      <option>Price (Low to High)</option>
-                      <option>Price (High to Low)</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label for="showCount" class="form-label me-2">Show:</label>
-                    <select class="form-select d-inline w-auto" id="showCount">
-                      <option>12</option>
-                      <option>24</option>
-                      <option selected>36</option>
-                    </select>
-                  </div>
-                </div>
-          
-                <div class="row" id="product-list">
-                  <!-- Product Cards will be injected here using JS -->
-                </div>
-              </div>
-            </div>
-        </div>       
-        <footer> <!-- phần footerfooter cho mọi trang-->
-            <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
-                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
-
-                    <div class="col-3"> <!-- logo trái -->
-                        <img src="../img/logo.png" alt="" style="width: 200px;">
-                    </div>
-
-                    <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
-                        <h1 style="font-weight: bold;">Call or email us</h1>
-                        <p style="font-size: 14px;">
-                            We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
-                            Sat - Sun: closed
-                        </p>
-                    </div>
-
-                    <div class="col-4"> <!-- card phải -->
-                        <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
-                            <img src="../img/Kiyoh.png" alt="" class="position-absolute"
-                                style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
-
-                            <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
-                                <h1 class="text-end text-light fs-3">KiyOh</h1>
-                            </div>
-
-                            <div class="card-body"> <!-- body -->
-                                <div class="row cardFooter">
-                                    <div class="col-9 ">
-                                        <h3 class="fw-bold">MPR Parts BV</h3>
-                                    </div>
-                                    <div class="col-3">
-                                        <img src="../img/5star.png" alt="" style="width: 60px;">
-                                    </div>
-                                    <p class="text-end">
-                                        Reviewed with a score of <span>9.3 / 10</span> based <br>
-                                        on <span>675 reviews</span>
-                                    </p>
-                                    <a href="" class="text-end text-decoration-none"
-                                        style="color: rgb(112, 114, 114);">See all reviews</a>
-                                </div>
-                            </div>
+                <h2 class="fw-bold mb-4" style="font-family: cursive;">Write US</h2>
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                          <label for="name" class="form-label">
+                            Name <span class="text-danger">*</span>
+                          </label>
+                          <input type="text" id="name" class="form-control border-dark" placeholder="Name" required>
+                          <span class="error-msg text-danger small"></span>
                         </div>
+                      
+                        <div class="mb-3">
+                          <label for="email" class="form-label">
+                            Email <span class="text-danger">*</span>
+                          </label>
+                          <input type="email" id="email" class="form-control border-dark" placeholder="Your Email" required>
+                          <span class="error-msg text-danger small"></span>
+                        </div>
+                      
+                        <div class="mb-3">
+                          <label for="phone" class="form-label">
+                            Phone Number <span class="text-danger">*</span>
+                          </label>
+                          <input type="tel" id="phone" class="form-control border-dark" placeholder="Phone Number" required>
+                          <span class="error-msg text-danger small"></span>
+                        </div>
+                      
+                        <div class="mb-3">
+                          <label for="message" class="form-label">
+                            What's on your mind? <span class="text-danger">*</span>
+                          </label>
+                          <textarea id="message" class="form-control border-dark" rows="4" placeholder="Your Message" required></textarea>
+                          <span class="error-msg text-danger small"></span>
+                        </div>
+                      
+                        <button type="submit" class="btn btn-info text-dark fw-bold px-4 py-2 rounded-pill">
+                          SUBMIT
+                        </button>
+                      </form>
+                      
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                            class="rounded"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.4498464892054!2d106.68505477588582!3d10.853826989304047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752955985aefc1%3A0xc314a5a049b1a5c4!2zVHLGsOG7nW5nIMSQ4buZaCBob2MgQ8O0bmcgbmdoaeG7h3AgSOG7kyBDaGkgTWluaCBLaG9h!5e0!3m2!1sen!2s!4v1712802641312!5m2!1sen!2s"
+                            allowfullscreen=""
+                            loading="lazy">
+                        </iframe>
                     </div>
                 </div>
             </div>
+        </div>
+        
+     
 
-            <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
-                <div class="col-3">
-                    <h3>Customer service</h3>
-                    <a href="">About us</a><br>
-                    <a href="">General terms & conditions</a><br>
-                    <a href="">Disclaimer</a><br>
-                    <a href="">Privacy Policy</a><br>
-                    <a href="">Customer service</a><br>
-                    <a href="">Sitemap</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Account</h3>
-                    <a href="">My Account</a><br>
-                    <a href="">Payment Methods</a><br>
-                    <a href="">Shipping Guide</a><br>
-                    <a href="">FAQs</a><br>
-                    <a href="">Product Support</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Categories</h3>
-                    <a href="">Alternator</a><br>
-                    <a href="">Starters</a><br>
-                    <a href="">Air conditioning compressor</a><br>
-                    <a href="">Clutch assembly parts</a><br>
-                    <a href="">Engine</a><br>
-                    <a href="">EGR Valve</a><br>
-                    <a href="">All categories</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Contact</h3>
-                    <div class="contact-info">
-                        <p><span>MPR Parts B.V.</span></p>
-                        <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The Netherlands</p>
-                        <p>Tel: +31 77-3071580</p>
-                        <p>Email: info@carparts-onlineshop.com</p>
-                        <p><span>BTW-nummer:</span> NL8555.58.180.B.01</p>
-                        <p><span>KVK-nummer:</span> 64186369</p>
-                        <p><span>Bank:</span> NL11RABO 01310.41.231</p>
-                    </div>
-                </div>
-            </div>
-            <div style="border-top: 1px solid #dadada;">
-                <div class="container" style="color: #8c8c8d;">
-                    <p>
-                        © Carparts-onlineshop. 2020. All Rights Reserved
-                    </p>
-                </div>
-            </div>
-        </footer>
+        <footer> <!-- phần footerfooter cho mọi trang-->
+          <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
+              <div class="row container m-auto align-items-center justify-content-between"
+                  style="padding: 30px;">
+  
+                  <div class="col-3"> <!-- logo trái -->
+                      <img src="../img/logo.png" alt="" style="width: 200px;">
+                  </div>
+  
+                  <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
+                      <h1 style="font-weight: bold;">Call or email us</h1>
+                      <p style="font-size: 14px;">
+                          We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
+                          Sat - Sun: closed
+                      </p>
+                  </div>
+  
+                  <div class="col-4"> <!-- card phải -->
+                      <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
+                          <img src="../img/Kiyoh.png" alt="" class="position-absolute"
+                              style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
+  
+                          <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
+                              <h1 class="text-end text-light fs-3">KiyOh</h1>
+                          </div>
+  
+                          <div class="card-body"> <!-- body -->
+                              <div class="row cardFooter">
+                                  <div class="col-9 ">
+                                      <h3 class="fw-bold">MPR Parts BV</h3>
+                                  </div>
+                                  <div class="col-3">
+                                      <img src="../img/5star.png" alt="" style="width: 60px;">
+                                  </div>
+                                  <p class="text-end">
+                                      Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                          reviews</span>
+                                  </p>
+                                  <a href="" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                      all reviews</a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
+              <div class="col-3">
+                  <h3>Customer service</h3>
+                  <a href="">About us</a><br>
+                  <a href="">General terms & conditions</a><br>
+                  <a href="">Disclaimer</a><br>
+                  <a href="">Privacy Policy</a><br>
+                  <a href="">Customer service</a><br>
+                  <a href="">Sitemap</a><br>
+              </div>
+              <div class="col-3">
+                  <h3>Account</h3>
+                  <a href="">My Account</a><br>
+                  <a href="">Payment Methods</a><br>
+                  <a href="">Shipping Guide</a><br>
+                  <a href="">FAQs</a><br>
+                  <a href="">Product Support</a><br>
+              </div>
+              <div class="col-3">
+                  <h3>Categories</h3>
+                  <a href="">Alternator</a><br>
+                  <a href="">Starters</a><br>
+                  <a href="">Air conditioning compressor</a><br>
+                  <a href="">Clutch assembly parts</a><br>
+                  <a href="">Engine</a><br>
+                  <a href="">EGR Valve</a><br>
+                  <a href="">All categories</a><br>
+              </div>
+              <div class="col-3">
+                  <h3>Contact</h3>
+                  <div class="contact-info">
+                      <p><span>MPR Parts B.V.</span></p>
+                      <p>24B, NguyenThiDang street<br>
+                          CuChi district<br>HCM CityCity
+                      </p>
+                      <p>Tel: +84 9-7626-4910</p>
+                      <p>Email: info@autoparts-onlineshop.com</p>
+                      <p><span>Bank:</span> MB 05350.41.261</p>
+                  </div>
+              </div>
+          </div>
+          <div style="border-top: 1px solid #dadada;">
+              <div class="container" style="color: #8c8c8d;">
+                  <p>
+                      © Autoparts-onlineshop. 2020. All Rights Reserved
+                  </p>
+              </div>
+          </div>
+      </footer>
     </div>
 </body>
+<script>
+    $(document).ready(function () {
+      function showError(input, message) {
+        input.addClass('is-invalid');
+        input.next('.error-msg').text(message);
+      }
+  
+      function clearError(input) {
+        input.removeClass('is-invalid');
+        input.next('.error-msg').text('');
+      }
+  
+      function isValidName(name) {
+        let words = name.trim().split(/\s+/);
+        if (words.length < 2) return false;
+        return words.every(word => /^[A-ZÀ-Ỹ][a-zà-ỹ]{1,}$/.test(word));
+      }
+  
+      function isValidEmail(email) {
+        let pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return pattern.test(email);
+      }
+  
+      function isValidPhone(phone) {
+        return /^\d{10}$/.test(phone);
+      }
+  
+      
+      $('#name').on('input', function () {
+        let name = $(this).val();
+        if (!isValidName(name)) {
+          showError($(this), 'Tên phải có ít nhất 2 từ và mỗi từ viết hoa chữ cái đầu.');
+        } else {
+          clearError($(this));
+        }
+      });
+  
+      $('#email').on('input', function () {
+        let email = $(this).val();
+        if (!isValidEmail(email)) {
+          showError($(this), 'Vui lòng nhập đúng định dạng email.');
+        } else {
+          clearError($(this));
+        }
+      });
+  
+      $('#phone').on('input', function () {
+        let phone = $(this).val();
+        if (!isValidPhone(phone)) {
+          showError($(this), 'Số điện thoại phải có đúng 10 chữ số.');
+        } else {
+          clearError($(this));
+        }
+      });
+  
+    
+      $('#message').on('input', function () {
+        let message = $(this).val();
+        if (message.trim() === '') {
+          showError($(this), 'Bạn chưa nhập nội dung tin nhắn.');
+        } else {
+          clearError($(this));
+        }
+      });
+    });
+  </script><script>
+  $(document).ready(function () {
+    function showError(input, message) {
+      input.addClass('is-invalid');
+      input.next('.error-msg').text(message);
+    }
 
+    function clearError(input) {
+      input.removeClass('is-invalid');
+      input.next('.error-msg').text('');
+    }
+
+    function isValidName(name) {
+      let words = name.trim().split(/\s+/);
+      if (words.length < 2) return false;
+      return words.every(word => /^[A-ZÀ-Ỹ][a-zà-ỹ]{1,}$/.test(word));
+    }
+
+    function isValidEmail(email) {
+      let pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      return pattern.test(email);
+    }
+
+    function isValidPhone(phone) {
+      return /^\d{10}$/.test(phone);
+    }
+
+    $('#name').on('input', function () {
+      let name = $(this).val();
+      if (!isValidName(name)) {
+        showError($(this), 'Tên phải có ít nhất 2 từ và mỗi từ viết hoa chữ cái đầu.');
+      } else {
+        clearError($(this));
+      }
+    });
+
+    $('#email').on('input', function () {
+      let email = $(this).val();
+      if (!isValidEmail(email)) {
+        showError($(this), 'Vui lòng nhập đúng định dạng email.');
+      } else {
+        clearError($(this));
+      }
+    });
+
+    $('#phone').on('input', function () {
+      let phone = $(this).val();
+      if (!isValidPhone(phone)) {
+        showError($(this), 'Số điện thoại phải có đúng 10 chữ số.');
+      } else {
+        clearError($(this));
+      }
+    });
+
+    $('#message').on('input', function () {
+      let message = $(this).val();
+      if (message.trim() === '') {
+        showError($(this), 'Bạn chưa nhập nội dung tin nhắn.');
+      } else {
+        clearError($(this));
+      }
+    });
+  });
+</script>
 </html>

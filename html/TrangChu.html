@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TrangChu</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <script src="../jscode/FormChung.js"></script>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/owl.carousel.min.css">
     <link rel="stylesheet" href="../css/owl.theme.default.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
     <link rel="stylesheet" href="../css/TrangChu.css">
+    
 </head>
 
 <body>
@@ -34,9 +37,9 @@
                         </div>
                         <div class="">
                             <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
-                                <li><a href="">SIGN IN</a></li>
-                                <li><a href="">CONTACT US</a></li>
-                                <li><a href="">CREATE AN ACCOUNT</a></li>
+                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
                             </ul>
                         </div>
                     </div>
@@ -44,7 +47,9 @@
 
                 <div class="container d-flex align-items-center justify-content-between py-2">
                     <div class="d-flex align-items-center ms-0">
-                        <img src="../img/logo.png" alt="Logo" style="height: 90px;">
+                        <a href="../html/TrangChu.html">
+                            <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
+                        </a>
                     </div>
 
                     <div class="flex-grow-1 px-4">
@@ -75,7 +80,7 @@
                                 <div>
                                     <a href="#" class="dropbtn">Air Condition / Heating</a>
                                     <div class="dropdown-content">
-                                        <a href="">Air Conditioning Compressor</a>
+                                        <a href="" data-value="Air Conditioning Compressor">Air Conditioning Compressor</a>
                                         <a href="">Climate Control</a>
                                         <a href="">Air Filter</a>
                                         <a href="">Heater</a>
@@ -88,7 +93,7 @@
                                 <div>
                                     <a href="#" class="dropbtn">Brake System</a>
                                     <div class="dropdown-content" style="left: -220px;">
-                                        <a href="">Vacuumpump</a>
+                                        <a href="" data-value="Vacuumpump">Vacuumpump</a>
                                         <a href="">Brake Shoe</a>
                                         <a href="">Brake Drum</a>
                                         <a href="">Brake Wheel Cylinder</a>
@@ -107,7 +112,7 @@
                                 <div>
                                     <a href="#" class="dropbtn">Body Parts</a>
                                     <div class="dropdown-content" style="left: -380px;">
-                                        <a href="">Door Handle</a>
+                                        <a href="" data-value="Door Handle">Door Handle</a>
                                         <a href="">Mirror</a>
                                         <a href="">Plastic Body Parts</a>
                                         <a href="">Wheelhouse Inner Fender</a>
@@ -487,7 +492,6 @@
             </div>
         </div>
     </div>
-    </div>
 
     <footer> <!-- phần footerfooter cho mọi trang-->
         <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
@@ -585,7 +589,7 @@
             </div>
         </div>
     </footer>
-    </div>
+
 </body>
 <script>
     $(document).ready(function () {
