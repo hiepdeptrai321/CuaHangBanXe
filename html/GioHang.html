@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrangChu</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <!-- Chỉ include CSS, JS một lần -->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+    <!-- Sử dụng dấu / trong đường dẫn -->
+    <link rel="stylesheet" href="../css/bootstrap-icons-1.11.3/bootstrap-icons-1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
+    <script src="../js/Jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../jscode/FormChung.js"></script>
+</head>
+<style>
+    .is-invalid {
+        border-color: #dc3545 !important;
+        box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25) !important;
+    }
+</style>
+
+<body>
+    <div>
+        <header class="pageheader"><!-- phần Header cho mọi trang-->
+            <div class="container-fluid px-0">
+                <div class="fullscreen">
+                    <div class="container d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <nav class="navtop d-flex align-items-center">
+                                <img src="../img/5star.png" alt style="width: 100px;">
+                                <span class="ps-2 pe-2"><b>9.3</b> based on <b>675 reviews.</b></span>
+                                <a href="" class="link">See all reviews</a>
+                            </nav>
+                        </div>
+                        <div>
+                            <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
+                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container d-flex align-items-center justify-content-between py-2">
+                    <div class="d-flex align-items-center ms-0">
+                        <a href="../html/TrangChu.html">
+                            <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
+                        </a>
+                    </div>
+                    <div class="flex-grow-1 px-4">
+                        <div class="search-box position-relative">
+                            <input type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
+                                style="background-color: #f5f7fa; height: 50px;">
+                            <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
+                        </div>
+                    </div>
+                    <div class="position-relative">
+                        <a href class="position-relative text-dark text-decoration-none">
+                            <i class="bi bi-bag" style="font-size: 24px;"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                                style="font-size: 0.7rem;">
+                                0
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div style="background-color: #0351b6;">
+                    <div class="main-nav text-white">
+                        <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Air Condition / Heating</a>
+                                    <div class="dropdown-content">
+                                        <a href="" data-value="Air Conditioning Compressor">Air Conditioning
+                                            Compressor</a>
+                                        <a href="">Climate Control</a>
+                                        <a href="">Air Filter</a>
+                                        <a href="">Heater</a>
+                                        <a href="">Condenser</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Brake System</a>
+                                    <div class="dropdown-content" style="left: -220px;">
+                                        <a href="" data-value="Vacuumpump">Vacuumpump</a>
+                                        <a href="">Brake Shoe</a>
+                                        <a href="">Brake Drum</a>
+                                        <a href="">Brake Wheel Cylinder</a>
+                                        <a href="">Brake Disc</a>
+                                        <a href="">Brake Hoses</a>
+                                        <a href="">Brake Master Cylinder</a>
+                                        <a href="">Brake Caliper</a>
+                                        <a href="">Hand Brake Handle</a>
+                                        <a href="">Parking Brake Cables</a>
+                                        <a href="">Brake Pad</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Body Parts</a>
+                                    <div class="dropdown-content" style="left: -380px;">
+                                        <a href="" data-value="Door Handle">Door Handle</a>
+                                        <a href="">Mirror</a>
+                                        <a href="">Plastic Body Parts</a>
+                                        <a href="">Wheelhouse Inner Fender</a>
+                                        <a href="">Wipers</a>
+                                        <a href="">Bumper</a>
+                                        <a href="">Windows</a>
+                                        <a href="">Door</a>
+                                        <a href="">Fender Flasher</a>
+                                        <a href="">Wheel</a>
+                                        <a href="">Lighting</a>
+                                        <a href="">Washer Pump</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Cooling System</a>
+                                    <div class="dropdown-content" style="left: -518px;">
+                                        <a href="">Radiator</a>
+                                        <a href="">Expansion Tanks</a>
+                                        <a href="">Cooling Fan Housing</a>
+                                        <a href="">Cooling Fan Blades</a>
+                                        <a href="">Cooling Fan And Motor Assy</a>
+                                        <a href="">Antifreeze Coolant</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Drive Line</a>
+                                    <div class="dropdown-content" style="left: -690px;">
+                                        <a href="">Drive line</a>
+                                        <a href="">Driveshaft</a>
+                                        <a href="">Differential</a>
+                                        <a href="">Hub</a>
+                                        <a href="">Gearbox</a>
+                                        <a href="">Flywheel & Clutch </a>
+                                        <a href="">Shock</a>
+                                        <a href="">Universal Joint</a>
+                                        <a href="">Axle</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Engine</a>
+                                    <div class="dropdown-content" style="left: -822px;">
+                                        <a href="">Turbo's / Superchanrgers</a>
+                                        <a href="">Cylinder Head</a>
+                                        <a href="">Oil Seperator</a>
+                                        <a href="">Connectiong Rod</a>
+                                        <a href="">Crank And Crankshaft Gears</a>
+                                        <a href="">Camshaft</a>
+                                        <a href="">Thermostat</a>
+                                        <a href="">Engine Oil Indicator</a>
+                                        <a href="">Hoses And Pipes </a>
+                                        <a href="">Water Pump</a>
+                                        <a href="">Oil Pump</a>
+                                        <a href="">Thermostat Housing</a>
+                                        <a href="">TenSioner Pully</a>
+                                        <a href="">Oil Filter</a>
+                                        <a href="">Oil Pan</a>
+                                        <a href="">Oil Cooler Housing</a>
+                                        <a href="">Timing Chain Gasket</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Fuel Parts</a>
+                                    <div class="dropdown-content" style="left: -931px;">
+                                        <a href="">Sensor Air Mass</a>
+                                        <a href="">Glowplugs</a>
+                                        <a href="">Fuel Pump</a>
+                                        <a href="">Heater Valves</a>
+                                        <a href="">Air Hoses - Couplings</a>
+                                        <a href="">Timing Chain Guides</a>
+                                        <a href="">Crankshaft Pilley</a>
+                                        <a href="">IAC Valves</a>
+                                        <a href="">EGR Valve</a>
+                                        <a href="">Oilfilterhousings</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Steering</a>
+                                    <div class="dropdown-content" style="left: -1064px;">
+                                        <a href="">Steering - SuspenSion Parts</a>
+                                        <a href="">Steering Rack Repair Set</a>
+                                        <a href="">Steering Racks</a>
+                                        <a href="">Steering Joints</a>
+                                        <a href="">Steering Knuckles</a>
+                                        <a href="">Steeringpump</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="dropdown">
+                                <div>
+                                    <a href="#" class="dropbtn">Other</a>
+                                    <div class="dropdown-content" style="left: -1184px;">
+                                        <a href="">Accessories</a>
+                                        <a href="">Boot Kits</a>
+                                        <a href="">Clips</a>
+                                        <a href="">Fuel -Oil Caps</a>
+                                        <a href="">Clamps</a>
+                                        <a href="">Acceleration Cables</a>
+                                        <a href="">Car Computer Box Cover</a>
+                                        <a href="">Floor Mats</a>
+                                        <a href="">Oil Seat Furnishing</a>
+                                        <a href="">Hood Opening Cables</a>
+                                        <a href="">Signal Switch</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits-bar py-3">
+                    <div
+                        class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span><strong>Worldwide</strong>, delivery</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span><strong>Lowest</strong> prices</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span><strong>Fast</strong> shipping</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span><strong>Original</strong> <strong>Parts</strong></span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span>Safe and <strong>easy</strong></span>
+                        </div>
+                        <div class="d-flex align-items-center gap-3 pe-5">
+                            <i class="bi bi-check-circle-fill text-success"></i>
+                            <span><strong>Large stock</strong>, available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container my-5">
+            <div class="row">
+                <!-- Shipping Address -->
+                <div class="col-lg-4">
+                    <h4 class="mb-3"><span>1</span> SHIPPING ADDRESS</h4>
+                    <!-- Form có nút submit bên trong -->
+                    <form id="shippingForm">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address <span
+                                    class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="firstName" class="form-label">First Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="firstName" placeholder="First Name"
+                                    required>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lastName" class="form-label">Last Name <span
+                                        class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="lastName" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Street Address <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="address" placeholder="Street Address" required>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="country" class="form-label">Country <span
+                                        class="text-danger">*</span></label>
+                                <select class="form-select" id="country" required>
+                                    <option value="">Select Country</option>
+                                    <option>Netherlands</option>
+                                    <option>Germany</option>
+                                    <option>France</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="city" class="form-label">City <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="city" placeholder="City" required>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number <span
+                                    class="text-danger">*</span></label>
+                            <input type="text" class="form-control" id="phone" placeholder="Phone Number" required>
+                        </div>
+                        <!-- Nút submit nằm trong form -->
+                        <button class="btn btn-primary w-100 mt-3" type="submit">PLACE ORDER</button>
+                    </form>
+                </div>
+                <script>
+                    $(document).ready(function () {
+                        $('#shippingForm').on('submit', function (e) {
+                            e.preventDefault();
+                            let isValid = true;
+
+                            // Kiểm tra Shipping Address
+                            $('#shippingForm [required]').each(function () {
+                                const $field = $(this);
+                                const $label = $('label[for="' + $field.attr('id') + '"]');
+                                const $errorSpan = $label.find('span');
+
+                                if (!$field.val()) {
+                                    isValid = false;
+
+                                    if ($field.attr('id') === 'email') {
+                                        $errorSpan.text('Invalid Email').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'firstName') {
+                                        $errorSpan.text('First Name is required').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'lastName') {
+                                        $errorSpan.text('Last Name is required').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'address') {
+                                        $errorSpan.text('Address is required').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'country') {
+                                        $errorSpan.text('Country is required').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'city') {
+                                        $errorSpan.text('City is required').addClass('text-danger');
+                                    } else if ($field.attr('id') === 'phone') {
+                                        $errorSpan.text('Phone Number is required').addClass('text-danger');
+                                    }
+
+                                    $field.addClass('is-invalid');
+                                } else {
+                                    $errorSpan.text('*').removeClass('text-danger');
+                                    $field.removeClass('is-invalid');
+                                }
+                            });
+
+                            // Kiểm tra Shipping Methods 
+                            if (!$('input[name="shippingMethod"]:checked').val()) {
+                                isValid = false;
+                                $('#shippingMethodError').text('Please select a shipping method.');
+                            } else {
+                                $('#shippingMethodError').text('');
+                            }
+
+                            // Kiểm tra Payment Method
+                            if (!$('input[name="paymentMethod"]:checked').val()) {
+                                isValid = false;
+                                $('#paymentMethodError').text('Please select a payment method.');
+                            } else {
+                                $('#paymentMethodError').text('');
+                            }
+
+                            if (isValid) {
+                                this.submit();
+                            }
+                        });
+                    });
+                </script>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <!-- Shipping Methods -->
+                        <div class="col-lg-6">
+                            <h4 class="mb-3"><span>2</span> SHIPPING METHODS</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shippingMethod" id="dpd"
+                                            value="DPD">
+                                        <label class="form-check-label" for="dpd">
+                                            €9.08 <small>(Excl. Tax: €7.50)</small> - DPD
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="shippingMethod" id="dhl"
+                                            value="DHL">
+                                        <label class="form-check-label" for="dhl">
+                                            €22.39 <small>(Excl. Tax: €18.50)</small> - DHL
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hiển thị lỗi cho Shipping Methods -->
+                            <div id="shippingMethodError" class="text-danger mt-2"></div>
+                        </div>
+
+                        <!-- Payment Methods -->
+                        <div class="col-lg-6">
+                            <h4 class="mb-3"><span>3</span> PAYMENT METHOD</h4>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="paymentMethod"
+                                            id="mastercard" value="Mastercard">
+                                        <label class="form-check-label" for="mastercard">Mastercard</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="paymentMethod" id="paypal"
+                                            value="Paypal">
+                                        <label class="form-check-label" for="paypal">Paypal (+10%)</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="paymentMethod" id="visa"
+                                            value="Visa">
+                                        <label class="form-check-label" for="visa">Visa</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Hiển thị lỗi cho Payment Methods -->
+                            <div id="paymentMethodError" class="text-danger mt-2"></div>
+                        </div>
+                    </div>
+                    <!-- Order Summary -->
+                    <div class="col-lg-12" style="margin-top: 150px;">
+                        <h4 class="mb-3"><span>4</span> ORDER SUMMARY</h4>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <span>Vacuum Pump A2702300165 Mercedes Ixetic</span>
+                                    <span>Qty: 1</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between">
+                                    <span>Subtotal</span>
+                                    <span>€59.98</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Shipping</span>
+                                    <span>Not yet calculated</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Tax</span>
+                                    <span>€10.41</span>
+                                </div>
+                                <hr>
+                                <div class="d-flex justify-content-between fw-bold">
+                                    <span>Order Total Incl. Tax</span>
+                                    <span>€59.98</span>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <span>Order Total Excl. Tax</span>
+                                    <span>€49.57</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <footer> <!-- phần footer cho mọi trang-->
+            <div style="background-color: #f5f7fa;">
+                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
+                    <div class="col-3">
+                        <img src="../img/logo.png" alt="" style="width: 200px;">
+                    </div>
+                    <div class="col-5" style="max-width: 400px;">
+                        <h1 style="font-weight: bold;">Call or email us</h1>
+                        <p style="font-size: 14px;">
+                            We're available to help by e-mail, phone or live chat Mon - Fri between: 8:30 and 15:30
+                            (CET)
+                            Sat - Sun: closed
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
+                            <img src="../img/Kiyoh.png" alt="" class="position-absolute"
+                                style="width: 80px; top: 45px; left:30px;">
+                            <div class="card-header" style="background-color: rgb(67, 68, 68);">
+                                <h1 class="text-end text-light fs-3">KiyOh</h1>
+                            </div>
+                            <div class="card-body">
+                                <div class="row cardFooter">
+                                    <div class="col-9 ">
+                                        <h3 class="fw-bold">MPR Parts BV</h3>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="../img/5star.png" alt="" style="width: 60px;">
+                                    </div>
+                                    <p class="text-end">
+                                        Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                            reviews</span>
+                                    </p>
+                                    <a href="" class="text-end text-decoration-none"
+                                        style="color: rgb(112, 114, 114);">See all reviews</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row container p-sm-3 m-auto FooterRow2">
+                <div class="col-3">
+                    <h3>Customer service</h3>
+                    <a href="">About us</a><br>
+                    <a href="">General terms & conditions</a><br>
+                    <a href="">Disclaimer</a><br>
+                    <a href="">Privacy Policy</a><br>
+                    <a href="">Customer service</a><br>
+                    <a href="">Sitemap</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Account</h3>
+                    <a href="">My Account</a><br>
+                    <a href="">Payment Methods</a><br>
+                    <a href="">Shipping Guide</a><br>
+                    <a href="">FAQs</a><br>
+                    <a href="">Product Support</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Categories</h3>
+                    <a href="">Alternator</a><br>
+                    <a href="">Starters</a><br>
+                    <a href="">Air conditioning compressor</a><br>
+                    <a href="">Clutch assembly parts</a><br>
+                    <a href="">Engine</a><br>
+                    <a href="">EGR Valve</a><br>
+                    <a href="">All categories</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Contact</h3>
+                    <div class="contact-info">
+                        <p><span>MPR Parts B.V.</span></p>
+                        <p>24B, NguyenThiDang street<br>CuChi district<br>HCM City</p>
+                        <p>Tel: +84 9-7626-4910</p>
+                        <p>Email: info@autoparts-onlineshop.com</p>
+                        <p><span>Bank:</span> MB 05350.41.261</p>
+                    </div>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #dadada;">
+                <div class="container" style="color: #8c8c8d;">
+                    <p>
+                        © Autoparts-onlineshop. 2020. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

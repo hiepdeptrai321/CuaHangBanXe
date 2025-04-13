@@ -1,0 +1,290 @@
+[
+    {
+      "id": 1,
+      "name": "Ford Sliding Door Handle - Outer L Yc15 V26601 An 1494055",
+      "price": 10.73,
+      "tax": 8.87,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Sliding_Door_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Sliding door handle - outer L",
+        "description": "Suitable for right-hand drive vehicles",
+        "model": "Transit v184/v347/v348",
+        "engine": "Bm",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 2,
+      "name": "Ford Outer Door Handle - L 96fg A26601 Ad 1018498",
+      "price": 8.74,
+      "tax": 7.22,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Outer_Door_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Outer door handle - L",
+        "description": "Left outer door handle, durable design",
+        "model": "Escort",
+        "engine": "1.6L Petrol",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 3,
+      "name": "Ford Window Handle Jvty 23342 Baf",
+      "price": 12.48,
+      "tax": 10.31,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Window_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Window handle",
+        "description": "Window crank handle, simple and durable design",
+        "model": "Universal",
+        "engine": "Bm",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 4,
+      "name": "Hyundai Door Handle 8262022000",
+      "price": 9.49,
+      "tax": 7.84,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Door_Handle1/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Door handle",
+        "description": "Hyundai door handle, compatible with various models",
+        "model": "Universal",
+        "engine": "1.4L Petrol",
+        "year": "2005-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 5,
+      "name": "Hyundai Door Handle 826501e000",
+      "price": 13.30,
+      "tax": 10.99,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Door_Handle2/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Door handle",
+        "description": "Hyundai door handle, sturdy design",
+        "model": "Universal",
+        "engine": "1.6L Diesel",
+        "year": "2010-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 6,
+      "name": "Hyundai Front Inner Door Handle 8262022000ca",
+      "price": 7.53,
+      "tax": 6.22,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Front_Inner_Door_Handle/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Front inner door handle",
+        "description": "Hyundai front inner door handle",
+        "model": "Universal",
+        "engine": "1.8L Petrol",
+        "year": "2012-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 7,
+      "name": "Hyundai Rear Door Handle 8365002000",
+      "price": 10.09,
+      "tax": 8.34,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Rear_Door_Handle/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Rear door handle",
+        "description": "Hyundai rear door handle",
+        "model": "Universal",
+        "engine": "2.0L Diesel",
+        "year": "2015-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 8,
+      "name": "Nissan Door Handle 90606-ea810",
+      "price": 12.03,
+      "tax": 9.94,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Nissan_Door_Handle/p1.jpg"],
+      "brand": "Nissan",
+      "manufacturer": "Nissan",
+      "details": {
+        "type": "Door handle",
+        "description": "Nissan door handle, durable design",
+        "model": "Universal",
+        "engine": "1.5L Petrol",
+        "year": "2008-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+        "id": 9,
+        "name": "Ford Middle Door Inner Handle Long Chassis 2c14 V266a62 Aa 4375255",
+        "price": 14.28,
+        "tax": 11.80,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Middle_Door_Inner_Handle_Long_Chassis/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Middle door inner handle - long chassis",
+          "description": "Durable inner handle for Ford long chassis models",
+          "model": "Transit",
+          "engine": "2.2L Diesel",
+          "year": "2010-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 10,
+        "name": "Volkswagen Window Key Frame 3b1867171e",
+        "price": 9.43,
+        "tax": 7.79,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Volkswagen_Window_Key_Frame/p1.jpg"],
+        "brand": "Volkswagen",
+        "manufacturer": "Volkswagen",
+        "details": {
+          "type": "Window key frame",
+          "description": "Key frame for Volkswagen window systems",
+          "model": "Passat",
+          "engine": "1.9L Diesel",
+          "year": "2005-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 11,
+        "name": "Hyundai Front Inner Door Handle 8261022000ca",
+        "price": 7.53,
+        "tax": 6.22,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Front_Inner_Door_Handle2/p1.jpg"],
+        "brand": "Hyundai",
+        "manufacturer": "Hyundai",
+        "details": {
+          "type": "Front inner door handle",
+          "description": "Hyundai front inner door handle for various models",
+          "model": "Elantra",
+          "engine": "1.6L Petrol",
+          "year": "2012-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 12,
+        "name": "Hyundai Rear Door Handle 8366002000",
+        "price": 10.09,
+        "tax": 8.34,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Rear_Door_Handle/p1.jpg"],
+        "brand": "Hyundai",
+        "manufacturer": "Hyundai",
+        "details": {
+          "type": "Rear door handle",
+          "description": "Hyundai rear door handle for various models",
+          "model": "Tucson",
+          "engine": "2.0L Diesel",
+          "year": "2015-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 13,
+        "name": "Ford Door Opening Handlesquare 86vb 7022614",
+        "price": 12.48,
+        "tax": 10.31,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Door_Opening_Handlesquare/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Door opening handle",
+          "description": "Square-shaped door opening handle for Ford",
+          "model": "Transit",
+          "engine": "2.0L Petrol",
+          "year": "2000-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 14,
+        "name": "Ford Middle Door Inner Handle Short Chassis 2c14 V266a62 Ba 4375256",
+        "price": 13.64,
+        "tax": 11.27,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Middle_Door_Inner_Handle_Short_Chassis/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Middle door inner handle - short chassis",
+          "description": "Durable inner handle for Ford short chassis models",
+          "model": "Transit",
+          "engine": "2.2L Diesel",
+          "year": "2010-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 15,
+        "name": "Volkswagen Hood Opening Handle 1j5823593c",
+        "price": 6.52,
+        "tax": 5.39,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Volkswagen_Hood_Opening_Handle/p1.jpg"],
+        "brand": "Volkswagen",
+        "manufacturer": "Volkswagen",
+        "details": {
+          "type": "Hood opening handle",
+          "description": "Handle for opening Volkswagen hoods",
+          "model": "Golf",
+          "engine": "1.4L Petrol",
+          "year": "2003-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 16,
+        "name": "Mercedes Door Handle - Sliding Door A9017600459 2d1843704",
+        "price": 15.11,
+        "tax": 12.49,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Mercedes_Door_Handle_Sliding_Door/p1.jpg"],
+        "brand": "Mercedes",
+        "manufacturer": "Mercedes",
+        "details": {
+          "type": "Sliding door handle",
+          "description": "Sliding door handle for Mercedes vehicles",
+          "model": "Sprinter",
+          "engine": "2.1L Diesel",
+          "year": "2018-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      }
+]
