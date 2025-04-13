@@ -300,9 +300,10 @@
                     <span class="error-msg text-danger small"></span>
                   </div>
           
-                  <div class="mb-3">
+                  <div class="mb-3 position-relative">
                     <label for="password" class="form-label">Password <span class="text-danger">*</span></label>
                     <input type="password" class="form-control border-dark" id="password" />
+                    <i class="bi bi-eye-slash position-absolute end-0 top-50 translate-middle-y me-5 mt-3 " id="togglePassword" style="cursor: pointer;"></i>
                     <span class="error-msg text-danger small"></span>
                   </div>
           
@@ -323,7 +324,7 @@
               </div>
           
               <div class="mt-4">
-                <button class="btn btn-dark w-100 py-3 fw-bold text-uppercase">Create an Account</button>
+                <button class="btn btn-dark w-100 py-3 fw-bold text-uppercase" id="creatBtn">Create an Account</button>
               </div>
             </section>
           </div>
@@ -494,6 +495,46 @@
           ? clearError($(this))
           : showError($(this), 'Mật khẩu xác nhận không trùng khớp.');
       });
+      $('#togglePassword').on('click', function () {
+        const passwordField = $('#password');
+        const type = passwordField.attr('type') === 'password' ? 'text' : 'password';
+        passwordField.attr('type', type);
+
+        // Đổi biểu tượng
+        $(this).toggleClass('bi-eye bi-eye-slash');
+       });
+      $('#creatBtn').on('click', function (e) {
+        e.preventDefault();
+
+        const firstName = $('#firstName').val();
+        const lastName = $('#lastName').val();
+        const email = $('#email').val();
+        const password = $('#password').val();
+        const confirmPassword = $('#confirmPassword').val();
+
+        if (password !== confirmPassword) {
+            alert('Passwords do not match.');
+            return;
+        }
+
+        // Lấy danh sách tài khoản từ LocalStorage
+        let users = JSON.parse(localStorage.getItem('users')) || [];
+
+        // Kiểm tra xem email đã tồn tại chưa
+        if (users.some(user => user.email === email)) {
+            alert('Email already exists.');
+            return;
+        }
+
+        // Thêm tài khoản mới
+        users.push({ firstName, lastName, email, password });
+
+        // Lưu lại vào LocalStorage
+        localStorage.setItem('users', JSON.stringify(users));
+
+        alert('Account created successfully!');
+        window.location.href = 'DangNhap.html'; // Chuyển hướng đến trang đăng nhập
+        });
     });
   </script>
   
