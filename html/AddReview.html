@@ -4,14 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DanhSachSanPham</title>
-    <link rel="icon" type="image/png" href="../img/logo.png">
+    <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
-    <script src="../jscode/FormChung.js"></script>
-    <script src="../jscode/DanhSachSanPham.js"></script>
-    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/vietdanhgia.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
 </head>
 
@@ -233,7 +230,7 @@
                     </div>
                 </div>  
                 <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
                         <div class="d-flex align-items-center gap-3 pe-5">
                             <i class="bi bi-check-circle-fill text-success"></i>
                             <span><strong>Worldwide</strong>, delivery</span>
@@ -261,48 +258,59 @@
                     </div>
                 </div>
         </header>
-        <div class="container mt-4">
+        <div class="container">
+            <section class="container my-5" id="reviews">
+                <h2 class="mb-4">Write a Review
+                    </h2>
+                <h5>Please leave your feedback so that we can optimize our system in the best possible way.</h5>
             <div class="row">
-                <!-- Sidebar Filters -->
-                <div class="col-md-3">
-                    <div id="filters">
-                    <!-- Manufacturer Filter -->
-                    <h5>Manufacturer</h5>            
-                    <hr>
-                    <!-- Car Brand Filter -->
-                    <h5>Car Brand</h5>
-                    <!-- Add more car brands -->
-                    </div>
-                </div>
-          
-              <!-- Product Grid -->
-              <div class="col-md-9">
-                <div class="d-flex justify-content-between mb-3">
-                  <div>
-                    <label for="sortSelect" class="form-label me-2">Sort by:</label>
-                    <select class="form-select d-inline w-auto" id="sortSelect">
-                      <option>Product Name</option>
-                      <option>Price (Low to High)</option>
-                      <option>Price (High to Low)</option>
-                    </select>
+                <div class="col-6">
+                <form id="reviewForm" class="mb-5">
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
                   </div>
-                  <div>
-                    <label for="showCount" class="form-label me-2">Show:</label>
-                    <select class="form-select d-inline w-auto" id="showCount">
-                      <option>12</option>
-                      <option>24</option>
-                      <option selected>36</option>
-                    </select>
+                  <div class="mb-3">
+                    <label for="title" class="form-label">Title</label>
+                    <input type="text" class="form-control" id="title" required>
                   </div>
-                </div>
-          
-                <div class="row" id="product-list">
-                  <!-- Product Cards will be injected here using JS -->
-                </div>
-              </div>
+                  <div class="mb-3">
+                    <label for="content" class="form-label">Content</label>
+                    <textarea class="form-control" id="content" rows="4" required></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="recommend" class="form-label">Are you satisfied with your experience on our site?</label>
+                    
+                      </div>
+                      <input type="hidden" id="rating" value="0" required />
+                    <select class="form-select" id="recommend">
+                      <option value="Yes">Yes</option>
+                      <option value="No">No</option>
+                    </select>
+                    <div class="mb-3">
+                        <br>
+                        <label class="form-label">Rate?</label>
+                        <div id="starRating" class="fs-4 text-warning">
+                          <i class="bi bi-star" data-value="1"></i>
+                          <i class="bi bi-star" data-value="2"></i>
+                          <i class="bi bi-star" data-value="3"></i>
+                          <i class="bi bi-star" data-value="4"></i>
+                          <i class="bi bi-star" data-value="5"></i>
+                        </div>
+                  </div>
+                  <button type="submit" class="btn btn-success">Submit</button>
+                  <a href="Review.html" class="btn" style="background-color:#0351b6 ;
+                   color: white;">All reviews</a>
+                </form>
             </div>
-        </div>       
-        <footer> <!-- phần footerfooter cho mọi trang-->
+            <div class="col-6">
+                <img src="../img/review.png" alt="">
+            </div>
+            </div>
+              </section>
+  
+        </div>
+        <footer> 
             <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
                 <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
 
@@ -398,6 +406,50 @@
             </div>
         </footer>
     </div>
-</body>
+    <script>
+    
+        //đánh giá vào local
+        document.getElementById("reviewForm").addEventListener("submit", function (e) {
+          e.preventDefault();
+          const review = {
+  name: document.getElementById("name").value,
+  title: document.getElementById("title").value,
+  content: document.getElementById("content").value,
+  recommend: document.getElementById("recommend").value,
+  rating: parseInt(document.getElementById("rating").value),
+  date: new Date().toLocaleString()
+};
 
+    
+          const reviews = JSON.parse(localStorage.getItem("reviews") || "[]");
+          reviews.unshift(review);
+          localStorage.setItem("reviews", JSON.stringify(reviews));
+          alert("Đánh giá đã được gửi!");
+          this.reset();
+        });
+        //đánh gái sao
+const stars = document.querySelectorAll("#starRating i");
+const ratingInput = document.getElementById("rating");
+
+stars.forEach((star) => {
+  star.addEventListener("click", () => {
+    const value = parseInt(star.getAttribute("data-value"));
+    ratingInput.value = value;
+
+    
+    stars.forEach((s, index) => {
+      if (index < value) {
+        s.classList.remove("bi-star");
+        s.classList.add("bi-star-fill");
+      } else {
+        s.classList.remove("bi-star-fill");
+        s.classList.add("bi-star");
+      }
+    });
+  });
+});
+
+
+      </script>
+</body>
 </html>

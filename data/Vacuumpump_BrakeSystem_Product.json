@@ -1,0 +1,475 @@
+[
+    {
+        "id": 1,
+        "name": "Vacuum Pump D156-3A2005T Bosch F009D00210",
+        "price": 44.99,
+        "tax": 37.18,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump1/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump1/p2.jpg"
+        ],
+        "brand": "Bosch",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "D156-3A2005T F009D00210",
+            "info": "High-quality vacuum pump by Bosch, suitable for various vehicle models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW",
+                "CITROEN",
+                "PEUGEOT",
+                "FORD",
+                "MINI"
+            ],
+            "compatible_models": [
+                "Citroen Berlingo",
+                "Citroen C2",
+                "Citroen C3",
+                "Citroen C4",
+                "Citroen C5",
+                "Citroen Jumpy",
+                "Citroen Xsara Picasso",
+                "Ford C-max",
+                "Ford Fiesta V",
+                "Ford Fiesta VI",
+                "Ford Focus C-max",
+                "Ford Focus II",
+                "Ford Fusion",
+                "Mini Mini",
+                "Mini Mini Clubman",
+                "Peugeot 206",
+                "Peugeot 207",
+                "Peugeot 307",
+                "Peugeot 308",
+                "Peugeot 407",
+                "Peugeot 1007",
+                "Peugeot 3008",
+                "Peugeot 5008",
+                "Peugeot Expert",
+                "Peugeot Partner",
+                "Volvo C30",
+                "Volvo S40 II",
+                "Volvo S80 II",
+                "Volvo V50",
+                "Volvo V70 III"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 2,
+        "name": "Vacuum Pump A2712300965 MERCEDES Luk",
+        "price": 42.35,
+        "tax": 35.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump2/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump2/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2712300965",
+            "info": "Original vacuum pump for Mercedes vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes C-Class",
+                "Mercedes E-Class",
+                "Mercedes S-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 3,
+        "name": "Vacuum Pump 55221036 Opel 7.02553.00 Pierburg",
+        "price": 99.99,
+        "tax": 82.64,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p1.jpg"
+        ],
+        "brand": "Opel",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "55221036 7.02553.00",
+            "info": "Pierburg vacuum pump for Opel vehicles. High-performance and durable.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "OPEL"
+            ],
+            "compatible_models": [
+                "Opel Astra",
+                "Opel Zafira",
+                "Opel Insignia"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 4,
+        "name": "Vacuum Pump A1112300065 Vapec 14S",
+        "price": 48.40,
+        "tax": 40.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump4/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump4/p2.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A1112300065 14S",
+            "info": "Reliable vacuum pump by Vapec, compatible with various models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 5,
+        "name": "Vacuum Pump BB5E2A451BB",
+        "price": 96.80,
+        "tax": 80.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump5/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump5/p2.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "BB5E2A451BB",
+            "info": "High-quality vacuum pump for automotive applications.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 6,
+        "name": "Vacuum Pump A6112300265 Vapec 19S",
+        "price": 49.99,
+        "tax": 41.31,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p3.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A6112300265 19S",
+            "info": "Durable vacuum pump by Vapec, suitable for various vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 7,
+        "name": "Vacuum Pump A6422300065 Vapec 19S",
+        "price": 48.40,
+        "tax": 40.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p3.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A6422300065 19S",
+            "info": "Reliable vacuum pump by Vapec for automotive use.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 8,
+        "name": "Vacuum Pump 11.66-7519457-08 BMW Luk 085",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump8/p1.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "11.66-7519457-08",
+            "info": "High-performance vacuum pump for BMW vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 5 Series",
+                "BMW X3"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 9,
+        "name": "Vacuum Pump 7545384 BMW 687390-10 Luk",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump9/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump9/p2.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "7545384 687390-10",
+            "info": "High-quality vacuum pump for BMW vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 5 Series",
+                "BMW X5"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 10,
+        "name": "Vacuum Pump 11.66-7558344 BMW 200400089 Ixetic",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p3.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "11.66-7558344 200400089",
+            "info": "Reliable vacuum pump for BMW vehicles, manufactured by Ixetic.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 7 Series",
+                "BMW X3"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 11,
+        "name": "Vacuum Pump 9637413980 7.28144.02 Pierburg",
+        "price": 39.99,
+        "tax": 33.05,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p3.jpg"
+        ],
+        "brand": "Pierburg",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "9637413980 7.28144.02",
+            "info": "Pierburg vacuum pump for various vehicle models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "CITROEN",
+                "PEUGEOT"
+            ],
+            "compatible_models": [
+                "Citroen C5",
+                "Peugeot 407",
+                "Peugeot 607"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 12,
+        "name": "Vacuum Pump Renault Suzuki F009D00085 Bosch",
+        "price": 59.99,
+        "tax": 49.58,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p3.jpg"
+        ],
+        "brand": "Bosch",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "F009D00085",
+            "info": "Bosch vacuum pump suitable for Renault and Suzuki vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "RENAULT",
+                "SUZUKI"
+            ],
+            "compatible_models": [
+                "Renault Megane",
+                "Suzuki Swift"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 13,
+        "name": "Vacuum Pump 9653446680 CITROËN 7.28144.07 Pierburg",
+        "price": 42.35,
+        "tax": 35.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p3.jpg"
+        ],
+        "brand": "Pierburg",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "9653446680 7.28144.07",
+            "info": "Pierburg vacuum pump for Citroën vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "CITROËN"
+            ],
+            "compatible_models": [
+                "Citroën C4",
+                "Citroën C5"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 14,
+        "name": "Vacuum Pump A2701800901 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump14/p1.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2701800901",
+            "info": "Ixetic vacuum pump for Mercedes vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes A-Class",
+                "Mercedes B-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 15,
+        "name": "Vacuum Pump A2702300165 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump15/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump15/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2702300165",
+            "info": "Reliable vacuum pump for Mercedes vehicles, manufactured by Ixetic.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes C-Class",
+                "Mercedes E-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 16,
+        "name": "Vacuum Pump A2762300165 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump16/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump16/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2762300165",
+            "info": "Ixetic vacuum pump for Mercedes vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes S-Class",
+                "Mercedes GLE"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    }
+]

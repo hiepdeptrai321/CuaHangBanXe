@@ -4,14 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DanhSachSanPham</title>
-    <link rel="icon" type="image/png" href="../img/logo.png">
+    <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
-    <script src="../jscode/FormChung.js"></script>
-    <script src="../jscode/DanhSachSanPham.js"></script>
-    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/vietdanhgia.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
 </head>
 
@@ -233,7 +230,7 @@
                     </div>
                 </div>  
                 <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
                         <div class="d-flex align-items-center gap-3 pe-5">
                             <i class="bi bi-check-circle-fill text-success"></i>
                             <span><strong>Worldwide</strong>, delivery</span>
@@ -261,48 +258,48 @@
                     </div>
                 </div>
         </header>
-        <div class="container mt-4">
-            <div class="row">
-                <!-- Sidebar Filters -->
-                <div class="col-md-3">
-                    <div id="filters">
-                    <!-- Manufacturer Filter -->
-                    <h5>Manufacturer</h5>            
-                    <hr>
-                    <!-- Car Brand Filter -->
-                    <h5>Car Brand</h5>
-                    <!-- Add more car brands -->
+        <div class="container">
+            <section class="container my-5">
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                  <h2 class="mb-0">All reviews</h2>
+                  <a href="AddReview.html" class="btn" style="background-color:#0351b6 ;
+                   color: white;">Write review</a>
+                </div>
+                <div class="row">
+                  <div class="col-md-8">
+                    <div class="overflow-auto border rounded p-3 bg-light" style="max-height: 660px;">
+                      <div id="reviewList" class="row g-4" style="scroll-behavior: smooth;"></div>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="row">
+                        <img src="../img/star5.png" alt="">
+                    </div>
+                    <div class="row">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title">Rating rate</h5>
+                        <table class="table table-sm">
+                          <thead>
+                            <tr>
+                              <th>Start</th>
+                              <th>Progress bar</th>
+                              <th>
+                                Percent</th>
+                            </tr>
+                          </thead>
+                          <tbody id="ratingSummaryBody">
+                           
+                          </tbody>
+                        </table>
+                      </div>
                     </div>
                 </div>
-          
-              <!-- Product Grid -->
-              <div class="col-md-9">
-                <div class="d-flex justify-content-between mb-3">
-                  <div>
-                    <label for="sortSelect" class="form-label me-2">Sort by:</label>
-                    <select class="form-select d-inline w-auto" id="sortSelect">
-                      <option>Product Name</option>
-                      <option>Price (Low to High)</option>
-                      <option>Price (High to Low)</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label for="showCount" class="form-label me-2">Show:</label>
-                    <select class="form-select d-inline w-auto" id="showCount">
-                      <option>12</option>
-                      <option>24</option>
-                      <option selected>36</option>
-                    </select>
-                  </div>
                 </div>
-          
-                <div class="row" id="product-list">
-                  <!-- Product Cards will be injected here using JS -->
-                </div>
-              </div>
             </div>
-        </div>       
-        <footer> <!-- phần footerfooter cho mọi trang-->
+              </section>
+        </div>
+        <footer> 
             <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
                 <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
 
@@ -399,5 +396,77 @@
         </footer>
     </div>
 </body>
+<script>
+    // Lấy dữ liệu
+    const reviews = JSON.parse(localStorage.getItem("reviews") || "[]");
+    
+    //tỷ lệ đánh giá
+    const ratingCounts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
+    reviews.forEach(review => {
+      ratingCounts[review.rating] += 1;
+    });
+    const totalReviews = reviews.length;
+    const ratingSummaryBody = document.getElementById("ratingSummaryBody");
+    for (let i = 5; i >= 1; i--) {
+      const count = ratingCounts[i];
+      const percentage = totalReviews > 0 ? Math.round((count / totalReviews) * 100) : 0;
+      ratingSummaryBody.innerHTML += `
+  <tr>
+    <td>
+      <button class="btn btn-outline-warning filter-btn" data-rating="${i}">${i} ★</button>
+    </td>
+    <td>
+      <div class="progress" style="height: 8px;">
+        <div class="progress-bar bg-warning" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </td>
+    <td>${percentage}%</td>
+  </tr>
+`;
+
+    }
+
+    // Hiển thị danh sách đánh giá
+const reviewList = document.getElementById("reviewList");
+
+function renderReviews(filterRating = null) {
+  reviewList.innerHTML = "";
+  reviews.forEach(review => {
+    if (filterRating === null || review.rating === filterRating) {
+      const col = document.createElement("div");
+      col.className = "col-md-12";
+      const imageSrc = `../img/star-${review.rating}.png`;
+      col.innerHTML = `
+        <div class="card h-100 shadow-sm d-flex flex-row align-items-start mb-3">
+          <img src="${imageSrc}" alt="Rating ${review.rating}" style="width: 100px;" class="p-3" />
+          <div class="card-body">
+            <h5 class="card-title">${review.title}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">by ${review.name}</h6>
+            <p class="card-text">${review.content}</p>
+            <p class="card-text text-warning fs-5">${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</p>
+            <p class="card-text"><small class="text-${review.recommend === 'Yes' ? 'success' : 'danger'}">Like: ${review.recommend}</small></p>
+            <p class="card-text"><small class="text-muted">${review.date}</small></p>
+          </div>
+        </div>
+      `;
+      reviewList.appendChild(col);
+    }
+  });
+}
+
+renderReviews();
+
+// Bắt sự kiện các nút lọc
+document.querySelectorAll(".filter-btn").forEach(button => {
+  button.addEventListener("click", () => {
+    const rating = parseInt(button.getAttribute("data-rating"));
+    renderReviews(rating);
+  });
+});
+
+document.getElementById("showAll").addEventListener("click", () => {
+  renderReviews();
+});
+  </script>
 
 </html>
