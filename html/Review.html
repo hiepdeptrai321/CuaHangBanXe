@@ -1,472 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <script src="../js/bootstrap.js"></script>
-    <script src="../js/Jquery.js"></script>
-    <link rel="stylesheet" href="../css/vietdanhgia.css">
-    <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <script src="../js/bootstrap.js"></script>
+        <script src="../js/Jquery.js"></script>
+        <link rel="stylesheet" href="../css/vietdanhgia.css">
+        <link rel="stylesheet"
+            href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    </head>
 
-<body>
+    <body>
 
-    <div>
-        <header class="pageheader"><!-- phần Header cho mọi trang-->
-            <div class="container-fluid px-0">
+        <div>
+            <header class="pageheader"><!-- phần Header cho mọi trang-->
+                <div class="container-fluid px-0">
 
-                <div class="fullscreen">
-                    <div class="container d-flex align-items-center justify-content-between">
-                        <div class="d-flex align-items-center">
-                            <nav class="navtop d-flex align-items-center">
-                                <img src="../img/5star.png" alt style="width: 100px;">
-                                <span class="ps-2 pe-2"><b>9.3</b> based on <b>675 reviews.</b></span>
-                                <a href="" class="link">See all reviews</a>
-                            </nav>
-                        </div>
-                        <div class="">
-                            <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
-                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
-                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
-                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container d-flex align-items-center justify-content-between py-2">
-                    <div class="d-flex align-items-center ms-0">
-                        <a href="../html/TrangChu.html">
-                            <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
-                         </a>
-                    </div>
-
-                    <div class="flex-grow-1 px-4">
-                        <div class="search-box position-relative">
-                            <input type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
-                                style="background-color: #f5f7fa; height: 50px;">
-                            <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
+                    <div class="fullscreen">
+                        <div
+                            class="container d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <nav class="navtop d-flex align-items-center">
+                                    <img src="../img/5star.png" alt
+                                        style="width: 100px;">
+                                    <span class="ps-2 pe-2"><b>9.3</b> based on
+                                        <b>675 reviews.</b></span>
+                                        <a href="../html/Review.html" class="link">See all reviews</a>
+                                </nav>
+                            </div>
+                            <div class>
+                                <ul
+                                    class="navsignin d-flex gap-3 list-unstyled mb-0">
+                                    <li><a href="../html/DangNhap.html">SIGN
+                                            IN</a></li>
+                                    <li><a href="../html/LienHe.html">CONTACT
+                                            US</a></li>
+                                    <li><a href="../html/DangKy.html">CREATE AN
+                                            ACCOUNT</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="position-relative">
-                        <a href class="position-relative text-dark text-decoration-none">
-                            <i class="bi bi-bag" style="font-size: 24px;"></i>
-                            <span
-                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
-                                style="font-size: 0.7rem;">
-                                0
-                            </span>
-                        </a>
-                    </div>
-                </div>
+                    <div
+                        class="container d-flex align-items-center justify-content-between py-2">
+                        <div class="d-flex align-items-center ms-0">
+                            <a href="../html/TrangChu.html">
+                                <img id="mainlogo" src="../img/logo.png"
+                                    alt="Logo" style="height: 90px;">
+                            </a>
+                        </div>
 
-                <div style="background-color: #0351b6;">
-                    <div class="main-nav text-white">
-                        <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Air Condition / Heating</a>
-                                    <div class="dropdown-content">
-                                        <a href="" data-value="Air Conditioning Compressor">Air Conditioning Compressor</a>
-                                        <a href="">Climate Control</a>
-                                        <a href="">Air Filter</a>
-                                        <a href="">Heater</a>
-                                        <a href="">Condenser</a>
+                        <div class="flex-grow-1 px-4">
+                            <div class="search-box position-relative">
+                                <input type="text"
+                                    class="form-control rounded-pill ps-4 pe-5"
+                                    placeholder="Search"
+                                    style="background-color: #f5f7fa; height: 50px;">
+                                <i
+                                    class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
+                            </div>
+                        </div>
+
+                        <div class="position-relative">
+                            <a href
+                                class="position-relative text-dark text-decoration-none">
+                                <i class="bi bi-bag"
+                                    style="font-size: 24px;"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                                    style="font-size: 0.7rem;">
+                                    0
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div style="background-color: #0351b6;">
+                        <div class="main-nav text-white">
+                            <div
+                                class="container d-flex justify-content-start flex-wrap"
+                                style="gap: 40px;">
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Air
+                                            Condition / Heating</a>
+                                        <div class="dropdown-content">
+                                            <a href
+                                                data-value="Air Conditioning Compressor">Air
+                                                Conditioning Compressor</a>
+                                            <a href>Climate Control</a>
+                                            <a href>Air Filter</a>
+                                            <a href>Heater</a>
+                                            <a href>Condenser</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Brake System</a>
-                                    <div class="dropdown-content" style="left: -220px;">
-                                        <a href="" data-value="Vacuumpump">Vacuumpump</a>
-                                        <a href="">Brake Shoe</a>
-                                        <a href="">Brake Drum</a>
-                                        <a href="">Brake Wheel Cylinder</a>
-                                        <a href="">Brake Disc</a>
-                                        <a href="">Brake Hoses</a>
-                                        <a href="">Brake Master Cylinder</a>
-                                        <a href="">Brake Caliper</a>
-                                        <a href="">Hand Brake Handle</a>
-                                        <a href="">Parking Brake Cables</a>
-                                        <a href="">Brake Pad</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Brake
+                                            System</a>
+                                        <div class="dropdown-content"
+                                            style="left: -220px;">
+                                            <a href
+                                                data-value="Vacuumpump">Vacuumpump</a>
+                                            <a href>Brake Shoe</a>
+                                            <a href>Brake Drum</a>
+                                            <a href>Brake Wheel Cylinder</a>
+                                            <a href>Brake Disc</a>
+                                            <a href>Brake Hoses</a>
+                                            <a href>Brake Master Cylinder</a>
+                                            <a href>Brake Caliper</a>
+                                            <a href>Hand Brake Handle</a>
+                                            <a href>Parking Brake Cables</a>
+                                            <a href>Brake Pad</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Body Parts</a>
-                                    <div class="dropdown-content" style="left: -380px;">
-                                        <a href="" data-value="Door Handle">Door Handle</a>
-                                        <a href="">Mirror</a>
-                                        <a href="">Plastic Body Parts</a>
-                                        <a href="">Wheelhouse Inner Fender</a>
-                                        <a href="">Wipers</a>
-                                        <a href="">Bumper</a>
-                                        <a href="">Windows</a>
-                                        <a href="">Door</a>
-                                        <a href="">Fender Flasher</a>
-                                        <a href="">Wheel</a>
-                                        <a href="">Lighting</a>
-                                        <a href="">Washer Pump</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Body
+                                            Parts</a>
+                                        <div class="dropdown-content"
+                                            style="left: -380px;">
+                                            <a href
+                                                data-value="Door Handle">Door
+                                                Handle</a>
+                                            <a href>Mirror</a>
+                                            <a href>Plastic Body Parts</a>
+                                            <a href>Wheelhouse Inner Fender</a>
+                                            <a href>Wipers</a>
+                                            <a href>Bumper</a>
+                                            <a href>Windows</a>
+                                            <a href>Door</a>
+                                            <a href>Fender Flasher</a>
+                                            <a href>Wheel</a>
+                                            <a href>Lighting</a>
+                                            <a href>Washer Pump</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Cooling System</a>
-                                    <div class="dropdown-content" style="left: -518px;">
-                                        <a href="">Radiator</a>
-                                        <a href="">Expansion Tanks</a>
-                                        <a href="">Cooling Fan Housing</a>
-                                        <a href="">Cooling Fan Blades</a>
-                                        <a href="">Cooling Fan And Motor Assy</a>
-                                        <a href="">Antifreeze Coolant</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Cooling
+                                            System</a>
+                                        <div class="dropdown-content"
+                                            style="left: -518px;">
+                                            <a href>Radiator</a>
+                                            <a href>Expansion Tanks</a>
+                                            <a href>Cooling Fan Housing</a>
+                                            <a href>Cooling Fan Blades</a>
+                                            <a href>Cooling Fan And Motor
+                                                Assy</a>
+                                            <a href>Antifreeze Coolant</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Drive Line</a>
-                                    <div class="dropdown-content" style="left: -690px;">
-                                        <a href="">Drive line</a>
-                                        <a href="">Driveshaft</a>
-                                        <a href="">Differential</a>
-                                        <a href="">Hub</a>
-                                        <a href="">Gearbox</a>
-                                        <a href="">Flywheel & Clutch </a>
-                                        <a href="">Shock</a>
-                                        <a href="">Universal Joint</a>
-                                        <a href="">Axle</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Drive
+                                            Line</a>
+                                        <div class="dropdown-content"
+                                            style="left: -690px;">
+                                            <a href>Drive line</a>
+                                            <a href>Driveshaft</a>
+                                            <a href>Differential</a>
+                                            <a href>Hub</a>
+                                            <a href>Gearbox</a>
+                                            <a href>Flywheel & Clutch </a>
+                                            <a href>Shock</a>
+                                            <a href>Universal Joint</a>
+                                            <a href>Axle</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Engine</a>
-                                    <div class="dropdown-content" style="left: -822px;">
-                                        <a href="">Turbo's / Superchanrgers</a>
-                                        <a href="">Cylinder Head</a>
-                                        <a href="">Oil Seperator</a>
-                                        <a href="">Connectiong Rod</a>
-                                        <a href="">Crank And Crankshaft Gears</a>
-                                        <a href="">Camshaft</a>
-                                        <a href="">Thermostat</a>
-                                        <a href="">Engine Oil Indicator</a>
-                                        <a href="">Hoses And Pipes </a>
-                                        <a href="">Water Pump</a>
-                                        <a href="">Oil Pump</a>
-                                        <a href="">Thermostat Housing</a>
-                                        <a href="">TenSioner Pully</a>
-                                        <a href="">Oil Filter</a>
-                                        <a href="">Oil Pan</a>
-                                        <a href="">Oil Cooler Housing</a>
-                                        <a href="">Timing Chain Gasket</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Engine</a>
+                                        <div class="dropdown-content"
+                                            style="left: -822px;">
+                                            <a href>Turbo's / Superchanrgers</a>
+                                            <a href>Cylinder Head</a>
+                                            <a href>Oil Seperator</a>
+                                            <a href>Connectiong Rod</a>
+                                            <a href>Crank And Crankshaft
+                                                Gears</a>
+                                            <a href>Camshaft</a>
+                                            <a href>Thermostat</a>
+                                            <a href>Engine Oil Indicator</a>
+                                            <a href>Hoses And Pipes </a>
+                                            <a href>Water Pump</a>
+                                            <a href>Oil Pump</a>
+                                            <a href>Thermostat Housing</a>
+                                            <a href>TenSioner Pully</a>
+                                            <a href>Oil Filter</a>
+                                            <a href>Oil Pan</a>
+                                            <a href>Oil Cooler Housing</a>
+                                            <a href>Timing Chain Gasket</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown" >
-                                <div>
-                                    <a href="#" class="dropbtn">Fuel Parts</a>
-                                    <div class="dropdown-content" style="left: -931px;">
-                                        <a href="">Sensor Air Mass</a>
-                                        <a href="">Glowplugs</a>
-                                        <a href="">Fuel Pump</a>
-                                        <a href="">Heater Valves</a>
-                                        <a href="">Air Hoses - Couplings</a>
-                                        <a href="">Timing Chain Guides</a>
-                                        <a href="">Crankshaft Pilley</a>
-                                        <a href="">IAC Valves</a>
-                                        <a href="">EGR Valve</a>
-                                        <a href="">Oilfilterhousings</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Fuel
+                                            Parts</a>
+                                        <div class="dropdown-content"
+                                            style="left: -931px;">
+                                            <a href>Sensor Air Mass</a>
+                                            <a href>Glowplugs</a>
+                                            <a href>Fuel Pump</a>
+                                            <a href>Heater Valves</a>
+                                            <a href>Air Hoses - Couplings</a>
+                                            <a href>Timing Chain Guides</a>
+                                            <a href>Crankshaft Pilley</a>
+                                            <a href>IAC Valves</a>
+                                            <a href>EGR Valve</a>
+                                            <a href>Oilfilterhousings</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Steering</a>
-                                    <div class="dropdown-content" style="left: -1064px;">
-                                        <a href="">Steering - SuspenSion Parts</a>
-                                        <a href="">Steering Rack Repair Set</a>
-                                        <a href="">Steering Racks</a>
-                                        <a href="">Steering Joints</a>
-                                        <a href="">Steering Knuckles</a>
-                                        <a href="">Steeringpump</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Steering</a>
+                                        <div class="dropdown-content"
+                                            style="left: -1064px;">
+                                            <a href>Steering - SuspenSion
+                                                Parts</a>
+                                            <a href>Steering Rack Repair Set</a>
+                                            <a href>Steering Racks</a>
+                                            <a href>Steering Joints</a>
+                                            <a href>Steering Knuckles</a>
+                                            <a href>Steeringpump</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-    
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Other</a>
-                                    <div class="dropdown-content" style="left: -1184px;">
-                                        <a href="">Accessories</a>
-                                        <a href="">Boot Kits</a>
-                                        <a href="">Clips</a>
-                                        <a href="">Fuel -Oil Caps</a>
-                                        <a href="">Clamps</a>
-                                        <a href="">Acceleration Cables</a>
-                                        <a href="">Car Computer Box Cover</a>
-                                        <a href="">Floor Mats</a>
-                                        <a href="">Oil Seat Furnishing</a>
-                                        <a href="">Hood Opening Cables</a>
-                                        <a href="">Signal Switch</a>
+
+                                <div class="dropdown">
+                                    <div>
+                                        <a href="#" class="dropbtn">Other</a>
+                                        <div class="dropdown-content"
+                                            style="left: -1184px;">
+                                            <a href>Accessories</a>
+                                            <a href>Boot Kits</a>
+                                            <a href>Clips</a>
+                                            <a href>Fuel -Oil Caps</a>
+                                            <a href>Clamps</a>
+                                            <a href>Acceleration Cables</a>
+                                            <a href>Car Computer Box Cover</a>
+                                            <a href>Floor Mats</a>
+                                            <a href>Oil Seat Furnishing</a>
+                                            <a href>Hood Opening Cables</a>
+                                            <a href>Signal Switch</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>  
-                <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Worldwide</strong>, delivery</span>
-                        </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Lowest</strong> prices</span>
-                        </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Fast</strong> shipping</span>
-                        </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Original</strong> <strong>Parts</strong></span>
-                        </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span>Safe and <strong>easy</strong></span>
-                        </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Large stock</strong>, available</span>
+                    <div class="benefits-bar py-3">
+                        <div
+                            class="container d-flex justify-content-start flex-wrap text-secondary">
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Worldwide</strong>,
+                                    delivery</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Lowest</strong> prices</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Fast</strong> shipping</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Original</strong>
+                                    <strong>Parts</strong></span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span>Safe and <strong>easy</strong></span>
+                            </div>
+                            <div class="d-flex align-items-center gap-3 pe-5">
+                                <i
+                                    class="bi bi-check-circle-fill text-success"></i>
+                                <span><strong>Large stock</strong>,
+                                    available</span>
+                            </div>
                         </div>
                     </div>
-                </div>
-        </header>
-        <div class="container">
-            <section class="container my-5">
-                <div class="d-flex justify-content-between align-items-center mb-4">
-                  <h2 class="mb-0">All reviews</h2>
-                  <a href="AddReview.html" class="btn" style="background-color:#0351b6 ;
+                </header>
+                <div class="container">
+                    <section class="container my-5">
+                        <div
+                            class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="mb-0">All reviews</h2>
+                            <a href="AddReview.html" class="btn"
+                                style="background-color:#0351b6 ;
                    color: white;">Write review</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div
+                                    class="overflow-auto border rounded p-3 bg-light"
+                                    style="max-height: 660px;">
+                                    <div id="reviewList" class="row g-4"
+                                        style="scroll-behavior: smooth;"></div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="row">
+                                    <img src="../img/star5.png" alt>
+                                </div>
+                                <div class="row">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Rating
+                                                rate</h5>
+                                            <table class="table table-sm">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Start</th>
+                                                        <th>Progress bar</th>
+                                                        <th>
+                                                            Percent</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody id="ratingSummaryBody">
+
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-                <div class="row">
-                  <div class="col-md-8">
-                    <div class="overflow-auto border rounded p-3 bg-light" style="max-height: 660px;">
-                      <div id="reviewList" class="row g-4" style="scroll-behavior: smooth;"></div>
-                    </div>
-                  </div>
-                  <div class="col-4">
-                    <div class="row">
-                        <img src="../img/star5.png" alt="">
-                    </div>
-                    <div class="row">
-                    <div class="card">
-                      <div class="card-body">
-                        <h5 class="card-title">Rating rate</h5>
-                        <table class="table table-sm">
-                          <thead>
-                            <tr>
-                              <th>Start</th>
-                              <th>Progress bar</th>
-                              <th>
-                                Percent</th>
-                            </tr>
-                          </thead>
-                          <tbody id="ratingSummaryBody">
-                           
-                          </tbody>
-                        </table>
-                      </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-              </section>
-        </div>
-        <footer> 
-            <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
-                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
+                <footer>
+                    <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
+                        <div
+                            class="row container m-auto align-items-center justify-content-between"
+                            style="padding: 30px;">
 
-                    <div class="col-3"> <!-- logo trái -->
-                        <img src="../img/logo.png" alt="" style="width: 200px;">
-                    </div>
-
-                    <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
-                        <h1 style="font-weight: bold;">Call or email us</h1>
-                        <p style="font-size: 14px;">
-                            We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
-                            Sat - Sun: closed
-                        </p>
-                    </div>
-
-                    <div class="col-4"> <!-- card phải -->
-                        <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
-                            <img src="../img/Kiyoh.png" alt="" class="position-absolute"
-                                style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
-
-                            <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
-                                <h1 class="text-end text-light fs-3">KiyOh</h1>
+                            <div class="col-3"> <!-- logo trái -->
+                                <img src="../img/logo.png" alt
+                                    style="width: 200px;">
                             </div>
 
-                            <div class="card-body"> <!-- body -->
-                                <div class="row cardFooter">
-                                    <div class="col-9 ">
-                                        <h3 class="fw-bold">MPR Parts BV</h3>
+                            <div class="col-5" style="max-width: 400px;">
+                                <!-- giữa -->
+                                <h1 style="font-weight: bold;">Call or email
+                                    us</h1>
+                                <p style="font-size: 14px;">
+                                    We're available to help by e-mail phone or
+                                    live chat Mon - Fri between: 8:30 and 15:30
+                                    (CET)
+                                    Sat - Sun: closed
+                                </p>
+                            </div>
+
+                            <div class="col-4"> <!-- card phải -->
+                                <div class="card border-radius"
+                                    style="border-radius: 10px; overflow: hidden;">
+                                    <img src="../img/Kiyoh.png" alt
+                                        class="position-absolute"
+                                        style="width: 80px; top: 45px; left:30px;">
+                                    <!-- Hình trái -->
+
+                                    <div class="card-header"
+                                        style="background-color: rgb(67, 68, 68);">
+                                        <!-- header -->
+                                        <h1
+                                            class="text-end text-light fs-3">KiyOh</h1>
                                     </div>
-                                    <div class="col-3">
-                                        <img src="../img/5star.png" alt="" style="width: 60px;">
+
+                                    <div class="card-body"> <!-- body -->
+                                        <div class="row cardFooter">
+                                            <div class="col-9 ">
+                                                <h3 class="fw-bold">MPR Parts
+                                                    BV</h3>
+                                            </div>
+                                            <div class="col-3">
+                                                <img src="../img/5star.png" alt
+                                                    style="width: 60px;">
+                                            </div>
+                                            <p class="text-end">
+                                                Reviewed with a score of
+                                                <span>9.3 / 10</span> based <br>
+                                                on <span>675 reviews</span>
+                                            </p>
+                                            <a href
+                                                class="text-end text-decoration-none"
+                                                style="color: rgb(112, 114, 114);">See
+                                                all reviews</a>
+                                        </div>
                                     </div>
-                                    <p class="text-end">
-                                        Reviewed with a score of <span>9.3 / 10</span> based <br>
-                                        on <span>675 reviews</span>
-                                    </p>
-                                    <a href="" class="text-end text-decoration-none"
-                                        style="color: rgb(112, 114, 114);">See all reviews</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
-                <div class="col-3">
-                    <h3>Customer service</h3>
-                    <a href="">About us</a><br>
-                    <a href="">General terms & conditions</a><br>
-                    <a href="">Disclaimer</a><br>
-                    <a href="">Privacy Policy</a><br>
-                    <a href="">Customer service</a><br>
-                    <a href="">Sitemap</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Account</h3>
-                    <a href="">My Account</a><br>
-                    <a href="">Payment Methods</a><br>
-                    <a href="">Shipping Guide</a><br>
-                    <a href="">FAQs</a><br>
-                    <a href="">Product Support</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Categories</h3>
-                    <a href="">Alternator</a><br>
-                    <a href="">Starters</a><br>
-                    <a href="">Air conditioning compressor</a><br>
-                    <a href="">Clutch assembly parts</a><br>
-                    <a href="">Engine</a><br>
-                    <a href="">EGR Valve</a><br>
-                    <a href="">All categories</a><br>
-                </div>
-                <div class="col-3">
-                    <h3>Contact</h3>
-                    <div class="contact-info">
-                        <p><span>MPR Parts B.V.</span></p>
-                        <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The Netherlands</p>
-                        <p>Tel: +31 77-3071580</p>
-                        <p>Email: info@carparts-onlineshop.com</p>
-                        <p><span>BTW-nummer:</span> NL8555.58.180.B.01</p>
-                        <p><span>KVK-nummer:</span> 64186369</p>
-                        <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+                    <div class="row container p-sm-3 m-auto FooterRow2">
+                        <!-- các link và contact -->
+                        <div class="col-3">
+                            <h3>Customer service</h3>
+                            <a href>About us</a><br>
+                            <a href>General terms & conditions</a><br>
+                            <a href>Disclaimer</a><br>
+                            <a href>Privacy Policy</a><br>
+                            <a href>Customer service</a><br>
+                            <a href>Sitemap</a><br>
+                        </div>
+                        <div class="col-3">
+                            <h3>Account</h3>
+                            <a href>My Account</a><br>
+                            <a href>Payment Methods</a><br>
+                            <a href>Shipping Guide</a><br>
+                            <a href>FAQs</a><br>
+                            <a href>Product Support</a><br>
+                        </div>
+                        <div class="col-3">
+                            <h3>Categories</h3>
+                            <a href>Alternator</a><br>
+                            <a href>Starters</a><br>
+                            <a href>Air conditioning compressor</a><br>
+                            <a href>Clutch assembly parts</a><br>
+                            <a href>Engine</a><br>
+                            <a href>EGR Valve</a><br>
+                            <a href>All categories</a><br>
+                        </div>
+                        <div class="col-3">
+                            <h3>Contact</h3>
+                            <div class="contact-info">
+                                <p><span>MPR Parts B.V.</span></p>
+                                <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The
+                                    Netherlands</p>
+                                <p>Tel: +31 77-3071580</p>
+                                <p>Email: info@carparts-onlineshop.com</p>
+                                <p><span>BTW-nummer:</span>
+                                    NL8555.58.180.B.01</p>
+                                <p><span>KVK-nummer:</span> 64186369</p>
+                                <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div style="border-top: 1px solid #dadada;">
+                        <div class="container" style="color: #8c8c8d;">
+                            <p>
+                                © Carparts-onlineshop. 2020. All Rights Reserved
+                            </p>
+                        </div>
+                    </div>
+                </footer>
             </div>
-            <div style="border-top: 1px solid #dadada;">
-                <div class="container" style="color: #8c8c8d;">
-                    <p>
-                        © Carparts-onlineshop. 2020. All Rights Reserved
-                    </p>
+        </body>
+    <script>
+        // Lấy dữ liệu
+        const reviews = JSON.parse(localStorage.getItem("reviews") || "[]");
+        
+        //tỷ lệ đánh giá
+        const ratingCounts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
+        reviews.forEach(review => {
+        ratingCounts[review.rating] += 1;
+        });
+        const totalReviews = reviews.length;
+        const ratingSummaryBody = document.getElementById("ratingSummaryBody");
+        for (let i = 5; i >= 1; i--) {
+        const count = ratingCounts[i];
+        const percentage = totalReviews > 0 ? Math.round((count / totalReviews) * 100) : 0;
+        ratingSummaryBody.innerHTML += `
+            <tr>
+                <td>
+                <button class="btn btn-outline-warning filter-btn" data-rating="${i}">${i} ★</button>
+                </td>
+                <td>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-            </div>
-        </footer>
-    </div>
-</body>
-<script>
-    // Lấy dữ liệu
-    const reviews = JSON.parse(localStorage.getItem("reviews") || "[]");
-    
-    //tỷ lệ đánh giá
-    const ratingCounts = {1: 0, 2: 0, 3: 0, 4: 0, 5: 0};
-    reviews.forEach(review => {
-      ratingCounts[review.rating] += 1;
-    });
-    const totalReviews = reviews.length;
-    const ratingSummaryBody = document.getElementById("ratingSummaryBody");
-    for (let i = 5; i >= 1; i--) {
-      const count = ratingCounts[i];
-      const percentage = totalReviews > 0 ? Math.round((count / totalReviews) * 100) : 0;
-      ratingSummaryBody.innerHTML += `
-  <tr>
-    <td>
-      <button class="btn btn-outline-warning filter-btn" data-rating="${i}">${i} ★</button>
-    </td>
-    <td>
-      <div class="progress" style="height: 8px;">
-        <div class="progress-bar bg-warning" role="progressbar" style="width: ${percentage}%" aria-valuenow="${percentage}" aria-valuemin="0" aria-valuemax="100"></div>
-      </div>
-    </td>
-    <td>${percentage}%</td>
-  </tr>
-`;
+                </td>
+                <td>${percentage}%</td>
+            </tr>
+            `;
 
-    }
+        }
 
-    // Hiển thị danh sách đánh giá
-const reviewList = document.getElementById("reviewList");
+        // Hiển thị danh sách đánh giá
+        const reviewList = document.getElementById("reviewList");
 
-function renderReviews(filterRating = null) {
-  reviewList.innerHTML = "";
-  reviews.forEach(review => {
-    if (filterRating === null || review.rating === filterRating) {
-      const col = document.createElement("div");
-      col.className = "col-md-12";
-      const imageSrc = `../img/star-${review.rating}.png`;
-      col.innerHTML = `
-        <div class="card h-100 shadow-sm d-flex flex-row align-items-start mb-3">
-          <img src="${imageSrc}" alt="Rating ${review.rating}" style="width: 100px;" class="p-3" />
-          <div class="card-body">
-            <h5 class="card-title">${review.title}</h5>
-            <h6 class="card-subtitle mb-2 text-muted">by ${review.name}</h6>
-            <p class="card-text">${review.content}</p>
-            <p class="card-text text-warning fs-5">${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</p>
-            <p class="card-text"><small class="text-${review.recommend === 'Yes' ? 'success' : 'danger'}">Like: ${review.recommend}</small></p>
-            <p class="card-text"><small class="text-muted">${review.date}</small></p>
-          </div>
-        </div>
-      `;
-      reviewList.appendChild(col);
-    }
-  });
-}
+        function renderReviews(filterRating = null) {
+        reviewList.innerHTML = "";
+        reviews.forEach(review => {
+            if (filterRating === null || review.rating === filterRating) {
+            const col = document.createElement("div");
+            col.className = "col-md-12";
+            const imageSrc = `../img/star-${review.rating}.png`;
+            col.innerHTML = `
+                <div class="card h-100 shadow-sm d-flex flex-row align-items-start mb-3">
+                <img src="${imageSrc}" alt="Rating ${review.rating}" style="width: 100px;" class="p-3" />
+                <div class="card-body">
+                    <h5 class="card-title">${review.title}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">by ${review.name}</h6>
+                    <p class="card-text">${review.content}</p>
+                    <p class="card-text text-warning fs-5">${'★'.repeat(review.rating)}${'☆'.repeat(5 - review.rating)}</p>
+                    <p class="card-text"><small class="text-${review.recommend === 'Yes' ? 'success' : 'danger'}">Like: ${review.recommend}</small></p>
+                    <p class="card-text"><small class="text-muted">${review.date}</small></p>
+                </div>
+                </div>
+            `;
+            reviewList.appendChild(col);
+            }
+        });
+        }
 
-renderReviews();
+        renderReviews();
 
-// Bắt sự kiện các nút lọc
-document.querySelectorAll(".filter-btn").forEach(button => {
-  button.addEventListener("click", () => {
-    const rating = parseInt(button.getAttribute("data-rating"));
-    renderReviews(rating);
-  });
-});
+        // Bắt sự kiện các nút lọc
+        document.querySelectorAll(".filter-btn").forEach(button => {
+        button.addEventListener("click", () => {
+            const rating = parseInt(button.getAttribute("data-rating"));
+            renderReviews(rating);
+        });
+        });
 
-document.getElementById("showAll").addEventListener("click", () => {
-  renderReviews();
-});
+        document.getElementById("showAll").addEventListener("click", () => {
+        renderReviews();
+        });
   </script>
-
 </html>
