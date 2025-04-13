@@ -276,7 +276,7 @@
                         <div>
                             <h1>WORLD WIDE SHIPPING</h1>
                             <P>of our car parts</P>
-                            <button type="button" class="ms-5">VIEW PRODUCTS</button>
+                            <button type="button" id="viewProductsBtn" class="ms-5">VIEW PRODUCTS</button>
                         </div>
                     </div>
                     <div class="col-4 homeMainRow1R"> <!-- 2 hình nhỏ bên phải -->
@@ -399,52 +399,67 @@
                         <ul class="product-list">
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
-                                </div>
+                                    <a href="#"><img src="../img/controlu2.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2229002305<br>Mercedes 28401022<br>Delphi</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€123.96</span></span>
+                                    </div>
+                                </div> 
                             </li>
+                            
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlunit 1.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2219008101<br>Mercedes</p>
+                                    <div class="price-info">
+                                        <span class="price ">€249.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€206.60</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlua2.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2219008101<br>Mercedes</p>
+                                    <div class="price-info">
+                                        <span class="price ">€249.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span>
+                                            <span class="pricetax">€206.60</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlu4.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A0009000305<br>Mercedes<br>A2C7433150000<br>Continental</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted "> 
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€123.96</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controluu5.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A1979006700<br>Mercedes 28390045<br>Delphi</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span>
+                                            <span class="pricetax">€123.96</span>
+                                        </span>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -605,6 +620,33 @@
                 768: { items: 4 },
                 1200: { items: 6 }
             }
+        });
+
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+        if (loggedInUser) {
+            // cập nhật giao diện
+            $('.navsignin').html(`
+            <li>Welcome, ${loggedInUser.firstName} ${loggedInUser.lastName}</li>
+            <li><a href="../html/LienHe.html">CONTACT US</a></li>
+            <li><a href="#" id="logoutBtn">Log Out</a></li>
+            `);
+
+            $('#logoutBtn').on('click', function () {
+            localStorage.removeItem('loggedInUser'); 
+            alert('You have logged out.');
+            location.reload(); 
+            });
+        } else {
+            // chưa đăng nhập
+            $('.navsignin').html(`
+            <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+            <li><a href="../html/LienHe.html">CONTACT US</a></li>
+            <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+            `);
+        }
+        $('#viewProductsBtn').on('click', function () {
+             window.location.href = 'ViewProducts.html'; 
         });
     });
 </script>

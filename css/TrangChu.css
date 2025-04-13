@@ -327,3 +327,26 @@
 .FooterRow2 span {
     color: rgb(0, 0, 0);
 }
+.price-info {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#000000
+}
+
+.tax {
+    font-size: 0.9rem;
+    color: #6c757d; 
+}
+.pricetax{
+    font-size: 1.2rem;
+    color: #000000;
+}
+.no-select {
+    user-select: none; 
+}

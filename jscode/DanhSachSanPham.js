@@ -58,4 +58,5 @@ $(document).ready(function() {
           $(this).find('.card-img-container img').css('transform', 'translateY(0)');
         });
     });
+    
 });
