@@ -1,31 +1,35 @@
 function renderProducts(productArray) {
     const container = $("#product-list");
-    container.empty();
-    productArray.forEach(product => {
-      container.append(`
-            <div class="col-md-4 mb-4 d-flex justify-content-center">
-                <div class="card product-card" data-id="${product.id}" style="width: 300px; height: 450px; display: flex; flex-direction: column; cursor: pointer;">
-                    <div class="card-img-container" style="height: 300px; display: flex; align-items: center; justify-content: center;">
-                    <img src="${(product.image && product.image.length) ? product.image[0] : '../img/placeholder.jpg'}" 
-                        class="card-img-top" alt="${product.name}" 
-                        style="max-height: 100%; object-fit: cover; transition: transform 0.3s;">
-                    </div>
-                    <div class="card-body" style="height: 150px; display: flex; flex-direction: column; justify-content: space-between;">
-                    <h6 class="card-title" style="height: 40px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${product.name}</h6>
-                    <div>
-                        <div class="card-text fw-bold" style="height: 30px; font-size:20px">€${product.price.toFixed(2)}</div>
-                        <div class="text-muted" style="height: 20px;">Excl. Tax: €${product.tax.toFixed(2)}</div>
-                    </div>
+    container.fadeOut(200, function () {
+        container.empty(); 
+        productArray.forEach(product => {
+            container.append(`
+                <div class="col-md-4 mb-4 d-flex justify-content-center">
+                    <div class="card product-card" data-id="${product.id}" style="width: 300px; height: 450px; display: flex; flex-direction: column; cursor: pointer;">
+                        <div class="card-img-container" style="height: 300px; display: flex; align-items: center; justify-content: center;">
+                            <img src="${(product.image && product.image.length) ? product.image[0] : '../img/placeholder.jpg'}" 
+                                class="card-img-top" alt="${product.name}" 
+                                style="max-height: 100%; object-fit: cover; transition: transform 0.3s;">
+                        </div>
+                        <div class="card-body" style="height: 150px; display: flex; flex-direction: column; justify-content: space-between;">
+                            <h6 class="card-title" style="height: 40px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${product.name}</h6>
+                            <div>
+                                <div class="card-text fw-bold" style="height: 30px; font-size:20px">€${product.price.toFixed(2)}</div>
+                                <div class="text-muted" style="height: 20px;">Excl. Tax: €${product.tax.toFixed(2)}</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-      `);
+            `);
+        });
+        container.fadeIn(200);
     });
 }
   
 $(document).ready(function () {
     let productCategory = localStorage.getItem("selectedCategory");
     const categoryToFileMap = {
+        "All Products": "AllProduct",
         "Air Conditioning Compressor": "Aircondition_Product",
         "Door Handle": "BodyParts_DoorHandle_Product",
         "Vacuumpump": "Vacuumpump_BrakeSystem_Product"
@@ -38,7 +42,26 @@ $(document).ready(function () {
     let currentData = [];
 
     $.getJSON(`../data/${fileName}.json`, function (data) {
-        currentData = data; // Lưu dữ liệu JSON vào biến cục bộ
+        const searchRegexString = localStorage.getItem("searchRegex");
+        if (searchRegexString) {
+            try {
+                // Kiểm tra và chuyển đổi chuỗi regex từ localStorage
+                const regexPattern = searchRegexString.replace(/^\/|\/[a-z]*$/gi, ""); // Loại bỏ dấu `/` ở đầu và cuối
+                const regexFlags = searchRegexString.match(/\/([a-z]*)$/i)?.[1] || "i"; // Lấy cờ regex (mặc định là "i")
+                const searchRegex = new RegExp(regexPattern, regexFlags);
+        
+                // Lọc dữ liệu dựa trên regex
+                currentData = data.filter(product => searchRegex.test(product.name));
+        
+                // Xóa regex khỏi localStorage sau khi sử dụng
+                localStorage.removeItem("searchRegex");
+            } catch (error) {
+                console.error("Lỗi khi xử lý regex:", error);
+                currentData = data; // Nếu regex không hợp lệ, sử dụng toàn bộ dữ liệu
+            }
+        } else {
+            currentData = data; // Nếu không có regex, sử dụng toàn bộ dữ liệu
+        }
 
         // Áp dụng số lượng hiển thị ngay khi dữ liệu được tải
         const initialShowCount = parseInt($("#showCount").val());
@@ -94,7 +117,8 @@ $(document).ready(function () {
     const filterFileMap = {
         "Air Conditioning Compressor": "../data/filter_AirCondition.json",
         "Door Handle": "../data/filter_BodyParts.json",
-        "Vacuumpump": "../data/filter_Vacuumpump.json"
+        "Vacuumpump": "../data/filter_Vacuumpump.json",
+        "All Products": "../data/filter_All.json"
     };
 
     // Gán fileName dựa trên productCategory
@@ -130,6 +154,7 @@ $(document).ready(function () {
                     `);
                 });
             }
+            $("#filters").append(`<button id="clearFiltersBtn" class="btn btn-secondary mt-3">Clear Filters</button>`);
         });
     }
     // Xử lý sự kiện thay đổi bộ lọc
@@ -166,4 +191,17 @@ $(document).ready(function () {
       const limitedProducts = filteredProducts.slice(0, showCount);
       renderProducts(limitedProducts);
   });
+
+     // Xử lý sự kiện click cho nút "Clear Filters"
+     $("#filters").on("click", "#clearFiltersBtn", function () {
+        $("input[name='manufacturer']").prop("checked", false);
+        $("input[name='brand']").prop("checked", false);
+        const showCount = parseInt($("#showCount").val());
+        const limitedProducts = currentData.slice(0, showCount);
+        renderProducts(limitedProducts);
+    });
+    const savedSearchTerm = localStorage.getItem("searchTerm");
+    if (savedSearchTerm) {
+        $("#searchbar").val(savedSearchTerm); // Gán lại giá trị cho thanh tìm kiếm
+    }
 });

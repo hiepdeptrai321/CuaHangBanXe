@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ViewProduct</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
-    <link rel="stylesheet" href="../css/vietdanhgia.css">
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../jscode/FormChung.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
 </head>
-
 <body>
-
     <div>
         <header class="pageheader"><!-- phần Header cho mọi trang-->
             <div class="container-fluid px-0">
@@ -41,7 +45,7 @@
                     <div class="d-flex align-items-center ms-0">
                         <a href="../html/TrangChu.html">
                             <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
-                         </a>
+                        </a>
                     </div>
 
                     <div class="flex-grow-1 px-4">
@@ -67,7 +71,7 @@
                 <div style="background-color: #0351b6;">
                     <div class="main-nav text-white">
                         <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Air Condition / Heating</a>
@@ -80,7 +84,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Brake System</a>
@@ -99,7 +103,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Body Parts</a>
@@ -119,7 +123,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Cooling System</a>
@@ -133,7 +137,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Drive Line</a>
@@ -150,7 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Engine</a>
@@ -175,8 +179,8 @@
                                     </div>
                                 </div>
                             </div>
-    
-                            <div class="dropdown" >
+
+                            <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Fuel Parts</a>
                                     <div class="dropdown-content" style="left: -931px;">
@@ -193,7 +197,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Steering</a>
@@ -207,7 +211,7 @@
                                     </div>
                                 </div>
                             </div>
-    
+
                             <div class="dropdown">
                                 <div>
                                     <a href="#" class="dropbtn">Other</a>
@@ -228,96 +232,134 @@
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+
                 <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Worldwide</strong>, delivery</span>
+                    <div
+                        class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Worldwide</strong>delivery</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Lowest</strong> prices</span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Lowest</strong>prices</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Fast</strong> shipping</span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Fast</strong>shipping</span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Original</strong> <strong>Parts</strong></span>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
+                            <span><strong>Original</strong><strong>Parts</strong></span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
                             <span>Safe and <strong>easy</strong></span>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
+                        <div class="d-flex align-items-center">
+                            <img src="../img/Tick.png" alt="" style="width: 15px;">
                             <span><strong>Large stock</strong>, available</span>
                         </div>
                     </div>
                 </div>
         </header>
-        <div class="container">
-            <section class="container my-5" id="reviews">
-                <h2 class="mb-4">Write a Review
-                    </h2>
-                <h5>Please leave your feedback so that we can optimize our system in the best possible way.</h5>
-            <div class="row">
-                <div class="col-6">
-                <form id="reviewForm" class="mb-5">
-                  <div class="mb-3">
-                    <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="title" class="form-label">Title</label>
-                    <input type="text" class="form-control" id="title" required>
-                  </div>
-                  <div class="mb-3">
-                    <label for="content" class="form-label">Content</label>
-                    <textarea class="form-control" id="content" rows="4" required></textarea>
-                  </div>
-                  <div class="mb-3">
-                    <label for="recommend" class="form-label">Are you satisfied with your experience on our site?</label>
-                    
-                      </div>
-                      <input type="hidden" id="rating" value="0" required />
-                    <select class="form-select" id="recommend">
-                      <option value="Yes">Yes</option>
-                      <option value="No">No</option>
-                    </select>
-                    <div class="mb-3">
-                        <br>
-                        <label class="form-label">Rate?</label>
-                        <div id="starRating" class="fs-4 text-warning">
-                          <i class="bi bi-star" data-value="1"></i>
-                          <i class="bi bi-star" data-value="2"></i>
-                          <i class="bi bi-star" data-value="3"></i>
-                          <i class="bi bi-star" data-value="4"></i>
-                          <i class="bi bi-star" data-value="5"></i>
+        <div class="homeMainRow2"> <!-- dòng 2 -->
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"> <!-- icon dòng 1 -->
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/airCondition.jpg" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Air Condition</a></p>
                         </div>
-                  </div>
-                  <button type="submit" class="btn btn-success">Submit</button>
-                  <a href="Review.html" class="btn" style="background-color:#0351b6 ;
-                   color: white;">All reviews</a>
-                </form>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/breaking-icon.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Braking System</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/BodyParts.jpg" class="img-fluid mb-2">
+                            <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Body Parts</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/Consumabels.jpg" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Consumables</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1"> <!-- icon dòng 2 -->
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/coolingSystem.jpg" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Cooling system</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/driveLine.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Drive line</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/engines.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Engine</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/electricComponents.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Electronic components</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-1"> <!-- icon dòng 3 -->
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/fuel.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Fuel parts</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/steering.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-2 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Steering</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
+                            <img src="../img/other.png" class="img-fluid mb-2">
+                            <p class="mb-0 p-4 hovericon"><a href="" class="text-decoration-none "
+                                    style="color: #0351b6;">Other</a></p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-6">
-                <img src="../img/review.png" alt="">
-            </div>
-            </div>
-              </section>
-  
         </div>
-        <footer> 
+        <footer> <!-- phần footerfooter cho mọi trang-->
             <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
-                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
-
+                <div class="row container m-auto align-items-center justify-content-between"
+                    style="padding: 30px;">
+    
                     <div class="col-3"> <!-- logo trái -->
                         <img src="../img/logo.png" alt="" style="width: 200px;">
                     </div>
-
+    
                     <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
                         <h1 style="font-weight: bold;">Call or email us</h1>
                         <p style="font-size: 14px;">
@@ -325,16 +367,16 @@
                             Sat - Sun: closed
                         </p>
                     </div>
-
+    
                     <div class="col-4"> <!-- card phải -->
                         <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
                             <img src="../img/Kiyoh.png" alt="" class="position-absolute"
                                 style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
-
+    
                             <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
                                 <h1 class="text-end text-light fs-3">KiyOh</h1>
                             </div>
-
+    
                             <div class="card-body"> <!-- body -->
                                 <div class="row cardFooter">
                                     <div class="col-9 ">
@@ -344,18 +386,18 @@
                                         <img src="../img/5star.png" alt="" style="width: 60px;">
                                     </div>
                                     <p class="text-end">
-                                        Reviewed with a score of <span>9.3 / 10</span> based <br>
-                                        on <span>675 reviews</span>
+                                        Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                            reviews</span>
                                     </p>
-                                    <a href="" class="text-end text-decoration-none"
-                                        style="color: rgb(112, 114, 114);">See all reviews</a>
+                                    <a href="" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                        all reviews</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+    
             <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
                 <div class="col-3">
                     <h3>Customer service</h3>
@@ -388,68 +430,24 @@
                     <h3>Contact</h3>
                     <div class="contact-info">
                         <p><span>MPR Parts B.V.</span></p>
-                        <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The Netherlands</p>
-                        <p>Tel: +31 77-3071580</p>
-                        <p>Email: info@carparts-onlineshop.com</p>
-                        <p><span>BTW-nummer:</span> NL8555.58.180.B.01</p>
-                        <p><span>KVK-nummer:</span> 64186369</p>
-                        <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+                        <p>24B, NguyenThiDang street<br>
+                            CuChi district<br>HCM CityCity
+                        </p>
+                        <p>Tel: +84 9-7626-4910</p>
+                        <p>Email: info@autoparts-onlineshop.com</p>
+                        <p><span>Bank:</span> MB 05350.41.261</p>
                     </div>
                 </div>
             </div>
             <div style="border-top: 1px solid #dadada;">
                 <div class="container" style="color: #8c8c8d;">
                     <p>
-                        © Carparts-onlineshop. 2020. All Rights Reserved
+                        © Autoparts-onlineshop. 2020. All Rights Reserved
                     </p>
                 </div>
             </div>
         </footer>
     </div>
-    <script>
     
-        //đánh giá vào local
-        document.getElementById("reviewForm").addEventListener("submit", function (e) {
-          e.preventDefault();
-          const review = {
-  name: document.getElementById("name").value,
-  title: document.getElementById("title").value,
-  content: document.getElementById("content").value,
-  recommend: document.getElementById("recommend").value,
-  rating: parseInt(document.getElementById("rating").value),
-  date: new Date().toLocaleString()
-};
-
-    
-          const reviews = JSON.parse(localStorage.getItem("reviews") || "[]");
-          reviews.unshift(review);
-          localStorage.setItem("reviews", JSON.stringify(reviews));
-          alert("Đánh giá đã được gửi!");
-          this.reset();
-        });
-        //đánh gái sao
-const stars = document.querySelectorAll("#starRating i");
-const ratingInput = document.getElementById("rating");
-
-stars.forEach((star) => {
-  star.addEventListener("click", () => {
-    const value = parseInt(star.getAttribute("data-value"));
-    ratingInput.value = value;
-
-    
-    stars.forEach((s, index) => {
-      if (index < value) {
-        s.classList.remove("bi-star");
-        s.classList.add("bi-star-fill");
-      } else {
-        s.classList.remove("bi-star-fill");
-        s.classList.add("bi-star");
-      }
-    });
-  });
-});
-
-
-      </script>
 </body>
 </html>

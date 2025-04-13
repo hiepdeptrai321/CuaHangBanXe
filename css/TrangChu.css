@@ -74,44 +74,6 @@
     color: #f5f7fa;
 }
 
-.cart-popup {
-    position: absolute;
-    top: 50px;
-    left: -175px;
-    width: 300px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 1px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-    padding: 10px;
-}
-
-.cart-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
-}
-
-.cart-header a {
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #007bff;
-}
-
-.cart-items {
-    max-height: 200px;
-    overflow-y: auto;
-    margin-bottom: 10px;
-}
-
-.cart-footer {
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
 /* ========================================== bodyHome */
 /* dòng 1 */
 .homeMainRow1L {
@@ -317,6 +279,13 @@
     background-color: white;
     padding: 20px;
     color: #636363;
+    display: flex;
+    flex-direction: column; /* Sắp xếp các phần tử theo cột */
+    justify-content: space-between; /* Đẩy các phần tử cách đều nhau */
+    height: 100%;
+}
+.price-info{
+    margin-top: auto;
 }
 
 .product-card:hover {
@@ -331,29 +300,17 @@
     padding: 8px 12px;
     cursor: pointer;
 }
-
-/* ========================================== footer */
-.cardFooter div h3 {
-    padding-left: 130px;
-    padding-top: 10px;
-    font-size: 20px;
-    color: rgb(67, 68, 68);
-}
-
-.cardFooter p {
-    font-weight: bold;
-    color: rgb(128, 129, 129);
-}
-
-.cardFooter p span {
-    color: rgb(67, 68, 68);
-}
-
-.FooterRow2 a {
-    text-decoration: none;
-    color: rgb(59, 59, 59);
-    padding-top: 10px;
+#viewProductsBtn {
     display: inline-block;
+    padding: 10px 20px; /* Kích thước padding */
+    font-size: 16px; /* Kích thước chữ */
+    text-align: center;
+    text-decoration: none; /* Loại bỏ gạch chân */
+    color: white; /* Màu chữ */
+    background-color: #0351b6; /* Màu nền */
+    border: none;
+    border-radius: 5px; /* Bo góc */
+    transition: background-color 0.3s ease; /* Hiệu ứng hover */
 }
 
 .FooterRow2 p {
@@ -365,3 +322,31 @@
 .FooterRow2 span {
     color: rgb(0, 0, 0);
 }
+.price-info {
+    display: flex;
+    flex-direction: column; 
+    gap: 5px; 
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color:#000000
+}
+
+.tax {
+    font-size: 0.9rem;
+    color: #6c757d; 
+}
+.pricetax{
+    font-size: 1.2rem;
+    color: #000000;
+}
+.no-select {
+    user-select: none; 
+}
+
+#viewProductsBtn:hover {
+    background-color: #007bff;; /* Màu nền khi hover */
+}                                                   
+

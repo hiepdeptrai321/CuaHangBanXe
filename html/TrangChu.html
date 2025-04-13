@@ -17,11 +17,12 @@
     <link rel="stylesheet" href="../css/owl.theme.default.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
     <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/FormChung.css">
 
 </head>
 
-<body>
-
+<body class="page-transition">
+    <div id="loading-bar"></div>
     <div>
         <header class="pageheader"><!-- phần Header cho mọi trang-->
             <div class="container-fluid px-0">
@@ -32,7 +33,7 @@
                             <nav class="navtop d-flex align-items-center">
                                 <img src="../img/5star.png" alt style="width: 100px;">
                                 <span class="ps-2 pe-2"><b>9.3</b> based on <b>675 reviews.</b></span>
-                                <a href="" class="link">See all reviews</a>
+                                <a href="../html/DanhGia.html" class="link">See all reviews</a>
                             </nav>
                         </div>
                         <div class="">
@@ -54,7 +55,7 @@
 
                     <div class="flex-grow-1 px-4">
                         <div class="search-box position-relative">
-                            <input type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
+                            <input id="searchbar" type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
                                 style="background-color: #f5f7fa; height: 50px;">
                             <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
@@ -295,17 +296,17 @@
                         <div>
                             <h1>WORLD WIDE SHIPPING</h1>
                             <P>of our car parts</P>
-                            <button type="button" class="ms-5">VIEW PRODUCTS</button>
+                            <a href="DanhSachSanPham.html" class="btn btn-primary ms-5" id="viewProductsBtn">VIEW PRODUCTS</a>  
                         </div>
                     </div>
                     <div class="col-4 homeMainRow1R"> <!-- 2 hình nhỏ bên phải -->
                         <div class="homeMainRow1R1">
                             <h3>ALTERNATORS</h3>
-                            <button>GO></button>
+                            <button>GO</button>
                         </div>
                         <div class="homeMainRow1R2">
                             <h3>STATERS</h3>
-                            <button>GO></button>
+                            <button>GO</button>
                         </div>
                     </div>
                 </div>
@@ -418,52 +419,67 @@
                         <ul class="product-list">
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
-                                </div>
+                                    <a href="#"><img src="../img/controlu2.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2229002305<br>Mercedes 28401022<br>Delphi</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€123.96</span></span>
+                                    </div>
+                                </div> 
                             </li>
+                            
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlunit 1.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2219008101<br>Mercedes</p>
+                                    <div class="price-info">
+                                        <span class="price ">€249.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€206.60</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlua2.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A2219008101<br>Mercedes</p>
+                                    <div class="price-info">
+                                        <span class="price ">€249.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span>
+                                            <span class="pricetax">€206.60</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controlu4.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A0009000305<br>Mercedes<br>A2C7433150000<br>Continental</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted "> 
+                                            <span class="no-select">Excl. Tax: </span> 
+                                            <span class="pricetax">€123.96</span></span>
+                                    </div>
                                 </div>
                             </li>
+                        
                             <li class="product-item">
                                 <div class="product-card">
-                                    <a href=""><img src="../img/item1.jpg"></a>
-                                    <p>
-                                        Control Unit <br>
-                                        A123123123 <br>
-                                        <span>192$</span>
-                                    </p>
+                                    <a href="#"><img src="../img/controluu5.jpg" alt="Product Image" onerror="this.src='../img/no-image.png'"></a>
+                                    <p>Control Unit<br>A1979006700<br>Mercedes 28390045<br>Delphi</p>
+                                    <div class="price-info">
+                                        <span class="price ">€149.99</span><br>
+                                        <span class="tax text-muted">
+                                            <span class="no-select">Excl. Tax: </span>
+                                            <span class="pricetax">€123.96</span>
+                                        </span>
+                                    </div>
                                 </div>
                             </li>
                         </ul>
@@ -510,104 +526,104 @@
                 </div>
             </div>
         </div>
-    </div>
+    
+        <footer> <!-- phần footerfooter cho mọi trang-->
+            <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
+                <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
 
-    <footer> <!-- phần footerfooter cho mọi trang-->
-        <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
-            <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
+                    <div class="col-3"> <!-- logo trái -->
+                        <img src="../img/logo.png" alt="" style="width: 200px;">
+                    </div>
 
-                <div class="col-3"> <!-- logo trái -->
-                    <img src="../img/logo.png" alt="" style="width: 200px;">
-                </div>
+                    <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
+                        <h1 style="font-weight: bold;">Call or email us</h1>
+                        <p style="font-size: 14px;">
+                            We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
+                            Sat - Sun: closed
+                        </p>
+                    </div>
 
-                <div class="col-5" style="max-width: 400px;"> <!-- giữa -->
-                    <h1 style="font-weight: bold;">Call or email us</h1>
-                    <p style="font-size: 14px;">
-                        We're available to help by e-mail phone or live chat Mon - Fri between: 8:30 and 15:30 (CET)
-                        Sat - Sun: closed
-                    </p>
-                </div>
+                    <div class="col-4"> <!-- card phải -->
+                        <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
+                            <img src="../img/Kiyoh.png" alt="" class="position-absolute"
+                                style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
 
-                <div class="col-4"> <!-- card phải -->
-                    <div class="card border-radius" style="border-radius: 10px; overflow: hidden;">
-                        <img src="../img/Kiyoh.png" alt="" class="position-absolute"
-                            style="width: 80px; top: 45px; left:30px;"> <!-- Hình trái -->
+                            <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
+                                <h1 class="text-end text-light fs-3">KiyOh</h1>
+                            </div>
 
-                        <div class="card-header" style="background-color: rgb(67, 68, 68);"> <!-- header -->
-                            <h1 class="text-end text-light fs-3">KiyOh</h1>
-                        </div>
-
-                        <div class="card-body"> <!-- body -->
-                            <div class="row cardFooter">
-                                <div class="col-9 ">
-                                    <h3 class="fw-bold">MPR Parts BV</h3>
+                            <div class="card-body"> <!-- body -->
+                                <div class="row cardFooter">
+                                    <div class="col-9 ">
+                                        <h3 class="fw-bold">MPR Parts BV</h3>
+                                    </div>
+                                    <div class="col-3">
+                                        <img src="../img/5star.png" alt="" style="width: 60px;">
+                                    </div>
+                                    <p class="text-end">
+                                        Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                            reviews</span>
+                                    </p>
+                                    <a href="" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                        all reviews</a>
                                 </div>
-                                <div class="col-3">
-                                    <img src="../img/5star.png" alt="" style="width: 60px;">
-                                </div>
-                                <p class="text-end">
-                                    Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
-                                        reviews</span>
-                                </p>
-                                <a href="" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
-                                    all reviews</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
-            <div class="col-3">
-                <h3>Customer service</h3>
-                <a href="">About us</a><br>
-                <a href="">General terms & conditions</a><br>
-                <a href="">Disclaimer</a><br>
-                <a href="">Privacy Policy</a><br>
-                <a href="">Customer service</a><br>
-                <a href="">Sitemap</a><br>
-            </div>
-            <div class="col-3">
-                <h3>Account</h3>
-                <a href="">My Account</a><br>
-                <a href="">Payment Methods</a><br>
-                <a href="">Shipping Guide</a><br>
-                <a href="">FAQs</a><br>
-                <a href="">Product Support</a><br>
-            </div>
-            <div class="col-3">
-                <h3>Categories</h3>
-                <a href="">Alternator</a><br>
-                <a href="">Starters</a><br>
-                <a href="">Air conditioning compressor</a><br>
-                <a href="">Clutch assembly parts</a><br>
-                <a href="">Engine</a><br>
-                <a href="">EGR Valve</a><br>
-                <a href="">All categories</a><br>
-            </div>
-            <div class="col-3">
-                <h3>Contact</h3>
-                <div class="contact-info">
-                    <p><span>MPR Parts B.V.</span></p>
-                    <p>24B, NguyenThiDang street<br>
-                        CuChi district<br>HCM CityCity
-                    </p>
-                    <p>Tel: +84 9-7626-4910</p>
-                    <p>Email: info@autoparts-onlineshop.com</p>
-                    <p><span>Bank:</span> MB 05350.41.261</p>
+            <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
+                <div class="col-3">
+                    <h3>Customer service</h3>
+                    <a href="">About us</a><br>
+                    <a href="">General terms & conditions</a><br>
+                    <a href="">Disclaimer</a><br>
+                    <a href="">Privacy Policy</a><br>
+                    <a href="">Customer service</a><br>
+                    <a href="">Sitemap</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Account</h3>
+                    <a href="">My Account</a><br>
+                    <a href="">Payment Methods</a><br>
+                    <a href="">Shipping Guide</a><br>
+                    <a href="">FAQs</a><br>
+                    <a href="">Product Support</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Categories</h3>
+                    <a href="">Alternator</a><br>
+                    <a href="">Starters</a><br>
+                    <a href="">Air conditioning compressor</a><br>
+                    <a href="">Clutch assembly parts</a><br>
+                    <a href="">Engine</a><br>
+                    <a href="">EGR Valve</a><br>
+                    <a href="">All categories</a><br>
+                </div>
+                <div class="col-3">
+                    <h3>Contact</h3>
+                    <div class="contact-info">
+                        <p><span>MPR Parts B.V.</span></p>
+                        <p>24B, NguyenThiDang street<br>
+                            CuChi district<br>HCM CityCity
+                        </p>
+                        <p>Tel: +84 9-7626-4910</p>
+                        <p>Email: info@autoparts-onlineshop.com</p>
+                        <p><span>Bank:</span> MB 05350.41.261</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div style="border-top: 1px solid #dadada;">
-            <div class="container" style="color: #8c8c8d;">
-                <p>
-                    © Autoparts-onlineshop. 2020. All Rights Reserved
-                </p>
+            <div style="border-top: 1px solid #dadada;">
+                <div class="container" style="color: #8c8c8d;">
+                    <p>
+                        © Autoparts-onlineshop. 2020. All Rights Reserved
+                    </p>
+                </div>
             </div>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
+   
 </body>
 <script>
     $(document).ready(function () {
@@ -624,6 +640,33 @@
                 1200: { items: 6 }
             }
         });
+
+        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+
+        if (loggedInUser) {
+            // cập nhật giao diện
+            $('.navsignin').html(`
+            <li>Welcome, ${loggedInUser.firstName} ${loggedInUser.lastName}</li>
+            <li><a href="../html/LienHe.html">CONTACT US</a></li>
+            <li><a href="#" id="logoutBtn">LOG OUT</a></li>
+            `);
+
+            $('#logoutBtn').on('click', function () {
+            localStorage.removeItem('loggedInUser'); 
+            alert('You have logged out.');
+            location.reload(); 
+            });
+        } else {
+            // chưa đăng nhập
+            $('.navsignin').html(`
+            <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+            <li><a href="../html/LienHe.html">CONTACT US</a></li>
+            <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+            `);
+        }
+        // $('#viewProductsBtn').on('click', function () {
+        //      window.location.href = 'ViewProducts.html'; 
+        // });
     });
 </script>
 

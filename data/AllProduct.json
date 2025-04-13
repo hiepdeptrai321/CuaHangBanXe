@@ -1,0 +1,1533 @@
+[
+    {
+        "id": 1,
+        "name": "Vacuum Pump D156-3A2005T Bosch F009D00210",
+        "price": 44.99,
+        "tax": 37.18,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump1/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump1/p2.jpg"
+        ],
+        "brand": "Bosch",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "D156-3A2005T F009D00210",
+            "info": "High-quality vacuum pump by Bosch, suitable for various vehicle models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW",
+                "CITROEN",
+                "PEUGEOT",
+                "FORD",
+                "MINI"
+            ],
+            "compatible_models": [
+                "Citroen Berlingo",
+                "Citroen C2",
+                "Citroen C3",
+                "Citroen C4",
+                "Citroen C5",
+                "Citroen Jumpy",
+                "Citroen Xsara Picasso",
+                "Ford C-max",
+                "Ford Fiesta V",
+                "Ford Fiesta VI",
+                "Ford Focus C-max",
+                "Ford Focus II",
+                "Ford Fusion",
+                "Mini Mini",
+                "Mini Mini Clubman",
+                "Peugeot 206",
+                "Peugeot 207",
+                "Peugeot 307",
+                "Peugeot 308",
+                "Peugeot 407",
+                "Peugeot 1007",
+                "Peugeot 3008",
+                "Peugeot 5008",
+                "Peugeot Expert",
+                "Peugeot Partner",
+                "Volvo C30",
+                "Volvo S40 II",
+                "Volvo S80 II",
+                "Volvo V50",
+                "Volvo V70 III"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 2,
+        "name": "Vacuum Pump A2712300965 MERCEDES Luk",
+        "price": 42.35,
+        "tax": 35.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump2/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump2/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2712300965",
+            "info": "Original vacuum pump for Mercedes vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes C-Class",
+                "Mercedes E-Class",
+                "Mercedes S-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 3,
+        "name": "Vacuum Pump 55221036 Opel 7.02553.00 Pierburg",
+        "price": 99.99,
+        "tax": 82.64,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump3/p1.jpg"
+        ],
+        "brand": "Opel",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "55221036 7.02553.00",
+            "info": "Pierburg vacuum pump for Opel vehicles. High-performance and durable.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "OPEL"
+            ],
+            "compatible_models": [
+                "Opel Astra",
+                "Opel Zafira",
+                "Opel Insignia"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 4,
+        "name": "Vacuum Pump A1112300065 Vapec 14S",
+        "price": 48.40,
+        "tax": 40.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump4/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump4/p2.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A1112300065 14S",
+            "info": "Reliable vacuum pump by Vapec, compatible with various models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 5,
+        "name": "Vacuum Pump BB5E2A451BB",
+        "price": 96.80,
+        "tax": 80.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump5/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump5/p2.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "BB5E2A451BB",
+            "info": "High-quality vacuum pump for automotive applications.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 6,
+        "name": "Vacuum Pump A6112300265 Vapec 19S",
+        "price": 49.99,
+        "tax": 41.31,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump6/p3.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A6112300265 19S",
+            "info": "Durable vacuum pump by Vapec, suitable for various vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 7,
+        "name": "Vacuum Pump A6422300065 Vapec 19S",
+        "price": 48.40,
+        "tax": 40.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump7/p3.jpg"
+        ],
+        "brand": "Vapec",
+        "manufacturer": "Vapec",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A6422300065 19S",
+            "info": "Reliable vacuum pump by Vapec for automotive use.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "VAPEC"
+            ],
+            "compatible_models": [
+                "Universal"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 8,
+        "name": "Vacuum Pump 11.66-7519457-08 BMW Luk 085",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump8/p1.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "11.66-7519457-08",
+            "info": "High-performance vacuum pump for BMW vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 5 Series",
+                "BMW X3"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 9,
+        "name": "Vacuum Pump 7545384 BMW 687390-10 Luk",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump9/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump9/p2.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Luk",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "7545384 687390-10",
+            "info": "High-quality vacuum pump for BMW vehicles, manufactured by Luk.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 5 Series",
+                "BMW X5"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 10,
+        "name": "Vacuum Pump 11.66-7558344 BMW 200400089 Ixetic",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump10/p3.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "11.66-7558344 200400089",
+            "info": "Reliable vacuum pump for BMW vehicles, manufactured by Ixetic.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "BMW"
+            ],
+            "compatible_models": [
+                "BMW 3 Series",
+                "BMW 7 Series",
+                "BMW X3"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 11,
+        "name": "Vacuum Pump 9637413980 7.28144.02 Pierburg",
+        "price": 39.99,
+        "tax": 33.05,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump11/p3.jpg"
+        ],
+        "brand": "Pierburg",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "9637413980 7.28144.02",
+            "info": "Pierburg vacuum pump for various vehicle models.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "CITROEN",
+                "PEUGEOT"
+            ],
+            "compatible_models": [
+                "Citroen C5",
+                "Peugeot 407",
+                "Peugeot 607"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 12,
+        "name": "Vacuum Pump Renault Suzuki F009D00085 Bosch",
+        "price": 59.99,
+        "tax": 49.58,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump12/p3.jpg"
+        ],
+        "brand": "Bosch",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "F009D00085",
+            "info": "Bosch vacuum pump suitable for Renault and Suzuki vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "RENAULT",
+                "SUZUKI"
+            ],
+            "compatible_models": [
+                "Renault Megane",
+                "Suzuki Swift"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 13,
+        "name": "Vacuum Pump 9653446680 CITROËN 7.28144.07 Pierburg",
+        "price": 42.35,
+        "tax": 35.00,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p2.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump13/p3.jpg"
+        ],
+        "brand": "Pierburg",
+        "manufacturer": "Pierburg",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "9653446680 7.28144.07",
+            "info": "Pierburg vacuum pump for Citroën vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "CITROËN"
+            ],
+            "compatible_models": [
+                "Citroën C4",
+                "Citroën C5"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 14,
+        "name": "Vacuum Pump A2701800901 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump14/p1.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2701800901",
+            "info": "Ixetic vacuum pump for Mercedes vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes A-Class",
+                "Mercedes B-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 15,
+        "name": "Vacuum Pump A2702300165 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump15/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump15/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2702300165",
+            "info": "Reliable vacuum pump for Mercedes vehicles, manufactured by Ixetic.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes C-Class",
+                "Mercedes E-Class"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+    {
+        "id": 16,
+        "name": "Vacuum Pump A2762300165 Mercedes Ixetic",
+        "price": 59.98,
+        "tax": 49.57,
+        "image": [
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump16/p1.jpg",
+            "../img/img_Product_BrakeSystem/Vacuupump/Vacuumpump16/p2.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Ixetic",
+        "details": {
+            "type": "Vacuum Pump",
+            "description": "A2762300165",
+            "info": "Ixetic vacuum pump for Mercedes vehicles.",
+            "material": "Aluminum",
+            "compatible_brands": [
+                "MERCEDES"
+            ],
+            "compatible_models": [
+                "Mercedes S-Class",
+                "Mercedes GLE"
+            ]
+        },
+        "condition": "New",
+        "warranty": "1 year"
+    },
+        {
+      "id": 1,
+      "name": "Ford Sliding Door Handle - Outer L Yc15 V26601 An 1494055",
+      "price": 10.73,
+      "tax": 8.87,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Sliding_Door_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Sliding door handle - outer L",
+        "description": "Suitable for right-hand drive vehicles",
+        "model": "Transit v184/v347/v348",
+        "engine": "Bm",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 2,
+      "name": "Ford Outer Door Handle - L 96fg A26601 Ad 1018498",
+      "price": 8.74,
+      "tax": 7.22,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Outer_Door_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Outer door handle - L",
+        "description": "Left outer door handle, durable design",
+        "model": "Escort",
+        "engine": "1.6L Petrol",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 3,
+      "name": "Ford Window Handle Jvty 23342 Baf",
+      "price": 12.48,
+      "tax": 10.31,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Window_Handle/p1.jpg"],
+      "brand": "Ford",
+      "manufacturer": "Ford",
+      "details": {
+        "type": "Window handle",
+        "description": "Window crank handle, simple and durable design",
+        "model": "Universal",
+        "engine": "Bm",
+        "year": "1991-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 4,
+      "name": "Hyundai Door Handle 8262022000",
+      "price": 9.49,
+      "tax": 7.84,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Door_Handle1/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Door handle",
+        "description": "Hyundai door handle, compatible with various models",
+        "model": "Universal",
+        "engine": "1.4L Petrol",
+        "year": "2005-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 5,
+      "name": "Hyundai Door Handle 826501e000",
+      "price": 13.30,
+      "tax": 10.99,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Door_Handle2/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Door handle",
+        "description": "Hyundai door handle, sturdy design",
+        "model": "Universal",
+        "engine": "1.6L Diesel",
+        "year": "2010-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 6,
+      "name": "Hyundai Front Inner Door Handle 8262022000ca",
+      "price": 7.53,
+      "tax": 6.22,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Front_Inner_Door_Handle/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Front inner door handle",
+        "description": "Hyundai front inner door handle",
+        "model": "Universal",
+        "engine": "1.8L Petrol",
+        "year": "2012-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 7,
+      "name": "Hyundai Rear Door Handle 8365002000",
+      "price": 10.09,
+      "tax": 8.34,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Rear_Door_Handle/p1.jpg"],
+      "brand": "Hyundai",
+      "manufacturer": "Hyundai",
+      "details": {
+        "type": "Rear door handle",
+        "description": "Hyundai rear door handle",
+        "model": "Universal",
+        "engine": "2.0L Diesel",
+        "year": "2015-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+      "id": 8,
+      "name": "Nissan Door Handle 90606-ea810",
+      "price": 12.03,
+      "tax": 9.94,
+      "image": ["../img/img_Product_BodyParts/DoorHandle/Nissan_Door_Handle/p1.jpg"],
+      "brand": "Nissan",
+      "manufacturer": "Nissan",
+      "details": {
+        "type": "Door handle",
+        "description": "Nissan door handle, durable design",
+        "model": "Universal",
+        "engine": "1.5L Petrol",
+        "year": "2008-"
+      },
+      "condition": "New",
+      "warranty": "1 Year"
+    },
+    {
+        "id": 9,
+        "name": "Ford Middle Door Inner Handle Long Chassis 2c14 V266a62 Aa 4375255",
+        "price": 14.28,
+        "tax": 11.80,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Middle_Door_Inner_Handle_Long_Chassis/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Middle door inner handle - long chassis",
+          "description": "Durable inner handle for Ford long chassis models",
+          "model": "Transit",
+          "engine": "2.2L Diesel",
+          "year": "2010-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 10,
+        "name": "Volkswagen Window Key Frame 3b1867171e",
+        "price": 9.43,
+        "tax": 7.79,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Volkswagen_Window_Key_Frame/p1.jpg"],
+        "brand": "Volkswagen",
+        "manufacturer": "Volkswagen",
+        "details": {
+          "type": "Window key frame",
+          "description": "Key frame for Volkswagen window systems",
+          "model": "Passat",
+          "engine": "1.9L Diesel",
+          "year": "2005-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 11,
+        "name": "Hyundai Front Inner Door Handle 8261022000ca",
+        "price": 7.53,
+        "tax": 6.22,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Front_Inner_Door_Handle2/p1.jpg"],
+        "brand": "Hyundai",
+        "manufacturer": "Hyundai",
+        "details": {
+          "type": "Front inner door handle",
+          "description": "Hyundai front inner door handle for various models",
+          "model": "Elantra",
+          "engine": "1.6L Petrol",
+          "year": "2012-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 12,
+        "name": "Hyundai Rear Door Handle 8366002000",
+        "price": 10.09,
+        "tax": 8.34,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Hyundai_Rear_Door_Handle/p1.jpg"],
+        "brand": "Hyundai",
+        "manufacturer": "Hyundai",
+        "details": {
+          "type": "Rear door handle",
+          "description": "Hyundai rear door handle for various models",
+          "model": "Tucson",
+          "engine": "2.0L Diesel",
+          "year": "2015-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 13,
+        "name": "Ford Door Opening Handlesquare 86vb 7022614",
+        "price": 12.48,
+        "tax": 10.31,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Door_Opening_Handlesquare/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Door opening handle",
+          "description": "Square-shaped door opening handle for Ford",
+          "model": "Transit",
+          "engine": "2.0L Petrol",
+          "year": "2000-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 14,
+        "name": "Ford Middle Door Inner Handle Short Chassis 2c14 V266a62 Ba 4375256",
+        "price": 13.64,
+        "tax": 11.27,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Ford_Middle_Door_Inner_Handle_Short_Chassis/p1.jpg"],
+        "brand": "Ford",
+        "manufacturer": "Ford",
+        "details": {
+          "type": "Middle door inner handle - short chassis",
+          "description": "Durable inner handle for Ford short chassis models",
+          "model": "Transit",
+          "engine": "2.2L Diesel",
+          "year": "2010-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 15,
+        "name": "Volkswagen Hood Opening Handle 1j5823593c",
+        "price": 6.52,
+        "tax": 5.39,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Volkswagen_Hood_Opening_Handle/p1.jpg"],
+        "brand": "Volkswagen",
+        "manufacturer": "Volkswagen",
+        "details": {
+          "type": "Hood opening handle",
+          "description": "Handle for opening Volkswagen hoods",
+          "model": "Golf",
+          "engine": "1.4L Petrol",
+          "year": "2003-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 16,
+        "name": "Mercedes Door Handle - Sliding Door A9017600459 2d1843704",
+        "price": 15.11,
+        "tax": 12.49,
+        "image": ["../img/img_Product_BodyParts/DoorHandle/Mercedes_Door_Handle_Sliding_Door/p1.jpg"],
+        "brand": "Mercedes",
+        "manufacturer": "Mercedes",
+        "details": {
+          "type": "Sliding door handle",
+          "description": "Sliding door handle for Mercedes vehicles",
+          "model": "Sprinter",
+          "engine": "2.1L Diesel",
+          "year": "2018-"
+        },
+        "condition": "New",
+        "warranty": "1 Year"
+      },
+      {
+        "id": 1,
+        "name": "Heater resistance VLCL-29PWM11N PSA T1000034Z-G Valeo",
+        "price": 33.88,
+        "tax": 28.00,
+        "image": [
+            "../img/img_Product_Aircondition/Heater_resistance/p1.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p2.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p3.jpg",
+            "../img/img_Product_Aircondition/Heater_resistance/p4.jpg"
+        ],
+        "brand": "Valeo",
+        "manufacturer": "PSA",
+        "details": {
+            "type": "Heater resistance",
+            "description": "VLCL-29PWM11N T1000034Z",
+            "info": "This is a high-performance heater resistance for automotive use, known for its durability and efficiency. The product is designed for various vehicle models and is manufactured to meet strict quality standards.",
+            "material": "Copper",
+            "voltage": "24V",
+            "power": "300W",
+            "compatibility": "Compatible with several vehicle models from PSA and other European car manufacturers."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A6285000986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A628 500 0986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "6285000986"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "628 500 0986"
+            },
+            {
+                "brand": "EMP",
+                "number": "1030002228"
+            },
+            {
+                "brand": "number",
+                "number": "WP29"
+            },
+            {
+                "brand": "Voltage",
+                "number": "24V"
+            },
+            {
+                "brand": "number",
+                "number": "10R-04"
+            },
+            {
+                "brand": "number",
+                "number": "WP29E"
+            },
+            {
+                "brand": "number",
+                "number": "190624"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Coolant Pump A6285000986 Mercedes 1030002228 EMP",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump/p7.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "EMP",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A6285000986 1030002228",
+            "info": "This is a used coolant pump with no visible damage. Despite minor signs of wear, it is guaranteed to function as new. It is an original replacement part compatible with a variety of Mercedes and EMP vehicles.",
+            "material": "Aluminum",
+            "flow_rate": "300 liters/hour",
+            "pressure": "2.5 bar",
+            "compatibility": "Compatible with specific Mercedes and EMP car models. Please verify part number compatibility before purchasing."
+        },
+        "condition": "Used",
+        "warranty": "No info"
+    },
+    {
+        "id": 3,
+        "name": "Coolant Inlet Connection A2562001600 Mercedes",
+        "price": 9.99,
+        "tax": 8.26,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet1/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Coolant Inlet Connection",
+            "description": "A2562001600",
+            "info": "This is a new product that might show minor scratches from storage. The part is fully functional and made of high-quality materials, ensuring a long lifespan.",
+            "material": "Plastic",
+            "dimensions": "10 x 5 x 3 cm",
+            "compatibility": "Designed specifically for Mercedes vehicles. Ensure that the part number matches before purchasing."
+        },
+        "condition": "Used",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2562001600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 256 200 16 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A256 200 1600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2562001600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "256 200 1600"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Coolant Inlet Connection A2762000356 Mercedes",
+        "price": 49.99,
+        "tax": 41.31,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Inlet2/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Coolant Inlet Connection",
+            "description": "A2762000356",
+            "info": "This is a new product with minor cosmetic imperfections from storage. The part is fully operational, 100% original, and ready for installation.",
+            "material": "Steel",
+            "dimensions": "12 x 7 x 4 cm",
+            "compatibility": "Direct replacement for various Mercedes models. Always verify part compatibility before installation."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2762000356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 276 200 03 56"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A276 200 0356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2762000356"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "276 200 0356"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Water Coolant Pipe A6542037100 Mercedes",
+        "price": 79.99,
+        "tax": 66.11,
+        "image": [
+            "../img/img_Product_Aircondition/Water_Coolant/p1.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p2.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p3.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p4.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p5.jpg",
+            "../img/img_Product_Aircondition/Water_Coolant/p6.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "",
+        "details": {
+            "type": "Water Coolant Pipe",
+            "description": "A6542037100",
+            "info": "This product is new, but it may have minor scratches from handling. It's made of durable plastic and is designed to withstand high-pressure systems. Fully functional and original.",
+            "material": "Plastic",
+            "pressure_rating": "High-pressure rated",
+            "dimensions": "15 x 5 x 6 cm",
+            "compatibility": "Fits Mercedes vehicles. Please ensure part number compatibility before purchase."
+        },
+        "condition": "New",
+        "warranty": "No info"
+    },
+    {
+        "id": 6,
+        "name": "A/C Condensor 64509367096 BMW 1161116 12 Mahle",
+        "price": 249.99,
+        "tax": 206.60,
+        "image": [
+            "../img/img_Product_Aircondition/AC_Condensor/p1.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p2.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p3.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p4.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p5.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p6.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p7.jpg",
+            "../img/img_Product_Aircondition/AC_Condensor/p8.jpg"
+        ],
+        "brand": "BMW",
+        "manufacturer": "Mahle",
+        "details": {
+            "type": "A/C Condensor",
+            "description": "64509367096 1161116 12",
+            "info": "A brand new A/C condenser designed for BMW vehicles. Despite possible minor storage marks, it’s a high-quality part that meets OEM standards for optimal cooling performance.",
+            "material": "Aluminum",
+            "dimensions": "70 x 40 x 5 cm",
+            "compatibility": "Compatible with specific BMW models. Ensure part number compatibility before purchasing."
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "BMW",
+                "number": "1161116 12"
+            },
+            {
+                "brand": "BMW",
+                "number": "64507950339"
+            },
+            {
+                "brand": "BMW",
+                "number": "64509367096"
+            },
+            {
+                "brand": "BMW",
+                "number": "9367096"
+            },
+            {
+                "brand": "Mahle",
+                "number": "1161116 12"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Airfilter A2540940200 Mercedes FO26400769 Bosch A2540902500",
+        "price": 29.98,
+        "tax": 24.78,
+        "image": [
+            "../img/img_Product_Aircondition/Airfilter/p1.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p2.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p3.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p4.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p5.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p6.jpg",
+            "../img/img_Product_Aircondition/Airfilter/p7.jpg"
+        ],
+        "brand": "Mercedes",
+        "manufacturer": "Bosch",
+        "details": {
+            "type": "Airfilter",
+            "description": "A2540940200 FO26400769 A2540902500",
+            "info": "This is a new product but can have some scratches. The product is fully functional and 100% original.",
+            "material": "High-efficiency particulate air (HEPA) filter",
+            "dimensions": "Length: 30 cm, Width: 10 cm, Height: 4 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Bosch",
+                "number": "F 026 400 769"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A2540940200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 254 094 02 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 094 0200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2540940200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 094 0200"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A2540902500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A 254 090 25 00"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 090 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2540902500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 090 2500"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A0081534428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A 008 153 44 28"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "A008 153 4428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "0081534428"
+            },
+            {
+                "brand": "Mercedes Sensor",
+                "number": "008 153 4428"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "KIT Air Filter Cartridge 6.6323P2 Kaeser in Orginal Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "6.6323P2",
+            "info": "This is a new product but can have some scratches. The product is fully functional and 100% original.",
+            "material": "Durable synthetic fiber",
+            "dimensions": "Diameter: 15 cm, Height: 30 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "6.6323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "66323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323P2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.6323.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "663232"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323 2"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Coolant Pump A2542001300 Mercedes 518002404KT Nidec",
+        "price": 350.90,
+        "tax": 290.00,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump1/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump1/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542001300 / 518002404KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542001300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 1300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542001300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 1300"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS003"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "KP0010"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Coolant Pump A2542002500 Mercedes 518002406KT Nidec",
+        "price": 350.90,
+        "tax": 290.00,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump2/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump2/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542002500 / 518002406KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542002500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542002500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 2500"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS001"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "KP0010"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "20282"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Coolant Pump A2542002600 Mercedes 518002807KT Nidec",
+        "price": 349.99,
+        "tax": 289.25,
+        "image": [
+            "../img/img_Product_Aircondition/Coolant_Pump3/p1.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p2.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p3.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p4.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p5.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p6.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p7.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p8.jpg",
+            "../img/img_Product_Aircondition/Coolant_Pump3/p9.jpg"
+        ],
+        "brand": "Nidec",
+        "manufacturer": "Mercedes",
+        "details": {
+            "type": "Coolant Pump",
+            "description": "A2542002600 / 518002807KT",
+            "info": "Original Coolant Pump suitable for Mercedes. High-quality replacement part by Nidec.",
+            "material": "Metal and plastic composite",
+            "dimensions": "Length: 27 cm, Width: 16 cm, Height: 11 cm"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Mercedes",
+                "number": "A2542002600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "A254 200 2600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "2542002600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "254 200 2600"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "KP0010"
+            },
+            {
+                "brand": "Mercedes",
+                "number": "ZGS001"
+            },
+            {
+                "brand": "Partnumber",
+                "number": "2104700014"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "KIT Air Filter Cartridge 4E0305.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge1/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0305.0",
+            "info": "Original Kaeser air filter cartridge. Ensures clean and efficient air intake for your compressor.",
+            "material": "High-performance filter paper and plastic",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0305.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03050"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0305 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4198.20010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6419820010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4198 20010"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "KIT Air Filter Cartridge 4E0304.0 Kaeser in Original Box",
+        "price": 99.99,
+        "tax": 82.64,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge2/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0304.0",
+            "info": "Genuine Kaeser filter cartridge. Reliable performance and long lifespan.",
+            "material": "High-efficiency filtering materials",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0304.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03040"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0304 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.6323.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "663232"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 6323 2"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "KIT Air Filter Cartridge 4E0301.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge3/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0301.0",
+            "info": "Kaeser original replacement cartridge for optimal filtration performance.",
+            "material": "Durable filter media with plastic support",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0301.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03010"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0301 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4149.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "641492"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4149 2"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "KIT Air Filter Cartridge 4E0302.0 Kaeser in Original Box",
+        "price": 149.99,
+        "tax": 123.96,
+        "image": [
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p1.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p2.jpg",
+            "../img/img_Product_Aircondition/KIT_Air_Filter_Cartridge4/p3.jpg"
+        ],
+        "brand": "Kaeser",
+        "manufacturer": "Kaeser",
+        "details": {
+            "type": "Air Filter Cartridge",
+            "description": "4E0302.0",
+            "info": "High-quality Kaeser filter kit for air system maintenance.",
+            "material": "Composite filtering materials",
+            "dimensions": "Not specified"
+        },
+        "condition": "New",
+        "warranty": "No info",
+        "replacing": [
+            {
+                "brand": "Kaeser",
+                "number": "4E0302.0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E03020"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "4E0302 0"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6.4148.2"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "641482"
+            },
+            {
+                "brand": "Kaeser",
+                "number": "6 4148 2"
+            }
+        ]
+    }
+]
