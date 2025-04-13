@@ -10,12 +10,12 @@
     <script src="../js/bootstrap.js"></script>
     <script src="../js/Jquery.js"></script>
     <script src="../jscode/FormChung.js"></script>
-    <link rel="stylesheet" href="../css/TrangChu.css">
     <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/FormChung.css">
 </head>
 
-<body>
-
+<body class="page-transition">
+    <div id="loading-bar"></div>
     <div>
         <header class="pageheader"><!-- phần Header cho mọi trang-->
             <div class="container-fluid px-0">
@@ -26,7 +26,7 @@
                             <nav class="navtop d-flex align-items-center">
                                 <img src="../img/5star.png" alt style="width: 100px;">
                                 <span class="ps-2 pe-2"><b>9.3</b> based on <b>675 reviews.</b></span>
-                                <a href="" class="link">See all reviews</a>
+                                <a href="../html/DanhGia.html" class="link">See all reviews</a>
                             </nav>
                         </div>
                         <div class="">
@@ -48,7 +48,7 @@
 
                     <div class="flex-grow-1 px-4">
                         <div class="search-box position-relative">
-                            <input type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
+                            <input id="searchbar" type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
                                 style="background-color: #f5f7fa; height: 50px;">
                             <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
@@ -232,7 +232,7 @@
                     </div>
                 </div>  
                 <div class="benefits-bar py-3">
-                    <div class="container d-flex justify-content-start flex-wrap text-secondary">
+                    <div class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
                         <div class="d-flex align-items-center gap-3 pe-5">
                             <i class="bi bi-check-circle-fill text-success"></i>
                             <span><strong>Worldwide</strong>, delivery</span>

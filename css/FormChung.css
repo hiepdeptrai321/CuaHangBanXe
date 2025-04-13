@@ -1,0 +1,131 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* ========================================== header */
+.link {
+    text-decoration: none;
+    color: black;
+
+}
+
+.fullscreen {
+    background-color: #f5f7fa;
+    height: 65px;
+}
+
+.navsignin {
+    display: flex;
+}
+
+.navsignin li {
+    list-style-type: none;
+}
+
+.navsignin li a {
+    text-decoration: none;
+    color: rgb(132, 130, 130);
+    font-size: 14px;
+}
+
+/* phần menu đổ xuống */
+.dropdown {
+    position: relative;
+}
+
+.dropbtn {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    min-width: 1300px;
+    padding: 20px 15px;
+    column-count: 4;
+    column-gap: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.dropdown-content a:hover {
+    text-decoration: underline;
+}
+
+.dropbtn:hover {
+    color: #f5f7fa;
+}
+
+/* ========================================== footer */
+.cardFooter div h3 {
+    padding-left: 130px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(67, 68, 68);
+}
+
+.cardFooter p {
+    font-weight: bold;
+    color: rgb(128, 129, 129);
+}
+
+.cardFooter p span {
+    color: rgb(67, 68, 68);
+}
+
+.FooterRow2 a {
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.FooterRow2 p {
+    color: rgb(126, 125, 125);
+    padding-top: 1px;
+    font-weight: bold;
+}
+
+.FooterRow2 span {
+    color: rgb(0, 0, 0);
+}
+
+/* Hiệu ứng fade-out cho toàn bộ trang */
+.page-transition {
+    opacity: 1;
+    transition: opacity 0.2s ease-out; /* Hiệu ứng mờ dần */
+}
+
+.page-transition.fade-out {
+    opacity: 0; /* Mờ dần khi chuyển trang */
+}
+
+/* Thanh tải ở viền trên */
+#loading-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3px; /* Độ dày của thanh */
+    background-color: #007bff; /* Màu xanh */
+    width: 0%; /* Bắt đầu từ 0% */
+    z-index: 9999; /* Đảm bảo thanh luôn ở trên cùng */
+    transition: width 1s ease-out; /* Thời gian khớp với JavaScript */
+}

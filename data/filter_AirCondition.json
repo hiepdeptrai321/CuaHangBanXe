@@ -1,0 +1,19 @@
+{
+    "brands": [
+      "Valeo",
+      "Mercedes",
+      "EMP",
+      "BMW",
+      "Kaeser",
+      "Nidec",
+      "Bosch"
+    ],
+    "manufacturers": [
+      "PSA",
+      "EMP",
+      "Mahle",
+      "Kaeser",
+      "Mercedes",
+      "Bosch"
+    ]
+  }
