@@ -290,15 +290,20 @@
           
                <br>
                 <div class="mb-3">
-                  <a href="#" class="text-decoration-none small">Forgot Your Password?</a>
+                    <a href="#" id="forgotPassword" class="text-decoration-none small">Forgot Your Password?</a>
+                    <div id="resetPasswordForm" style="display: none; margin-top: 10px;">
+                        <label for="resetEmail" class="form-label">Enter your email:</label>
+                        <input type="email" id="resetEmail" class="form-control mb-2" placeholder="Enter your email">
+                        <button id="resetPasswordBtn" class="btn btn-dark">Reset Password</button>
+                    </div>
                 </div>
                 <div class="d-grid mb-3">
-                  <button type="submit" class="btn btn-dark fw-bold text-uppercase">
+                  <button type="submit" class="btn btn-dark fw-bold text-uppercase" id="loginBtn">
                     Sign In
                   </button>
                 </div>
                 <div class="d-grid mb-2">
-                  <button type="button" class="btn btn-dark fw-bold text-uppercase">
+                  <button type="button" class="btn btn-dark fw-bold text-uppercase" id="createAccountBtn" onclick="window.location.href='DangKy.html'">
                     Create an Account
                   </button>
                 </div>
@@ -442,6 +447,68 @@
           clearError($(this));
         }
       });
+
+        $('#loginBtn').on('click', function (e) {
+            e.preventDefault();
+            handleLogin();
+        });
+
+        // Xử lý khi nhấn phím Enter
+        $('#email, #password').on('keypress', function (e) {
+            if (e.which === 13) { // 13 là mã phím Enter
+            e.preventDefault();
+            handleLogin();
+            }
+        });
+
+        // Hàm xử lý đăng nhập
+        function handleLogin() {
+            const email = $('#email').val();
+            const password = $('#password').val();
+
+            // Lấy danh sách tài khoản từ localStorage
+            let users = JSON.parse(localStorage.getItem('users')) || [];
+            console.log('Danh sách tài khoản:', users);
+
+            // Kiểm tra thông tin đăng nhập
+            const user = users.find(user => user.email === email && user.password === password);
+            if (user) {
+            localStorage.setItem('loggedInUser', JSON.stringify(user));
+            alert('Login successful!');
+            window.location.href = 'TrangChu.html'; // Chuyển hướng đến trang chính
+            } else {
+            alert('Invalid email or password.');
+            console.log('Email nhập vào:', email);
+            console.log('Mật khẩu nhập vào:', password);
+            }
+        }
+        // Hiện form
+        $('#forgotPassword').on('click', function (e) {
+            e.preventDefault();
+            $('#resetPasswordForm').toggle(); //hiện form
+        });
+
+        // đặt lại mk
+        $('#resetPasswordBtn').on('click', function () {
+            const resetEmail = $('#resetEmail').val();
+            let users = JSON.parse(localStorage.getItem('users')) || [];
+
+            const user = users.find(user => user.email === resetEmail);
+            if (user) {
+            const newPassword = prompt('Enter your new password:');
+            if (newPassword) {
+                // cap nhat mk
+                user.password = newPassword;
+                localStorage.setItem('users', JSON.stringify(users)); 
+                alert('Password reset successfully!');
+                $('#resetPasswordForm').hide(); // ẩn form
+            }
+            } else {
+            alert('Email not found.');
+            }
+        });
+        
+
     });
   </script>
 </html>
