@@ -31,7 +31,7 @@ $(document).ready(function() {
         $(".itemtitle").text(selectedProduct.name);
         $("#manufacturer").text(selectedProduct.manufacturer);
         $("#brand").text(selectedProduct.brand);
-        $("div.h5.text-success").html(
+        $("#price").html(
             "€" + selectedProduct.price.toFixed(2) +
             "<br> <small class='text-muted'>(Excl. Tax: <b>€" +
             selectedProduct.tax.toFixed(2) +

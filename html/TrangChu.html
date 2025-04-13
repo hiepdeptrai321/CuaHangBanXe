@@ -278,7 +278,7 @@
                         <div>
                             <h1>WORLD WIDE SHIPPING</h1>
                             <P>of our car parts</P>
-                            <a href="DanhSachSanPham.html" class="btn btn-primary ms-5" id="viewProductsBtn">VIEW PRODUCTS</a>                        </div>
+                            <a href="DanhSachSanPham.html" class="btn btn-primary ms-5 py-3" id="viewProductsBtn">VIEW PRODUCTS</a>                        </div>
                     </div>
                     <div class="col-4 homeMainRow1R"> <!-- 2 hình nhỏ bên phải -->
                         <div class="homeMainRow1R1">
@@ -606,6 +606,10 @@
                 1200: { items: 6 }
             }
         });
+    });
+    $("#viewProductsBtn").click(function (e) { 
+        e.preventDefault();
+        localStorage.setItem("selectedCategory", "All Products");
     });
 </script>
 
