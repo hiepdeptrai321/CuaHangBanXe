@@ -1,0 +1,34 @@
+{
+    "brands": [
+      "Valeo",
+      "Mercedes",
+      "EMP",
+      "BMW",
+      "Kaeser",
+      "Nidec",
+      "Bosch",
+      "Ford",
+      "Hyundai",
+      "Nissan",
+      "Volkswagen",
+      "Opel",
+      "Vapec",
+      "Pierburg"
+    ],
+    "manufacturers": [
+      "PSA",
+      "EMP",
+      "Mahle",
+      "Kaeser",
+      "Mercedes",
+      "Bosch",
+      "Ford",
+      "Hyundai",
+      "Nissan",
+      "Volkswagen",
+      "Luk",
+      "Pierburg",
+      "Ixetic",
+      "Vapec"
+    ]
+  }
