@@ -17,6 +17,7 @@
     <script src="../js/bootstrap.js"></script>
     <script src="../js/owl.carousel.min.js"></script>
     <script src="../jscode/FormChung.js"></script>
+    <script src="../jscode/ThanhToan.js"></script>
 </head>
 <style>
     .is-invalid {
@@ -53,22 +54,12 @@
                             <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
                         </a>
                     </div>
-                    <div class="flex-grow-1 px-4">
+                    <div class="flex-grow-1">
                         <div class="search-box position-relative">
                             <input type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
                                 style="background-color: #f5f7fa; height: 50px;">
                             <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
-                    </div>
-                    <div class="position-relative">
-                        <a href class="position-relative text-dark text-decoration-none">
-                            <i class="bi bi-bag" style="font-size: 24px;"></i>
-                            <span
-                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
-                                style="font-size: 0.7rem;">
-                                0
-                            </span>
-                        </a>
                     </div>
                 </div>
                 <div style="background-color: #0351b6;">
@@ -329,6 +320,9 @@
                             e.preventDefault();
                             let isValid = true;
 
+                            // Tham chiếu đến phần tử chứa danh sách giỏ hàng
+                            const cartList = $('#cartItemsContainer');
+
                             // Kiểm tra Shipping Address
                             $('#shippingForm [required]').each(function () {
                                 const $field = $(this);
@@ -378,6 +372,13 @@
                             }
 
                             if (isValid) {
+                                // Xóa nội dung giỏ hàng
+                                cartList.empty();
+
+                                // Xóa dữ liệu giỏ hàng trong localStorage (nếu cần)
+                                localStorage.removeItem('cartItems');
+
+                                // Gửi form
                                 this.submit();
                             }
                         });
@@ -395,14 +396,14 @@
                                         <input class="form-check-input" type="radio" name="shippingMethod" id="dpd"
                                             value="DPD">
                                         <label class="form-check-label" for="dpd">
-                                            €9.08 <small>(Excl. Tax: €7.50)</small> - DPD
+                                            €9.08 <small>(Excl. Tax: €7.50)</small> - GHTK
                                         </label>
                                     </div>
                                     <div class="form-check">
                                         <input class="form-check-input" type="radio" name="shippingMethod" id="dhl"
                                             value="DHL">
                                         <label class="form-check-label" for="dhl">
-                                            €22.39 <small>(Excl. Tax: €18.50)</small> - DHL
+                                            €22.39 <small>(Excl. Tax: €18.50)</small> - HT
                                         </label>
                                     </div>
                                 </div>
@@ -442,36 +443,34 @@
                         <h4 class="mb-3"><span>4</span> ORDER SUMMARY</h4>
                         <div class="card">
                             <div class="card-body">
-                                <div class="d-flex justify-content-between">
-                                    <span>Vacuum Pump A2702300165 Mercedes Ixetic</span>
-                                    <span>Qty: 1</span>
+                                <div id="orderItemsContainer">
+                                    <!-- Các sản phẩm sẽ được render tại đây -->
                                 </div>
                                 <hr>
                                 <div class="d-flex justify-content-between">
                                     <span>Subtotal</span>
-                                    <span>€59.98</span>
+                                    <span id="orderSubtotal">€0.00</span>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <span>Shipping</span>
-                                    <span>Not yet calculated</span>
+                                    <span id="orderShipping">€0.00</span>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <span>Tax</span>
-                                    <span>€10.41</span>
+                                    <span id="orderTax">€0.00</span>
                                 </div>
                                 <hr>
                                 <div class="d-flex justify-content-between fw-bold">
                                     <span>Order Total Incl. Tax</span>
-                                    <span>€59.98</span>
+                                    <span id="orderTotalInclTax">€0.00</span>
                                 </div>
                                 <div class="d-flex justify-content-between">
                                     <span>Order Total Excl. Tax</span>
-                                    <span>€49.57</span>
+                                    <span id="orderTotalExclTax">€0.00</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
