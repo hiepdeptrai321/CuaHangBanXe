@@ -1,47 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ChiTietSanPham</title>
-        <link rel="icon" type="image/png" href="../img/logo.png">
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <script src="../js/bootstrap.js"></script>
-        <script src="../js/Jquery.js"></script>
-        <script src="../jscode/ChiTietSanPham.js"></script>
-        <link rel="stylesheet" href="../css/ChiTietSanPham.css">
-        <link rel="stylesheet"href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/FormChung.css">
-    </head>
 
-    <body class="page-transition">
-        <div id="loading-bar"></div>
-        <div>
-            <header class="pageheader"><!-- phần Header cho mọi trang-->
-                <div class="container-fluid px-0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrangChu</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/Jquery.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../jscode/FormChung.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../css/owl.theme.default.css">
+    <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css/FormChung.css">
 
-                    <div class="fullscreen">
-                        <div
-                            class="container d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <nav class="navtop d-flex align-items-center">
-                                    <img src="../img/5star.png" alt
-                                        style="width: 100px;">
-                                    <span class="ps-2 pe-2"><b>9.3</b> based on
-                                        <b>675 reviews.</b></span>
-                                    <a href="../html/DanhGia.html" class="link">See all reviews</a>
-                                </nav>
-                            </div>
-                            <div class>
-                                <ul
-                                    class="navsignin d-flex gap-3 list-unstyled mb-0">
-                                    <li><a href="../html/DangNhap.html">SIGN IN</a></li>
-                                    <li><a href="../html/LienHe.html">CONTACT US</a></li>
-                                    <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
-                                </ul>
-                            </div>
+</head>
+
+<body class="page-transition">
+    <div id="loading-bar"></div>
+    <div>
+        <header class="pageheader"><!-- phần Header cho mọi trang-->
+            <div class="container-fluid px-0">
+
+                <div class="fullscreen">
+                    <div class="container d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <nav class="navtop d-flex align-items-center">
+                                <img src="../img/5star.png" alt style="width: 100px;">
+                                <span class="ps-2 pe-2"><b>9.3</b> based on
+                                    <b>675 reviews.</b></span>
+                                <a href="../html/DanhGia.html" class="link">See all reviews</a>
+                            </nav>
+                        </div>
+                        <div class>
+                            <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
+                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
                 <div class="container d-flex align-items-center justify-content-between py-2">
                     <div class="d-flex align-items-center ms-0">
@@ -50,16 +54,13 @@
                         </a>
                     </div>
 
-                        <div class="flex-grow-1 px-4">
-                            <div class="search-box position-relative">
-                                <input id="searchbar" type="text"
-                                    class="form-control rounded-pill ps-4 pe-5"
-                                    placeholder="Search"
-                                    style="background-color: #f5f7fa; height: 50px;">
-                                <i
-                                    class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
-                            </div>
+                    <div class="flex-grow-1 px-4">
+                        <div class="search-box position-relative">
+                            <input id="searchbar" type="text" class="form-control rounded-pill ps-4 pe-5"
+                                placeholder="Search" style="background-color: #f5f7fa; height: 50px;">
+                            <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
+                    </div>
 
                     <div class="position-relative">
                         <i id="cartIcon" class="bi bi-bag" style="font-size: 24px; cursor: pointer;"></i>
@@ -69,13 +70,11 @@
                             0
                         </span>
                         <div id="cartPopup" class="cart-popup" style="display: none;">
-                            <div class="cart-header border-bottom ">
+                            <div class="cart-header">
                                 <span>
                                     <span id="cartItemCount"> 0
                                     </span> ITEMS
-
                                 </span>
-                                <a href="../html/GioHang.html" class="fs-5 ms-auto">view cart</a>
                             </div>
                             <div id="cartItemsContainer" class="cart-items">
                                 <!-- Các mục giỏ hàng sẽ được thêm vào đây bằng JavaScript -->
@@ -85,9 +84,8 @@
                                     <span>SUBTOTAL:</span>
                                     <span id="cartSubtotal">€0.00</span>
                                 </div>
-                                <a id="goToCheckout" class="btn w-100 mt-2 text-light" 
-                                href="../html/ThanhToan.html" 
-                                style="background-color: #0351b6;" role="button">GO TO CHECKOUT</a>
+                                <a id="goToCheckout" class="btn w-100 mt-2 text-light" href="../html/ThanhToan.html"
+                                    style="background-color: #0351b6;" role="button">GO TO CHECKOUT</a>
                             </div>
                         </div>
                     </div>
@@ -295,142 +293,164 @@
                     </div>
                 </div>
         </header>
-
-        <div class="container my-5">
+        <div class="container mt-5 mb-5">
             <div class="row">
-                <!-- Slider ảnh -->
-                <div class="col-md-6">
-                    <!-- Container carousel -->
-                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <!-- Nội dung carousel sẽ được JS ghi đè -->
-                            <div class="carousel-item active">
-                                <img src="../img/placeholder.jpg" class="d-block w-100" alt="Placeholder">
+                <div class="col-12">
+                    <h4 class="mb-3"><span>4</span> ORDER SUMMARY</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="orderItemsContainer">
+                                <!-- Các sản phẩm sẽ được render tại đây -->
                             </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
-                    </div>
-                    <!-- Container thumbnails -->
-                    <div id="thumbnails" class="d-flex overflow-auto gap-2 mt-2">
-                    </div>
-                </div>
-                <!-- Thông tin sản phẩm -->
-                <div class="col-md-6">
-                    <h3 id="itemtitle" class="itemtitle">Coolant Inlet Connection A2562001600 Mercedes</h3>
-                    <p>
-                    <div><strong>Manufacturer:&nbsp</strong><span id="manufacturer"></span></div>
-                    <div><strong>Brand:&nbsp</strong><span id="brand"></span></div>
-                    </p>
-                    <div id="price" class="h4 text-success">€199.99 <br> <small class="text-muted">(Excl. Tax:
-                            <b>€165.28</b>)</small></div>
-
-                    <p class="text-success">✅ In stock - Shipped in 1 day</p>
-
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="input-group mb-3 w-100" style="height: 41px;">
-                                <button class="btn btn-outline-secondary" type="button" id="minus-btn">-</button>
-                                <input type="text" class="form-control text-center" id="quantity" value="1">
-                                <button class="btn btn-outline-secondary" type="button" id="plus-btn">+</button>
+                            <hr>
+                            <div class="d-flex justify-content-between">
+                                <span>Subtotal</span>
+                                <span id="orderSubtotal">€0.00</span>
                             </div>
-                        </div>
-                        <div class="col-8">
-                            <button class="btn btn-success btn-lg mb-3 h-80 w-100"
-                                style="font-weight: bold; font-size: medium;" id="addToCartButton">
-                                🛒 ADD TO CART
-                            </button>
-                        </div>
-                    </div>
-                    <div class="p-3 rounded bg-light border">
-                        <h5 class="mb-3" style="font-family: 'Patrick Hand', cursive;">
-                            Benefits of Carparts Onlineshop
-                        </h5>
-                        <ul class="list-unstyled">
-                            <li class="mb-1">
-                                ✅ <strong>Worldwide</strong> delivery by DHL express
-                            </li>
-                            <li class="mb-1">
-                                ✅ <strong>Lowest</strong> prices
-                            </li>
-                            <li class="mb-1">
-                                ✅ New, used and New take off <strong>parts</strong>
-                            </li>
-                            <li class="mb-1">
-                                ✅ <strong>Large stock</strong> available
-                            </li>
-                            <li class="mb-1">
-                                ✅ Located in <strong>The Netherlands</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <ul class="nav nav-tabs pt-5" id="productTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info"
-                            type="button" role="tab" aria-controls="info" aria-selected="true">
-                            More Information
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail"
-                            type="button" role="tab" aria-controls="detail" aria-selected="false">
-                            Detail
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="replacing-tab" data-bs-toggle="tab" data-bs-target="#replacing"
-                            type="button" role="tab" aria-controls="replacing" aria-selected="false">
-                            Replacing Information
-                        </button>
-                    </li>
-                </ul>
-
-                <div class="tab-content border border-top-0 p-3" id="productTabContent">
-                    <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Product Condition</div>
-                            <div id="productCondition" class="col-md-9 product-condition">
-                                <!-- Sẽ được cập nhật từ dữ liệu -->
+                            <div class="d-flex justify-content-between">
+                                <span>Shipping</span>
+                                <span id="orderShipping">€0.00</span>
                             </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Warranty</div>
-                            <div id="productWarranty" class="col-md-9 product-warranty">
-                                <!-- Sẽ được cập nhật từ dữ liệu -->
+                            <div class="d-flex justify-content-between">
+                                <span>Tax</span>
+                                <span id="orderTax">€0.00</span>
                             </div>
+                            <hr>
+                            <div class="d-flex justify-content-between fw-bold">
+                                <span>Order Total Incl. Tax</span>
+                                <span id="orderTotalInclTax">€0.00</span>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <span>Order Total Excl. Tax</span>
+                                <span id="orderTotalExclTax">€0.00</span>
+                            </div>
+                            <a id="goToCheckout" class="btn btn-primary w-100 mt-3" href="../html/ThanhToan.html">GO TO CHECKOUT</a>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="detail" role="tabpanel" aria-labelledby="detail-tab">
-                        <table class="table table-bordered">
-                            <tbody id="detailTable">
-                                <!-- Dữ liệu sẽ được append vào đây -->
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="tab-pane fade" id="replacing" role="tabpanel" aria-labelledby="replacing-tab">
-                        <h5>Replacing Information</h5>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Brand</th>
-                                    <th>Number</th>
-                                </tr>
-                            </thead>
-                            <tbody id="replacingTable">
-                            </tbody>
-                        </table>
                     </div>
                 </div>
             </div>
         </div>
+        <script src="../jscode/GioHang.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                // Hàm lấy dữ liệu giỏ hàng từ localStorage
+                function getCartData() {
+                    let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
+                    let subtotal = 0;
 
+                    cartItems.forEach(item => {
+                        subtotal += item.price * item.qty; // Tính tổng tiền
+                    });
+
+                    return {
+                        cartItems,  // Danh sách sản phẩm
+                        subtotal    // Tổng tiền
+                    };
+                }
+
+                // Hàm lưu dữ liệu giỏ hàng vào localStorage
+                function saveCartData(cartItems) {
+                    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+                }
+
+                // Hàm hiển thị giỏ hàng
+                function renderOrderSummary() {
+                    const { cartItems, subtotal } = getCartData();
+                    const orderItemsContainer = document.getElementById("orderItemsContainer");
+                    const orderSubtotal = document.getElementById("orderSubtotal");
+                    const orderShipping = document.getElementById("orderShipping");
+                    const orderTax = document.getElementById("orderTax");
+                    const orderTotalInclTax = document.getElementById("orderTotalInclTax");
+                    const orderTotalExclTax = document.getElementById("orderTotalExclTax");
+
+                    // Xóa nội dung cũ
+                    orderItemsContainer.innerHTML = "";
+
+                    // Kiểm tra nếu giỏ hàng trống
+                    if (cartItems.length === 0) {
+                        orderItemsContainer.innerHTML = "<p>Giỏ hàng trống</p>";
+                        orderSubtotal.textContent = "€0.00";
+                        orderShipping.textContent = "€0.00";
+                        orderTax.textContent = "€0.00";
+                        orderTotalInclTax.textContent = "€0.00";
+                        orderTotalExclTax.textContent = "€0.00";
+                        return;
+                    }
+
+                    // Hiển thị từng sản phẩm trong giỏ hàng
+                    cartItems.forEach((item, index) => {
+                        const itemHTML = `
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <span>${item.name}</span>
+                                <span>
+                                    <span>Qty: ${item.qty}</span>
+                                    <button class="btn btn-sm btn-secondary ms-3 decreaseQty" data-index="${index}">-</button>
+                                    <button class="btn btn-sm btn-danger ms-2 me-4 removeItem" data-index="${index}">x</button>
+                                    €${(item.price * item.qty).toFixed(2)}
+                                </span>
+                            </div>
+                        `;
+                        orderItemsContainer.insertAdjacentHTML("beforeend", itemHTML);
+                    });
+
+                    // Tính toán các giá trị
+                    const shippingCost = 10.00; // Giá vận chuyển cố định
+                    const tax = subtotal * 0.2; // Thuế 20%
+                    const totalInclTax = subtotal + shippingCost + tax;
+                    const totalExclTax = subtotal + shippingCost;
+
+                    // Cập nhật các giá trị vào HTML
+                    orderSubtotal.textContent = `€${subtotal.toFixed(2)}`;
+                    orderShipping.textContent = `€${shippingCost.toFixed(2)}`;
+                    orderTax.textContent = `€${tax.toFixed(2)}`;
+                    orderTotalInclTax.textContent = `€${totalInclTax.toFixed(2)}`;
+                    orderTotalExclTax.textContent = `€${totalExclTax.toFixed(2)}`;
+
+                    // Thêm sự kiện cho nút giảm số lượng và xóa sản phẩm
+                    document.querySelectorAll(".decreaseQty").forEach(button => {
+                        button.addEventListener("click", function () {
+                            const index = this.getAttribute("data-index");
+                            decreaseQuantity(index);
+                        });
+                    });
+
+                    document.querySelectorAll(".removeItem").forEach(button => {
+                        button.addEventListener("click", function () {
+                            const index = this.getAttribute("data-index");
+                            removeItem(index);
+                        });
+                    });
+                }
+
+                // Hàm giảm số lượng sản phẩm
+                function decreaseQuantity(index) {
+                    const { cartItems } = getCartData();
+                    if (cartItems[index].qty > 1) {
+                        cartItems[index].qty -= 1;
+                    } else {
+                        cartItems.splice(index, 1); // Xóa sản phẩm nếu số lượng là 1
+                    }
+                    saveCartData(cartItems);
+                    renderOrderSummary();
+                }
+
+                // Hàm xóa sản phẩm
+                function removeItem(index) {
+                    const { cartItems } = getCartData();
+                    cartItems.splice(index, 1); // Xóa sản phẩm
+                    saveCartData(cartItems);
+                    renderOrderSummary();
+                }
+
+                // Gọi hàm hiển thị giỏ hàng khi trang load
+                renderOrderSummary();
+
+                // Xử lý sự kiện khi nhấn nút "GO TO CHECKOUT"
+                document.getElementById("goToCheckout").addEventListener("click", function () {
+                    window.location.href = "../html/ThanhToan.html";
+                });
+            });
+        </script>
         <footer> <!-- phần footerfooter cho mọi trang-->
             <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
                 <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
@@ -468,7 +488,8 @@
                                         Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
                                             reviews</span>
                                     </p>
-                                    <a href="../html/DanhGia.html" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                    <a href="../html/DanhGia.html" class="text-end text-decoration-none"
+                                        style="color: rgb(112, 114, 114);">See
                                         all reviews</a>
                                 </div>
                             </div>
@@ -526,7 +547,8 @@
                 </div>
             </div>
         </footer>
-    </div>
-</body>
 
+    </div>
+
+</body>
 </html>
