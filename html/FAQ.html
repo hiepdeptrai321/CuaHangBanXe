@@ -21,16 +21,20 @@
             <div class="container-fluid px-0">
 
                 <div class="fullscreen">
-                    <div class="container d-flex align-items-center justify-content-between">
+                    <div
+                        class="container d-flex align-items-center justify-content-between">
                         <div class="d-flex align-items-center">
                             <nav class="navtop d-flex align-items-center">
-                                <img src="../img/5star.png" alt style="width: 100px;">
-                                <span class="ps-2 pe-2"><b>9.3</b> based on <b>675 reviews.</b></span>
+                                <img src="../img/5star.png" alt
+                                    style="width: 100px;">
+                                <span class="ps-2 pe-2"><b>9.3</b> based on
+                                    <b>675 reviews.</b></span>
                                 <a href="../html/DanhGia.html" class="link">See all reviews</a>
                             </nav>
                         </div>
-                        <div class="">
-                            <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
+                        <div class>
+                            <ul
+                                class="navsignin d-flex gap-3 list-unstyled mb-0">
                                 <li><a href="../html/DangNhap.html">SIGN IN</a></li>
                                 <li><a href="../html/LienHe.html">CONTACT US</a></li>
                                 <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
@@ -39,230 +43,432 @@
                     </div>
                 </div>
 
-                <div class="container d-flex align-items-center justify-content-between py-2">
-                    <div class="d-flex align-items-center ms-0">
-                        <a href="../html/TrangChu.html">
-                            <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
-                        </a>
-                    </div>
+            <div class="container d-flex align-items-center justify-content-between py-2">
+                <div class="d-flex align-items-center ms-0">
+                    <a href="../html/TrangChu.html">
+                        <img id="mainlogo" src="../img/logo.png" alt="Logo" style="height: 90px;">
+                    </a>
+                </div>
 
                     <div class="flex-grow-1 px-4">
                         <div class="search-box position-relative">
-                            <input id="searchbar" type="text" class="form-control rounded-pill ps-4 pe-5" placeholder="Search"
+                            <input id="searchbar" type="text"
+                                class="form-control rounded-pill ps-4 pe-5"
+                                placeholder="Search"
                                 style="background-color: #f5f7fa; height: 50px;">
-                            <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
+                            <i
+                                class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
                     </div>
 
-                    <div class="position-relative">
-                        <a href class="position-relative text-dark text-decoration-none">
-                            <i class="bi bi-bag" style="font-size: 24px;"></i>
-                            <span
-                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-warning text-dark"
-                                style="font-size: 0.7rem;">
-                                0
+                <div class="position-relative">
+                    <i id="cartIcon" class="bi bi-bag" style="font-size: 24px; cursor: pointer;"></i>
+                    <span id="cartCount"
+                        class="position-absolute top-1 start-100 translate-middle badge rounded-pill bg-warning text-dark"
+                        style="font-size: 0.7rem; top: 11px;">
+                        0
+                    </span>
+                    <div id="cartPopup" class="cart-popup" style="display: none;">
+                        <div class="cart-header">
+                            <span>
+                                <span id="cartItemCount"> 0
+                                </span> ITEMS
                             </span>
-                        </a>
-                    </div>
-                </div>
-
-                <div style="background-color: #0351b6;">
-                    <div class="main-nav text-white">
-                        <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Air Condition / Heating</a>
-                                    <div class="dropdown-content">
-                                        <a href="" data-value="Air Conditioning Compressor">Air Conditioning
-                                            Compressor</a>
-                                        <a href="">Climate Control</a>
-                                        <a href="">Air Filter</a>
-                                        <a href="">Heater</a>
-                                        <a href="">Condenser</a>
-                                    </div>
-                                </div>
+                        </div>
+                        <div id="cartItemsContainer" class="cart-items">
+                            <!-- Các mục giỏ hàng sẽ được thêm vào đây bằng JavaScript -->
+                        </div>
+                        <div class="cart-footer">
+                            <div class="d-flex justify-content-between">
+                                <span>SUBTOTAL:</span>
+                                <span id="cartSubtotal">€0.00</span>
                             </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Brake System</a>
-                                    <div class="dropdown-content" style="left: -220px;">
-                                        <a href="" data-value="Vacuumpump">Vacuumpump</a>
-                                        <a href="">Brake Shoe</a>
-                                        <a href="">Brake Drum</a>
-                                        <a href="">Brake Wheel Cylinder</a>
-                                        <a href="">Brake Disc</a>
-                                        <a href="">Brake Hoses</a>
-                                        <a href="">Brake Master Cylinder</a>
-                                        <a href="">Brake Caliper</a>
-                                        <a href="">Hand Brake Handle</a>
-                                        <a href="">Parking Brake Cables</a>
-                                        <a href="">Brake Pad</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Body Parts</a>
-                                    <div class="dropdown-content" style="left: -380px;">
-                                        <a href="" data-value="Door Handle">Door Handle</a>
-                                        <a href="">Mirror</a>
-                                        <a href="">Plastic Body Parts</a>
-                                        <a href="">Wheelhouse Inner Fender</a>
-                                        <a href="">Wipers</a>
-                                        <a href="">Bumper</a>
-                                        <a href="">Windows</a>
-                                        <a href="">Door</a>
-                                        <a href="">Fender Flasher</a>
-                                        <a href="">Wheel</a>
-                                        <a href="">Lighting</a>
-                                        <a href="">Washer Pump</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Cooling System</a>
-                                    <div class="dropdown-content" style="left: -518px;">
-                                        <a href="">Radiator</a>
-                                        <a href="">Expansion Tanks</a>
-                                        <a href="">Cooling Fan Housing</a>
-                                        <a href="">Cooling Fan Blades</a>
-                                        <a href="">Cooling Fan And Motor Assy</a>
-                                        <a href="">Antifreeze Coolant</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Drive Line</a>
-                                    <div class="dropdown-content" style="left: -690px;">
-                                        <a href="">Drive line</a>
-                                        <a href="">Driveshaft</a>
-                                        <a href="">Differential</a>
-                                        <a href="">Hub</a>
-                                        <a href="">Gearbox</a>
-                                        <a href="">Flywheel & Clutch </a>
-                                        <a href="">Shock</a>
-                                        <a href="">Universal Joint</a>
-                                        <a href="">Axle</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Engine</a>
-                                    <div class="dropdown-content" style="left: -822px;">
-                                        <a href="">Turbo's / Superchanrgers</a>
-                                        <a href="">Cylinder Head</a>
-                                        <a href="">Oil Seperator</a>
-                                        <a href="">Connectiong Rod</a>
-                                        <a href="">Crank And Crankshaft Gears</a>
-                                        <a href="">Camshaft</a>
-                                        <a href="">Thermostat</a>
-                                        <a href="">Engine Oil Indicator</a>
-                                        <a href="">Hoses And Pipes </a>
-                                        <a href="">Water Pump</a>
-                                        <a href="">Oil Pump</a>
-                                        <a href="">Thermostat Housing</a>
-                                        <a href="">TenSioner Pully</a>
-                                        <a href="">Oil Filter</a>
-                                        <a href="">Oil Pan</a>
-                                        <a href="">Oil Cooler Housing</a>
-                                        <a href="">Timing Chain Gasket</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Fuel Parts</a>
-                                    <div class="dropdown-content" style="left: -931px;">
-                                        <a href="">Sensor Air Mass</a>
-                                        <a href="">Glowplugs</a>
-                                        <a href="">Fuel Pump</a>
-                                        <a href="">Heater Valves</a>
-                                        <a href="">Air Hoses - Couplings</a>
-                                        <a href="">Timing Chain Guides</a>
-                                        <a href="">Crankshaft Pilley</a>
-                                        <a href="">IAC Valves</a>
-                                        <a href="">EGR Valve</a>
-                                        <a href="">Oilfilterhousings</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Steering</a>
-                                    <div class="dropdown-content" style="left: -1064px;">
-                                        <a href="">Steering - SuspenSion Parts</a>
-                                        <a href="">Steering Rack Repair Set</a>
-                                        <a href="">Steering Racks</a>
-                                        <a href="">Steering Joints</a>
-                                        <a href="">Steering Knuckles</a>
-                                        <a href="">Steeringpump</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="dropdown">
-                                <div>
-                                    <a href="#" class="dropbtn">Other</a>
-                                    <div class="dropdown-content" style="left: -1184px;">
-                                        <a href="">Accessories</a>
-                                        <a href="">Boot Kits</a>
-                                        <a href="">Clips</a>
-                                        <a href="">Fuel -Oil Caps</a>
-                                        <a href="">Clamps</a>
-                                        <a href="">Acceleration Cables</a>
-                                        <a href="">Car Computer Box Cover</a>
-                                        <a href="">Floor Mats</a>
-                                        <a href="">Oil Seat Furnishing</a>
-                                        <a href="">Hood Opening Cables</a>
-                                        <a href="">Signal Switch</a>
-                                    </div>
-                                </div>
-                            </div>
+                            <a id="goToCheckout" class="btn w-100 mt-2 text-light" 
+                            href="../html/ThanhToan.html" 
+                            style="background-color: #0351b6;" role="button">GO TO CHECKOUT</a>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="benefits-bar py-3">
-                    <div
-                        class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Worldwide</strong>, delivery</span>
+            <div style="background-color: #0351b6;">
+                <div class="main-nav text-white">
+                    <div class="container d-flex justify-content-start flex-wrap" style="gap: 40px;">
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Air Condition / Heating</a>
+                                <div class="dropdown-content">
+                                    <a href="" data-value="Air Conditioning Compressor">Air Conditioning
+                                        Compressor</a>
+                                    <a href="">Climate Control</a>
+                                    <a href="">Air Filter</a>
+                                    <a href="">Heater</a>
+                                    <a href="">Condenser</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Lowest</strong> prices</span>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Brake System</a>
+                                <div class="dropdown-content" style="left: -220px;">
+                                    <a href="" data-value="Vacuumpump">Vacuumpump</a>
+                                    <a href="">Brake Shoe</a>
+                                    <a href="">Brake Drum</a>
+                                    <a href="">Brake Wheel Cylinder</a>
+                                    <a href="">Brake Disc</a>
+                                    <a href="">Brake Hoses</a>
+                                    <a href="">Brake Master Cylinder</a>
+                                    <a href="">Brake Caliper</a>
+                                    <a href="">Hand Brake Handle</a>
+                                    <a href="">Parking Brake Cables</a>
+                                    <a href="">Brake Pad</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Fast</strong> shipping</span>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Body Parts</a>
+                                <div class="dropdown-content" style="left: -380px;">
+                                    <a href="" data-value="Door Handle">Door Handle</a>
+                                    <a href="">Mirror</a>
+                                    <a href="">Plastic Body Parts</a>
+                                    <a href="">Wheelhouse Inner Fender</a>
+                                    <a href="">Wipers</a>
+                                    <a href="">Bumper</a>
+                                    <a href="">Windows</a>
+                                    <a href="">Door</a>
+                                    <a href="">Fender Flasher</a>
+                                    <a href="">Wheel</a>
+                                    <a href="">Lighting</a>
+                                    <a href="">Washer Pump</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Original</strong> <strong>Parts</strong></span>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Cooling
+                                    System</a>
+                                <div class="dropdown-content" style="left: -518px;">
+                                    <a href>Radiator</a>
+                                    <a href>Expansion Tanks</a>
+                                    <a href>Cooling Fan Housing</a>
+                                    <a href>Cooling Fan Blades</a>
+                                    <a href>Cooling Fan And Motor
+                                        Assy</a>
+                                    <a href>Antifreeze Coolant</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span>Safe and <strong>easy</strong></span>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Drive
+                                    Line</a>
+                                <div class="dropdown-content" style="left: -690px;">
+                                    <a href>Drive line</a>
+                                    <a href>Driveshaft</a>
+                                    <a href>Differential</a>
+                                    <a href>Hub</a>
+                                    <a href>Gearbox</a>
+                                    <a href>Flywheel & Clutch </a>
+                                    <a href>Shock</a>
+                                    <a href>Universal Joint</a>
+                                    <a href>Axle</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="d-flex align-items-center gap-3 pe-5">
-                            <i class="bi bi-check-circle-fill text-success"></i>
-                            <span><strong>Large stock</strong>, available</span>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Engine</a>
+                                <div class="dropdown-content" style="left: -822px;">
+                                    <a href>Turbo's / Superchanrgers</a>
+                                    <a href>Cylinder Head</a>
+                                    <a href>Oil Seperator</a>
+                                    <a href>Connectiong Rod</a>
+                                    <a href>Crank And Crankshaft
+                                        Gears</a>
+                                    <a href>Camshaft</a>
+                                    <a href>Thermostat</a>
+                                    <a href>Engine Oil Indicator</a>
+                                    <a href>Hoses And Pipes </a>
+                                    <a href>Water Pump</a>
+                                    <a href>Oil Pump</a>
+                                    <a href>Thermostat Housing</a>
+                                    <a href>TenSioner Pully</a>
+                                    <a href>Oil Filter</a>
+                                    <a href>Oil Pan</a>
+                                    <a href>Oil Cooler Housing</a>
+                                    <a href>Timing Chain Gasket</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Fuel
+                                    Parts</a>
+                                <div class="dropdown-content" style="left: -931px;">
+                                    <a href>Sensor Air Mass</a>
+                                    <a href>Glowplugs</a>
+                                    <a href>Fuel Pump</a>
+                                    <a href>Heater Valves</a>
+                                    <a href>Air Hoses - Couplings</a>
+                                    <a href>Timing Chain Guides</a>
+                                    <a href>Crankshaft Pilley</a>
+                                    <a href>IAC Valves</a>
+                                    <a href>EGR Valve</a>
+                                    <a href>Oilfilterhousings</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Steering</a>
+                                <div class="dropdown-content" style="left: -1064px;">
+                                    <a href>Steering - SuspenSion
+                                        Parts</a>
+                                    <a href>Steering Rack Repair Set</a>
+                                    <a href>Steering Racks</a>
+                                    <a href>Steering Joints</a>
+                                    <a href>Steering Knuckles</a>
+                                    <a href>Steeringpump</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <div>
+                                <a href="#" class="dropbtn">Other</a>
+                                <div class="dropdown-content" style="left: -1184px;">
+                                    <a href>Accessories</a>
+                                    <a href>Boot Kits</a>
+                                    <a href>Clips</a>
+                                    <a href>Fuel -Oil Caps</a>
+                                    <a href>Clamps</a>
+                                    <a href>Acceleration Cables</a>
+                                    <a href>Car Computer Box Cover</a>
+                                    <a href>Floor Mats</a>
+                                    <a href>Oil Seat Furnishing</a>
+                                    <a href>Hood Opening Cables</a>
+                                    <a href>Signal Switch</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="benefits-bar py-3">
+                <div
+                    class="container d-flex justify-content-start flex-wrap text-secondary justify-content-between">
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span><strong>Worldwide</strong>, delivery</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span><strong>Lowest</strong> prices</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span><strong>Fast</strong> shipping</span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span><strong>Original</strong> <strong>Parts</strong></span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span>Safe and <strong>easy</strong></span>
+                    </div>
+                    <div class="d-flex align-items-center gap-3 pe-5">
+                        <i class="bi bi-check-circle-fill text-success"></i>
+                        <span><strong>Large stock</strong>, available</span>
+                    </div>
+                </div>
+            </div>
         </header>
+        <div class="container mt-4">
+            <section class="title-section">
+                <p style="font-size: 60px; color: #0351b6;" id="title_services">
+                 Customer Service
+                </p>
+               </section>
+               <div class="tabs d-flex justify-content-center gap-3 flex-wrap py-4">
+                <a href="#order-shipment" class="btn  p-4 rounded-3 fs-5 text-center" style="min-width: 200px;"style="background-color: #0351b6;border: 2px solid #013a85;">
+                    <div>📦</div>
+                    <div>Order & Shipment</div>
+                </a>
+                <a href="#payment" class="btn  p-4 rounded-3 fs-5 text-center" style="min-width: 200px;"style="background-color: #0351b6;">
+                    <div>💳</div>
+                    <div>Payment</div>
+                </a>
+                <a href="#return" class="btn  p-4 rounded-3 fs-5 text-center" style="min-width: 200px;"style="background-color: #0351b6;">
+                    <div>🔄</div>
+                    <div>Return & Exchange</div>
+                </a>
+                <a href="#warranty" class="btn  p-4 rounded-3 fs-5 text-center" style="min-width: 200px;"style="background-color: #0351b6;">
+                    <div>🛠️</div>
+                    <div>Service & Warranty</div>
+                </a>
+            </div>
+            
+            
+            <div class="container">
+                <br>
+                <section id="order-shipment">
+                    <h2>Orders & Shipments</h2>
+                    <p 
+                    style="font-size: 18px;"><strong>How do I place an order?</strong></p>
+                    <ol>
+                        <li>Choose your product</li>
+                        <p>If you want to buy a product, look for this product on the website. This can be done using the search function or the menu at the top <br> 
+                        of the website. If you are looking for the OEM / part number, you will immediately get to the right part. Once you have found the <br>
+                        product. click 'add to cart', now the product is in your shopping cart.</p>
+                        <li>Enter your data</li>
+                        <p>If all products are in the shopping cart, go to the shopping cart. Check that all products and the right quantities are in your shopping <br>
+                            cart. Now click on "Checkout" and enter all your data or log in with the previously created account. The shipping costs are displayed.</p>
+                        <li>Select the payment method</li>
+                        <p>This can be done via iDEAL, Mister Cash, Paypal or by credit card (Visa or Mastercard).</p>
+                        <li>Numbers</li>
+                        <p>Then the payment screen of the selected payment method appears. You can complete the payment on this secure page.</p>
+                        <li>Confirmation order</li>
+                        <p>Upon completion of the payment, a screen will appear indicating that your purchase and payment have been received. <br>
+                             You will also receive a confirmation of your purchase by e-mail.</p>
+                             <li>Shipping order</li>
+                             <p>After we have received your order, it will be picked up by the people from our logistics center, packed and ready for shipment by DPD or DHL.</p>
+                             <li>Confirmation of delivery</li>
+                             <p>After our logistics colleagues have placed your order, you will receive an email with a link to track the status of your order.</p>
+                             <li>Order delivered</li>
+                             <p>The product will be delivered two days after DPD or DHL picks up the product. If you have a question or a complaint, please let us know! <br> 
+                                Email us at info@carparts-onlineshop.com or call us at 0031- (0) 77 307 15 80.
+                            </p>
+                    </ol>
+            
+                    <p style="font-size: 18px;"><strong>How can I find the right part?</strong></p>
+                    <p>The part you want to renew is an OEM / PART number. 
+                        If you enter them in our search function at the top of the page, you will automatically be taken to the correct part. <br>
+                        If you can not find this number, let us know so that we can search for the part with you.
+                        </p>
+            
+                    <p style="font-size: 18px;"><strong>How long will shipment take?</strong></p>
+                    <p>Most deliveries arrive within 2–5 business days depending on location and carrier. Please check the table below:</p>
+            
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Country</th>
+                                <th>DHL Delivery Time (Business days)</th>
+                                <th>DPD Delivery Time (Business days)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Viet Nam</td>
+                                <td>2–3 business days</td>
+                                <td>2–4 business days</td>
+                            </tr>
+                            <tr>
+                                <td>Other Country</td>
+                                <td>5-6 business days</td>
+                                <td>5–6 business days</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+            <br>
+                <hr>
+            <br>
+                <!-- Payment -->
+                <section id="payment">
+                    <h2 >Payment</h2>
+                    <p>We offer multiple payment options via our provider Mollie.com:</p>
+                    <ul>
+                        <li>iDeal (NL)</li>
+                        <li>Bancontact (BE)</li>
+                        <li>Visa, Mastercard, American Express</li>
+                        <li>Apple Pay</li>
+                        <li>Bank Transfer</li>
+                    </ul>
+                    <img src="../img/bank.png" alt="">
+                </section>
+                <br>
+                <hr>
+            <br>
+                <!-- Return & Exchange -->
+                <section id="return">
+                    <h2>Return & Exchange</h2>
+                    <p style="font-size: 18px;"><strong>What are the return conditions?</strong></p>
+                    <p>Return the returned articles in original packaging, undamaged and unused, within 14 days. <br>
+                        Note: Electronic or specially ordered parts can NOT be returned. <br>
+                        Carefully handle the packaging of an item. <br>
+                        Do not write texts and do not stick stickers or tape on the original packaging of the article. <br>
+                        Pack the return items in a box if necessary to prevent transport damage. <br>
+                        You must send the invoice with the return shipment. <br>
+                        Problems with shipping, at or by the company that takes care of the shipment to us, are at your risk as sender. Always keep your shipping receipt. <br>
+                        <br>
+                        
+                        Note: In case of return, the costs of both outward and return shipment are for the customer.</p>
+                    <p style="font-size: 18px;"><strong>How to Return:</strong></p>
+                    <ol>
+                        <li>Notify us via email: <a href="mailto:info@carparts-onlineshop.com">info@carparts-onlineshop.com</a></li>
+                        <li>Return the package and keep the shipping receipt.</li>
+                        <li>Refunds are processed within 14 days of receiving the item.</li>
+                    </ol>
+                    <p style="font-size: 18px;"><strong>What is the reflection time?
+                    </strong></p>
+                    <p>With MPR parts you can exchange or return an item within 14 days. You must therefore make a report within this period while the <br>
+                        product may return outside this period. You have 14 days to return the products after the notification. These days' reflection period start <br>
+                        on the day after delivery of the package. We request to report transport damage within 24 hours from the discovery of the defect by e-mail. <br>
+                         Upon arrival, it must be checked whether the delivery is complete. The shipping costs of the forwarding will be reimbursed if the <br>
+                        entire order is returned. You will receive the entire purchase amount, including shipping costs for the forwarding, as soon as possible <br>
+                        and no later than 14 days from the moment of dissolution on your account.</p>
+                </section>
+                <br>
+                <hr>
+            <br>
+                <!-- Reflection Time -->
+                <section id="warranty">
+                    <h2>Service & Warranty</h2>
+                    <p style="font-size: 18px;"><strong>What is the warranty of the products?</strong></p>
+                    <p style="font-weight: bold ;">General</p>
+                    <p>The products offered by the Company conform to current European legislation and standards applicable in Europe. The products sold by <br> 
+                        the Company may only be fitted to vehicles or systems recommended by the constructor or manufacturer or by an authorised person <br>
+                         and only under their responsibility. The Company cannot, under any circumstances, be held liable for the consequences of incorrectbr
+                          fitting or use of a product that is not adapted to a particular vehicle.</p>
+                          <br>
+                          <p style="font-weight: bold ;">Manufacturer's warranty</p>
+                          <p>Some Products have a manufacturer's warranty of usually one year. If a Product becomes defective during the warranty period, repairs <br> 
+                            are covered by the manufacturer concerned. The Customer is responsible for the shipping costs of the Product to the manufacturer.</p>
+                            <br>
+                            <p style="font-weight: bold ;">Guarantee for hidden defects</p>
+                            <p>In accordance with the legislation on hidden defects applicable in Europe, the Customer enjoys a legal guarantee for hidden defects. <br>
+                                 Only those Products with a recognised hidden defect may be returned to the Company for this reason. If a Customer indicates that a <br>
+                                  Product supplied by the Company has a hidden defect, he/she must provide proof of this. The Customer must therefore request an <br>
+                                   expert's report from a recognised expert in order to confirm the hidden defect. If the expert's report shows that there is a hidden defect, <br>
+                                    the document proving this must be sent to the Company's customer service department as soon as possible. Upon receipt of this <br>
+                                    document, the Company's customer service will provide the return authorisation number and the procedure to be followed for returning <br>
+                                    the Product. The cost of returning the Product shall be borne by the Company. The Company will authorise the return of the Product <br>
+                                    after the hidden defect has been identified by the Company's services. Once the return has been approved by the Company's services, <br>
+                                     the purchase price of the Product will be refunded. Subject to proven hidden defects, the costs of expert assessment may be reimbursed <br>
+                                     by the Company on presentation of the invoice relating to these costs.</p>
+                                     <br>
+                                     <p style="font-weight: bold ;">Exclusion of guarantee</p>
+                                     <p>The guarantee does not apply to: the replacement of consumables (bulbs, brushes, batteries, discs, filters, plugs, clips, plates, etc.);<br>
+                                         abnormal or incorrect use of the products; defects and consequences resulting from use for which the product is not intended <br>
+                                          (competition, etc.); defects and consequences resulting from an external cause.
+                                     </p>
+                                     <br>
+                                     <hr>
+                </section>
+            </div>
+    
+        </div>
         <footer> <!-- phần footerfooter cho mọi trang-->
             <div style="background-color: #f5f7fa;"> <!-- dòng 1 -->
                 <div class="row container m-auto align-items-center justify-content-between" style="padding: 30px;">
@@ -297,11 +503,11 @@
                                         <img src="../img/5star.png" alt="" style="width: 60px;">
                                     </div>
                                     <p class="text-end">
-                                        Reviewed with a score of <span>9.3 / 10</span> based <br>
-                                        on <span>675 reviews</span>
+                                        Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
+                                            reviews</span>
                                     </p>
-                                    <a href="" class="text-end text-decoration-none"
-                                        style="color: rgb(112, 114, 114);">See all reviews</a>
+                                    <a href="../html/DanhGia.html" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                        all reviews</a>
                                 </div>
                             </div>
                         </div>
@@ -312,7 +518,7 @@
             <div class="row container p-sm-3 m-auto FooterRow2"> <!-- các link và contact -->
                 <div class="col-3">
                     <h3>Customer service</h3>
-                    <a href="">About us</a><br>
+                    <a href="../html/GioiThieu.html">About us</a><br>
                     <a href="">General terms & conditions</a><br>
                     <a href="">Disclaimer</a><br>
                     <a href="">Privacy Policy</a><br>
@@ -340,20 +546,20 @@
                 <div class="col-3">
                     <h3>Contact</h3>
                     <div class="contact-info">
-                        <p><span>MPR Parts B.V.</span></p>
-                        <p>Hulsingbroek 1<br>5993 NE, Maasbree<br>The Netherlands</p>
-                        <p>Tel: +31 77-3071580</p>
-                        <p>Email: info@carparts-onlineshop.com</p>
-                        <p><span>BTW-nummer:</span> NL8555.58.180.B.01</p>
-                        <p><span>KVK-nummer:</span> 64186369</p>
-                        <p><span>Bank:</span> NL11RABO 01310.41.231</p>
+                        <p><span>Industrial University of <br> Ho Chi Minh City</span></p>
+                        <p>12, Nguyen Van Bao Street<br>
+                            1 Ward, Go Vap District<br>Ho Chi Minh City
+                        </p>
+                        <p>Tel: +84 789582903</p>
+                        <p>Email: info@autoparts-onlineshop.com</p>
+                        <p><span>Bank:</span> MB Bank 0535041261</p>
                     </div>
                 </div>
             </div>
             <div style="border-top: 1px solid #dadada;">
-                <div class="container" style="color: #8c8c8d;">
-                    <p>
-                        © Carparts-onlineshop. 2020. All Rights Reserved
+                <div class="container" style="color: #8c8c8d; ">
+                    <p class="pt-3">
+                        © Autoparts-onlineshop. 2025. Project môn học Hệ thống và Công nghệ Web - GV: Đặng Thị Thu Hà
                     </p>
                 </div>
             </div>

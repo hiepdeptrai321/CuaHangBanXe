@@ -70,16 +70,17 @@ $(document).ready(function () {
 
         // Xử lý click vào sản phẩm
         $('#product-list').on('click', '.product-card', function () {
-          const productId = $(this).data('id');
-          const selectedProduct = currentData.find(product => product.id === productId); 
-          if (selectedProduct) {
-              localStorage.setItem('selectedProduct', JSON.stringify(selectedProduct));
-              window.location.href = 'ChiTietSanPham.html';
-          } else {
-              console.error('Sản phẩm không tìm thấy!');
-          }
+            const productId = $(this).data('id');
+            const selectedProduct = currentData.find(product => product.id === productId);
+            if (selectedProduct) {
+                localStorage.setItem('selectedProduct', JSON.stringify(selectedProduct));
+                startLoadingBar(() => {
+                    window.location.href = 'ChiTietSanPham.html';
+                });
+            } else {
+                console.error('Sản phẩm không tìm thấy!');
+            }
         });
-
         // Xử lý hiệu ứng hover
         $('#product-list').on('mouseenter', '.product-card', function () {
             $(this).css('box-shadow', '0 4px 8px rgba(0,0,0,0.2)');
@@ -203,5 +204,6 @@ $(document).ready(function () {
     const savedSearchTerm = localStorage.getItem("searchTerm");
     if (savedSearchTerm) {
         $("#searchbar").val(savedSearchTerm); // Gán lại giá trị cho thanh tìm kiếm
+        localStorage.clear("searchTerm");
     }
 });

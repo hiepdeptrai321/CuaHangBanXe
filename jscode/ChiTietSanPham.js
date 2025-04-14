@@ -37,7 +37,7 @@ $(document).ready(function() {
         $(".itemtitle").text(selectedProduct.name);
         $("#manufacturer").text(selectedProduct.manufacturer);
         $("#brand").text(selectedProduct.brand);
-        $("div.h5.text-success").html(
+        $("#price").html(
             "€" + selectedProduct.price.toFixed(2) +
             "<br> <small class='text-muted'>(Excl. Tax: <b>€" +
             selectedProduct.tax.toFixed(2) +
@@ -161,6 +161,7 @@ $(document).ready(function() {
         let totalCartItems=0;
     
         cartList.empty();
+        let totalCartItems = 0;
     
         cartItems.forEach(item => {
             subtotal += item.price * item.qty;
@@ -199,8 +200,8 @@ $(document).ready(function() {
     
         // Cập nhật subtotal và số lượng
         $('#cartSubtotal').text(`€${subtotal.toFixed(2)}`);
-        $('#cartCount').text(totalItems);
-        $('#cartItemCount').text(totalCartItems);
+        $('#cartCount').text(totalCartItems);
+        $('#cartItemCount').text(totalItems);
     }
     function decrementItemQuantity(itemName) {
         let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
@@ -247,4 +248,40 @@ $(document).ready(function() {
 
     // Tải lại UI khi load trang
     updateCartUI();
+
+    // // Lắng nghe sự kiện click trên tất cả các liên kết
+    document.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", event => {
+            const href = link.getAttribute("href");
+
+            // Kiểm tra nếu href không phải là "#" và không trống
+            if (href && href !== "#") {
+                event.preventDefault(); // Ngăn chặn hành động mặc định
+                startLoadingBar(() => {
+                    document.body.classList.add("fade-out"); // Thêm hiệu ứng fade-out
+                    setTimeout(() => {
+                        window.location.href = href; // Chuyển hướng sau khi fade-out hoàn tất
+                    }, 200); // Thời gian khớp với CSS transition
+                });
+            }
+        });
+    });
+    // Hàm điều khiển thanh tải
+    function startLoadingBar(callback) {
+        const loadingBar = document.getElementById("loading-bar");
+        loadingBar.style.width = "0%"; // Đặt lại về 0%
+        loadingBar.style.transition = "none"; // Loại bỏ hiệu ứng để reset
+        setTimeout(() => {
+            loadingBar.style.transition = "width 1s ease-out"; // Thêm lại hiệu ứng với thời gian 1 giây
+            loadingBar.style.width = "100%"; // Tăng chiều rộng lên 100%
+        }, 10);
+
+        // Lắng nghe sự kiện khi hiệu ứng kết thúc
+        loadingBar.addEventListener("transitionend", function handleTransitionEnd() {
+            loadingBar.removeEventListener("transitionend", handleTransitionEnd); // Xóa sự kiện để tránh lặp lại
+            if (typeof callback === "function") {
+                callback(); // Gọi hàm callback sau khi hiệu ứng hoàn tất
+            }
+        });
+    }
 });
