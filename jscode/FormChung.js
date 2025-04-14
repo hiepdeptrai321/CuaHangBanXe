@@ -159,6 +159,29 @@ $(document).ready(function () {
 
     // Gọi hàm để cập nhật giao diện khi trang load
     renderCartUI();
+
+    //Load giao diện đăng nhập
+    const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
+    if (loggedInUser) {
+        // cập nhật giao diện
+        $('.navsignin').html(`
+        <li>Welcome, ${loggedInUser.firstName} ${loggedInUser.lastName}</li>
+        <li><a href="../html/LienHe.html">CONTACT US</a></li>
+        <li><a href="#" id="logoutBtn">LOG OUT</a></li>
+        `);
+
+        $('#logoutBtn').on('click', function () {
+        localStorage.removeItem('loggedInUser'); 
+        location.reload(); 
+        });
+    } else {
+        // chưa đăng nhập
+        $('.navsignin').html(`
+        <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+        <li><a href="../html/LienHe.html">CONTACT US</a></li>
+        <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+        `);
+    }
 });
 
 // Hàm điều khiển thanh tải

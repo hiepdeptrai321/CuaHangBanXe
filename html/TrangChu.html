@@ -329,21 +329,21 @@
                         <div class="col">
                             <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
                                 <img src="../img/airCondition.jpg" class="img-fluid mb-2">
-                                <p class="mb-0 p-2 hovericon"><a href="../html/DanhSachSanPham.html" class="text-decoration-none "
+                                <p class="mb-0 p-2 hovericon "><a href="" class="text-decoration-none bodylink"
                                         style="color: #0351b6;" data-value="Air Conditioning Compressor">Air Condition</a></p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
                                 <img src="../img/breaking-icon.png" class="img-fluid mb-2">
-                                <p class="mb-0 p-2 hovericon"><a href="../html/DanhSachSanPham.html" class="text-decoration-none "
+                                <p class="mb-0 p-2 hovericon "><a href="" class="text-decoration-none bodylink"
                                         style="color: #0351b6;" data-value="Vacuumpump">Braking System</a></p>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bg-white p-2 text-center rounded-1 shadow-sm d-flex align-items-center fs-5 ">
                                 <img src="../img/BodyParts.jpg" class="img-fluid mb-2">
-                                <p class="mb-0 p-4 hovericon"><a href="../html/DanhSachSanPham.html" class="text-decoration-none "
+                                <p class="mb-0 p-4 hovericon "><a href="" class="text-decoration-none bodylink"
                                         style="color: #0351b6;" data-value="Door Handle">Body Parts</a></p>
                             </div>
                         </div>
@@ -600,7 +600,7 @@
                     <a href="">My Account</a><br>
                     <a href="">Payment Methods</a><br>
                     <a href="">Shipping Guide</a><br>
-                    <a href="">FAQs</a><br>
+                    <a href="../html/FAQ.html">FAQs</a><br>
                     <a href="">Product Support</a><br>
                 </div>
                 <div class="col-3">
@@ -654,32 +654,20 @@
             }
         });
 
-        const loggedInUser = JSON.parse(localStorage.getItem('loggedInUser'));
-
-        if (loggedInUser) {
-            // cập nhật giao diện
-            $('.navsignin').html(`
-            <li>Welcome, ${loggedInUser.firstName} ${loggedInUser.lastName}</li>
-            <li><a href="../html/LienHe.html">CONTACT US</a></li>
-            <li><a href="#" id="logoutBtn">LOG OUT</a></li>
-            `);
-
-            $('#logoutBtn').on('click', function () {
-            localStorage.removeItem('loggedInUser'); 
-            alert('You have logged out.');
-            location.reload(); 
-            });
-        } else {
-            // chưa đăng nhập
-            $('.navsignin').html(`
-            <li><a href="../html/DangNhap.html">SIGN IN</a></li>
-            <li><a href="../html/LienHe.html">CONTACT US</a></li>
-            <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
-            `);
-        }
         $('#viewProductsBtn').on('click', function () {
              localStorage.setItem("selectedCategory","All Products");
              window.location.href = "../html/DanhSachSanPham.html";
+        });
+        $(".bodylink").click(function (e) { 
+            e.preventDefault();
+            const selectedValue = $(this).data("value");
+            localStorage.setItem("selectedCategory", selectedValue);
+            startLoadingBar(() => {
+                document.body.classList.add("fade-out"); 
+                setTimeout(() => {
+                    window.location.href = "DanhSachSanPham.html"; // Chuyển hướng sau khi fade-out hoàn tất
+                }, 200); // Thời gian khớp với CSS transition
+            });
         });
     });
 </script>
