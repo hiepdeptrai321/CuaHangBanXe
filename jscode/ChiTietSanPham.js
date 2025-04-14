@@ -158,9 +158,9 @@ $(document).ready(function() {
         let cartList = $('#cartItemsContainer');
         let subtotal = 0;
         let totalItems = 0;
+        let totalCartItems=0;
     
         cartList.empty();
-        let totalCartItems = 0;
     
         cartItems.forEach(item => {
             subtotal += item.price * item.qty;
