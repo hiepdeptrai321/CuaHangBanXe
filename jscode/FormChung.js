@@ -102,10 +102,16 @@ $(document).ready(function () {
             cartItems.forEach(item => {
                 const cartItemHTML = `
                     <div class="cart-item">
-                        <span>${item.name}</span><br>
-                        <span>€${item.price.toFixed(2)} x ${item.qty}</span>
-                        <button class="btn btn-sm btn-secondary decrement-item" data-name="${item.name}">–</button>
-                        <button class="btn btn-sm btn-danger remove-item" data-name="${item.name}">×</button>
+                        <div class="border-bottom" style="display: flex;">
+                        <div class=""> 
+                            <span>${item.name}</span><br>
+                            <span>€${item.price.toFixed(2)} x ${item.qty}</span>
+                        </div>
+                        <div> 
+                            <button class="btn btn-sm btn-secondary decrement-item" data-name="${item.name}">–</button>
+                            <button class="btn btn-sm btn-danger remove-item" data-name="${item.name}">×</button>
+                        </div>
+                    </div>
                     </div>
                 `;
                 cartList.append(cartItemHTML);
