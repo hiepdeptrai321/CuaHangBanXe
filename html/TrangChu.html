@@ -665,9 +665,8 @@
             `);
 
             $('#logoutBtn').on('click', function () {
-                localStorage.removeItem('loggedInUser'); 
-                alert('You have logged out.');
-                location.reload(); 
+            localStorage.removeItem('loggedInUser'); 
+            location.reload(); 
             });
         } else {
             // chưa đăng nhập
