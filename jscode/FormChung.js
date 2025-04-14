@@ -74,22 +74,25 @@ $(document).ready(function () {
         let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
         let subtotal = 0;
         let totalItems = 0;
+        let totalCartItems = 0;
 
         cartItems.forEach(item => {
             subtotal += item.price * item.qty; // Tính tổng tiền
             totalItems += item.qty; // Tính tổng số lượng sản phẩm
+            totalCartItems += 1;
         });
 
         return {
             cartItems,  // Danh sách sản phẩm
             subtotal,   // Tổng tiền
-            totalItems  // Tổng số lượng sản phẩm
+            totalItems,  // Tổng số lượng sản phẩm
+            totalCartItems
         };
     }
 
     // Hàm hiển thị giao diện giỏ hàng
     function renderCartUI() {
-        const { cartItems, subtotal, totalItems } = getCartData();
+        const { cartItems, subtotal, totalItems, totalCartItems } = getCartData();
         let cartList = $('#cartItemsContainer');
         cartList.empty();
 
@@ -111,7 +114,7 @@ $(document).ready(function () {
 
         // Cập nhật subtotal và số lượng
         $('#cartSubtotal').text(`€${subtotal.toFixed(2)}`);
-        $('#cartCount').text(totalItems);
+        $('#cartCount').text(totalCartItems);
         $('#cartItemCount').text(totalItems);
 
         // Gắn sự kiện cho các nút

@@ -106,3 +106,79 @@
 .FooterRow2 span {
   color: rgb(0, 0, 0);
 }
+.title-section {
+  text-align: center;
+  padding: 30px 0;
+}
+.title-section #title_services {
+  color: #0073e6;
+  font-size: 28px;
+  margin: 0;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.tab {
+  text-align: center;
+  font-weight: bold;
+  color: #0073e6;
+}
+.tab i {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+h2 {
+  color: #003366;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #0351b6;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.tab a {
+  text-decoration: none;
+  background-color: #0351b6;
+  font-weight: bold;
+}
+
+.tab a:hover {
+  text-decoration: underline;
+}
+.tabs .btn {
+  transition: all 0.3s ease;
+}
+
+.tabs .btn:hover {
+  background-color: #0351b6;
+  transform: translateY(-3px);
+}
+ol li {
+  font-weight: bold;
+}

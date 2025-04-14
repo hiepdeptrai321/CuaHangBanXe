@@ -166,3 +166,11 @@
     z-index: 9999; /* Đảm bảo thanh luôn ở trên cùng */
     transition: width 1s ease-out; /* Thời gian khớp với JavaScript */
 }
+
+.FooterRow2 div a:hover{
+    color: #0351b6;
+}
+
+.dropdown div div a:hover{
+    color: #0351b6;
+}
