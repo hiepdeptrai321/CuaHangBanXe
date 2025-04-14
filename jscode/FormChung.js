@@ -83,7 +83,7 @@ $(document).ready(function () {
         return {
             cartItems,  // Danh sách sản phẩm
             subtotal,   // Tổng tiền
-            totalItems  // Tổng số lượng sản phẩm
+            totalItems  // Tổng số lượng sản phẩmz
         };
     }
 

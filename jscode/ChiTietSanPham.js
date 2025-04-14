@@ -158,12 +158,14 @@ $(document).ready(function() {
         let cartList = $('#cartItemsContainer');
         let subtotal = 0;
         let totalItems = 0;
+        let totalCartItems=0;
     
         cartList.empty();
     
         cartItems.forEach(item => {
             subtotal += item.price * item.qty;
             totalItems += item.qty;
+            totalCartItems += 1;
     
             const cartItemHTML = `
                 <div class="cart-item">
@@ -198,7 +200,7 @@ $(document).ready(function() {
         // Cập nhật subtotal và số lượng
         $('#cartSubtotal').text(`€${subtotal.toFixed(2)}`);
         $('#cartCount').text(totalItems);
-        $('#cartItemCount').text(totalItems);
+        $('#cartItemCount').text(totalCartItems);
     }
     function decrementItemQuantity(itemName) {
         let cartItems = JSON.parse(localStorage.getItem('cartItems')) || [];
