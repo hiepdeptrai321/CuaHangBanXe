@@ -1,47 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ChiTietSanPham</title>
-        <link rel="icon" type="image/png" href="../img/logo.png">
-        <link rel="stylesheet" href="../css/bootstrap.css">
-        <script src="../js/bootstrap.js"></script>
-        <script src="../js/Jquery.js"></script>
-        <script src="../jscode/ChiTietSanPham.js"></script>
-        <link rel="stylesheet" href="../css/ChiTietSanPham.css">
-        <link rel="stylesheet"href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
-        <link rel="stylesheet" href="../css/FormChung.css">
-    </head>
 
-    <body class="page-transition">
-        <div id="loading-bar"></div>
-        <div>
-            <header class="pageheader"><!-- phần Header cho mọi trang-->
-                <div class="container-fluid px-0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LienHe</title>
+    <link rel="icon" type="image/png" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/Jquery.js"></script>
+    <script src="../jscode/FormChung.js"></script>
+    <link rel="stylesheet" href="../css/TrangChu.css">
+    <link rel="stylesheet" href="../css\bootstrap-icons-1.11.3\bootstrap-icons-1.11.3\font\bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/FormChung.css">
+</head>
+<style>
+    .benefits-list {
+        padding: 0;
+        margin: 0;
+    }
 
-                    <div class="fullscreen">
-                        <div
-                            class="container d-flex align-items-center justify-content-between">
-                            <div class="d-flex align-items-center">
-                                <nav class="navtop d-flex align-items-center">
-                                    <img src="../img/5star.png" alt
-                                        style="width: 100px;">
-                                    <span class="ps-2 pe-2"><b>9.3</b> based on
-                                        <b>675 reviews.</b></span>
-                                    <a href="../html/DanhGia.html" class="link">See all reviews</a>
-                                </nav>
-                            </div>
-                            <div class>
-                                <ul
-                                    class="navsignin d-flex gap-3 list-unstyled mb-0">
-                                    <li><a href="../html/DangNhap.html">SIGN IN</a></li>
-                                    <li><a href="../html/LienHe.html">CONTACT US</a></li>
-                                    <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
-                                </ul>
-                            </div>
+    .benefits-list li {
+        display: flex;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .benefits-list i {
+        font-size: 2rem;
+        /* Kích thước biểu tượng */
+        color: #0351b6;
+        /* Màu xanh chủ đạo */
+    }
+
+    .benefits-list span {
+        font-weight: bold;
+        font-size: 1rem;
+        /* Kích thước tiêu đề */
+    }
+
+    .benefits-list small {
+        color: #6c757d;
+        /* Màu chữ phụ */
+        font-size: 0.9rem;
+        /* Kích thước chữ mô tả */
+    }
+
+    .team-member img {
+        width: 150px;
+        /* Kích thước ảnh */
+        height: 150px;
+        object-fit: cover;
+        /* Đảm bảo ảnh không bị méo */
+        border-radius: 15px;
+        /* Bo góc */
+        border: 2px solid #ddd;
+        /* Viền màu xám nhạt */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        /* Hiệu ứng đổ bóng */
+    }
+</style>
+
+<body class="page-transition">
+    <div id="loading-bar"></div>
+    <div>
+        <header class="pageheader"><!-- phần Header cho mọi trang-->
+            <div class="container-fluid px-0">
+
+                <div class="fullscreen">
+                    <div class="container d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <nav class="navtop d-flex align-items-center">
+                                <img src="../img/5star.png" alt style="width: 100px;">
+                                <span class="ps-2 pe-2"><b>9.3</b> based on
+                                    <b>675 reviews.</b></span>
+                                <a href="../html/DanhGia.html" class="link">See all reviews</a>
+                            </nav>
+                        </div>
+                        <div class>
+                            <ul class="navsignin d-flex gap-3 list-unstyled mb-0">
+                                <li><a href="../html/DangNhap.html">SIGN IN</a></li>
+                                <li><a href="../html/LienHe.html">CONTACT US</a></li>
+                                <li><a href="../html/DangKy.html">CREATE AN ACCOUNT</a></li>
+                            </ul>
                         </div>
                     </div>
+                </div>
 
                 <div class="container d-flex align-items-center justify-content-between py-2">
                     <div class="d-flex align-items-center ms-0">
@@ -50,16 +94,13 @@
                         </a>
                     </div>
 
-                        <div class="flex-grow-1 px-4">
-                            <div class="search-box position-relative">
-                                <input id="searchbar" type="text"
-                                    class="form-control rounded-pill ps-4 pe-5"
-                                    placeholder="Search"
-                                    style="background-color: #f5f7fa; height: 50px;">
-                                <i
-                                    class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
-                            </div>
+                    <div class="flex-grow-1 px-4">
+                        <div class="search-box position-relative">
+                            <input id="searchbar" type="text" class="form-control rounded-pill ps-4 pe-5"
+                                placeholder="Search" style="background-color: #f5f7fa; height: 50px;">
+                            <i class="bi bi-search position-absolute end-0 top-50 translate-middle-y me-3"></i>
                         </div>
+                    </div>
 
                     <div class="position-relative">
                         <i id="cartIcon" class="bi bi-bag" style="font-size: 24px; cursor: pointer;"></i>
@@ -83,9 +124,8 @@
                                     <span>SUBTOTAL:</span>
                                     <span id="cartSubtotal">€0.00</span>
                                 </div>
-                                <a id="goToCheckout" class="btn w-100 mt-2 text-light" 
-                                href="../html/ThanhToan.html" 
-                                style="background-color: #0351b6;" role="button">GO TO CHECKOUT</a>
+                                <a id="goToCheckout" class="btn w-100 mt-2 text-light" href="../html/ThanhToan.html"
+                                    style="background-color: #0351b6;" role="button">GO TO CHECKOUT</a>
                             </div>
                         </div>
                     </div>
@@ -293,137 +333,88 @@
                     </div>
                 </div>
         </header>
-
-        <div class="container my-5">
-            <div class="row">
-                <!-- Slider ảnh -->
-                <div class="col-md-6">
-                    <!-- Container carousel -->
-                    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <!-- Nội dung carousel sẽ được JS ghi đè -->
-                            <div class="carousel-item active">
-                                <img src="../img/placeholder.jpg" class="d-block w-100" alt="Placeholder">
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#productCarousel"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </button>
+        <div class="container" style="margin-top: 50px;">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="fw-bold">About Carpart Parts Website</h2>
+                        <p class="pt-2" style="color: #6c757d;">
+                            MPR Import & Export has been a family company for more than
+                            sixty years, run by four enthusiastic employees.
+                            Managing Director Peter Pijnenburg is responsible for
+                            purchasing and sales. His brother Ron Pijnenburg takes care of
+                            the accounts.
+                            Furthermore, Sindy and Jean are the warehouse employees who
+                            make sure that all the warehouse activities run smoothly.
+                            Our warehouse is 4000 m² in size and houses used, new and
+                            revised parts.
+                        </p>
+                        <img src="../img/Factory.png" alt="">
                     </div>
-                    <!-- Container thumbnails -->
-                    <div id="thumbnails" class="d-flex overflow-auto gap-2 mt-2">
-                    </div>
-                </div>
-                <!-- Thông tin sản phẩm -->
-                <div class="col-md-6">
-                    <h3 id="itemtitle" class="itemtitle">Coolant Inlet Connection A2562001600 Mercedes</h3>
-                    <p>
-                    <div><strong>Manufacturer:&nbsp</strong><span id="manufacturer"></span></div>
-                    <div><strong>Brand:&nbsp</strong><span id="brand"></span></div>
-                    </p>
-                    <div id="price" class="h4 text-success">€199.99 <br> <small class="text-muted">(Excl. Tax:
-                            <b>€165.28</b>)</small></div>
-
-                    <p class="text-success">✅ In stock - Shipped in 1 day</p>
-
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="input-group mb-3 w-100" style="height: 41px;">
-                                <button class="btn btn-outline-secondary" type="button" id="minus-btn">-</button>
-                                <input type="text" class="form-control text-center" id="quantity" value="1">
-                                <button class="btn btn-outline-secondary" type="button" id="plus-btn">+</button>
-                            </div>
-                        </div>
-                        <div class="col-8">
-                            <button class="btn btn-success btn-lg mb-3 h-80 w-100"
-                                style="font-weight: bold; font-size: medium;" id="addToCartButton">
-                                🛒 ADD TO CART
-                            </button>
-                        </div>
-                    </div>
-                    <div class="p-3 rounded bg-light border">
-                        <h5 class="mb-3" style="font-family: 'Patrick Hand', cursive;">
-                            Benefits of Carparts Onlineshop
-                        </h5>
-                        <ul class="list-unstyled">
-                            <li class="mb-1">
-                                ✅ <strong>Worldwide</strong> delivery by DHL express
+                    <div class="col-lg-4">
+                        <ul class="list-unstyled benefits-list ps-4">
+                            <li class="d-flex align-items-center mb-4">
+                                <i class="bi bi-truck text-primary me-3" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <span class="fw-bold">WORLDWIDE SHIPPING</span><br>
+                                    <small class="text-muted">Fast worldwide shipping.</small>
+                                </div>
                             </li>
-                            <li class="mb-1">
-                                ✅ <strong>Lowest</strong> prices
+                            <li class="d-flex align-items-center mb-4">
+                                <i class="bi bi-currency-dollar text-primary me-3" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <span class="fw-bold">BEST PRICES</span><br>
+                                    <small class="text-muted">Always the cheapest price.</small>
+                                </div>
                             </li>
-                            <li class="mb-1">
-                                ✅ New, used and New take off <strong>parts</strong>
-                            </li>
-                            <li class="mb-1">
-                                ✅ <strong>Large stock</strong> available
-                            </li>
-                            <li class="mb-1">
-                                ✅ Located in <strong>The Netherlands</strong>
+                            <li class="d-flex align-items-center mb-4">
+                                <i class="bi bi-headset text-primary me-3" style="font-size: 1.5rem;"></i>
+                                <div>
+                                    <span class="fw-bold">LIVE CHAT & PHONE SUPPORT</span><br>
+                                    <small class="text-muted">Support by live chat or phone.</small>
+                                </div>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <ul class="nav nav-tabs pt-5" id="productTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="info-tab" data-bs-toggle="tab" data-bs-target="#info"
-                            type="button" role="tab" aria-controls="info" aria-selected="true">
-                            More Information
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail"
-                            type="button" role="tab" aria-controls="detail" aria-selected="false">
-                            Detail
-                        </button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="replacing-tab" data-bs-toggle="tab" data-bs-target="#replacing"
-                            type="button" role="tab" aria-controls="replacing" aria-selected="false">
-                            Replacing Information
-                        </button>
-                    </li>
-                </ul>
+            </div>
+        </div>
 
-                <div class="tab-content border border-top-0 p-3" id="productTabContent">
-                    <div class="tab-pane fade show active" id="info" role="tabpanel" aria-labelledby="info-tab">
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Product Condition</div>
-                            <div id="productCondition" class="col-md-9 product-condition">
-                                <!-- Sẽ được cập nhật từ dữ liệu -->
-                            </div>
-                        </div>
-                        <div class="row mb-3">
-                            <div class="col-md-3 fw-bold">Warranty</div>
-                            <div id="productWarranty" class="col-md-9 product-warranty">
-                                <!-- Sẽ được cập nhật từ dữ liệu -->
-                            </div>
+        <div class="mb-5" style="background-color: #f5f7fa; ">
+            <div class="container py-5">
+                <div class="row w-100 align-items-center justify-content-center">
+                    <h3 class="fw-bold text-center mb-5 mt-5">Our Team</h3>
+                    <!-- Hàng trên -->
+                    <div class="col-md-4 mb-4 d-flex justify-content-center">
+                        <div class="team-member text-center">
+                            <img src="../img/member/QA.png" alt="Gina" class="img-fluid rounded-circle">
+                            <h5 class="mt-3">Trần Quốc Anh</h5>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="detail" role="tabpanel" aria-labelledby="detail-tab">
-                        <table class="table table-bordered">
-                            <tbody id="detailTable">
-                                <!-- Dữ liệu sẽ được append vào đây -->
-                            </tbody>
-                        </table>
+                    <div class="col-md-4 mb-4 d-flex justify-content-center">
+                        <div class="team-member text-center">
+                            <img src="../img/member/hiep.webp" alt="Peter" class="img-fluid rounded-circle">
+                            <h5 class="mt-3">Đỗ Phú Hiệp</h5>
+                        </div>
                     </div>
-                    <div class="tab-pane fade" id="replacing" role="tabpanel" aria-labelledby="replacing-tab">
-                        <h5>Replacing Information</h5>
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Brand</th>
-                                    <th>Number</th>
-                                </tr>
-                            </thead>
-                            <tbody id="replacingTable">
-                            </tbody>
-                        </table>
+                    <div class="col-md-4 mb-4 d-flex justify-content-center">
+                        <div class="team-member text-center">
+                            <img src="../img/member/cong.png" alt="Sindy" class="img-fluid rounded-circle">
+                            <h5 class="mt-3">Hoàng Phước Thành Công</h5>
+                        </div>
+                    </div>
+                    <!-- Hàng dưới -->
+                    <div class="col-md-4 mb-4 d-flex justify-content-center">
+                        <div class="team-member text-center">
+                            <img src="../img/member/hao.webp" alt="Thomas" class="img-fluid rounded-circle">
+                            <h5 class="mt-3">Nguyễn Nhựt Hảo</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4 d-flex justify-content-center">
+                        <div class="team-member text-center">
+                            <img src="../img/member/an.webp" alt="Jean" class="img-fluid rounded-circle">
+                            <h5 class="mt-3">Đàm Thái An</h5>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -466,7 +457,8 @@
                                         Reviewed with a score of <span>9.3 / 10</span> based <br> on <span>675
                                             reviews</span>
                                     </p>
-                                    <a href="../html/DanhGia.html" class="text-end text-decoration-none" style="color: rgb(112, 114, 114);">See
+                                    <a href="../html/DanhGia.html" class="text-end text-decoration-none"
+                                        style="color: rgb(112, 114, 114);">See
                                         all reviews</a>
                                 </div>
                             </div>

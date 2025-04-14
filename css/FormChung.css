@@ -73,6 +73,43 @@
 .dropbtn:hover {
     color: #f5f7fa;
 }
+.cart-popup {
+    position: absolute;
+    top: 50px;
+    left: -175px;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 10px;
+}
+
+.cart-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.cart-header a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.cart-items {
+    max-height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+.cart-footer {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
 
 /* ========================================== footer */
 .cardFooter div h3 {
@@ -128,4 +165,12 @@
     width: 0%; /* Bắt đầu từ 0% */
     z-index: 9999; /* Đảm bảo thanh luôn ở trên cùng */
     transition: width 1s ease-out; /* Thời gian khớp với JavaScript */
+}
+
+.FooterRow2 div a:hover{
+    color: #0351b6;
+}
+
+.dropdown div div a:hover{
+    color: #0351b6;
 }
